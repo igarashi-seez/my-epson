@@ -1,0 +1,10 @@
+<div class="share-area">
+  <p class="heading">Share</p>
+  <ul class="btns">
+    <li><a class="share_facebook" href=""><img src="/assets/img/ico_facebook.png" width="36" height="36" alt="Facebook"></a></li>
+    <li><a class="share_twitter" href=""><img src="/assets/img/ico_twitter.png" width="36" height="36" alt="Twitter"></a></li>
+    <li><a class="share_instagram" href=""><img src="/assets/img/ico_instagram.png" width="36" height="36" alt="Instagram"></a></li>
+    <li><a class="share_linkedin" href=""><img src="/assets/img/ico_linkedin.png" width="42" height="36" alt="LinkedIn"></a></li>
+  </ul>
+  <p class="link"><a href="official-sns.html">Official Accounts</a></p>
+</div>

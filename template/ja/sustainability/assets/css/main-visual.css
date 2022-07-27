@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* --------------------------------------------------------------------
+ pages
+-------------------------------------------------------------------- */
+/* h1背景画像
+-------------------------------------------------------------------- */
+/* 第2階層 */
+.heading01.-keyvisual {
+  background-image: url(https://placehold.jp/32/aaa/333/2732x952.jpg?text=%E7%94%BB%E5%83%8F);
+}
+
+.heading01.-SR {
+  background-image: url(/template/ja/sustainability/img/index_h1_01.jpg);
+}
+
+/* 第3階層 */
+.heading01.-image {
+  background-image: url(https://placehold.jp/32/aaa/333/2400x1600.jpg?text=%E7%94%BB%E5%83%8F);
+}
+
+.heading01.-environment {
+  background-image: url(/template/ja/sustainability/environment/img/index_h1_01.jpg);
+}

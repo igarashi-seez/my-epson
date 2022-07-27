@@ -1,0 +1,23 @@
+<div class="contents-area">
+  <div class="inner">
+
+    <div class="box-contents _bgcolor-gray04">
+      <h3 class="fsL _center">技術の種別から探す<span class="icon _ml20 vaM"><img src="/ja/technology/assets/img/search_icon_2.png"></span></h3>
+      <div class="row df clearfix _mt10">
+        <div class="grid3 _mt20">
+          <a href="/ja/technology/search-by-technology/machine.html" class="button01-blue -center">機械関連の技術</a>
+        </div>
+        <div class="grid3 _mt20">
+          <a href="/ja/technology/search-by-technology/information-technology.html" class="button01-blue -center">IT関連の技術</a>
+        </div>
+        <div class="grid3 _mt20">
+          <a href="/ja/technology/search-by-technology/electronic.html" class="button01-blue -center">電気・電子関連の技術</a>
+        </div>
+        <div class="grid3 _mt20">
+          <a href="/ja/technology/search-by-technology/manufacturing.html" class="button01-blue -center">製造技術</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>

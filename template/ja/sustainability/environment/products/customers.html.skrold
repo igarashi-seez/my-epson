@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head prefix="og: https://ogp.me/ns# fb: https://ogp.me/ns/fb# article: https://ogp.me/ns/article#">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="description" content="">
+<meta property="og:url" content="ページのURlを記入してください">
+<meta property="og:title" content="ページのタイトルを記入してください">
+<meta property="og:description" content="ページの説明を記入してください">
+<meta property="og:image" content="https://corporate.epson/assets/img/ogp_logo.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="300">
+<meta property="og:image:height" content="300">
+<title>お客様の元での環境貢献 | サステナビリティ | エプソン</title>
+<!--#include virtual="/assets/include/common-css.txt" -->
+<!--#include virtual="/assets/include/common-js.txt" -->
+</head>
+<body>
+<!--#include virtual="/assets/include/body-first.txt" -->
+<!--#include virtual="/ja/assets/include/header.txt" -->
+<main id="main">
+  <div class="breadcrumbs-list sitemap-link"></div>
+<!--#include virtual="/template/ja/technology/assets/include/nav.txt" -->
+<!-- ========== main contents area - begin ========== -->
+
+  
+
+  <div class="contents-area _mt10">
+    <div class="inner">
+      <ul class="row df clearfix">
+        <li class="grid4 _mt20"><a href="" class="button01 -center -current">テキストテキスト</a></li>
+        <li class="grid4 _mt20"><a href="" class="button01 -center">テキストテキスト</a></li>
+        <li class="grid4 _mt20"><a href="" class="button01 -center">テキストテキスト</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="contents-area">
+    <div class="inner">
+      <div class="heading01">
+        <h1>お客様の元での環境貢献</h1>
+      </div>
+
+      <p class="lead-text">コンテンツリード文：仮）お客様の業務プロセスを変革するというアプローチにより、環境負荷の最小化だけでなく、業務効率や生産性の向上による働きかた改革を実現する商品・サービスをお届けします。</p>
+
+      <div class="users-csr">
+        <div class="cards">
+          <div class="item">
+            <a href="">
+              <p class="title">印刷性能と低消費電力を両立し、オフィスの環境対策に貢献</p>
+              <ul class="tag">
+                <li>オフィス</li>
+                <li>プリンター</li>
+              </ul>
+              <p class="text">エプソンのPrecisionCore Heat-Free Technologyが可能にした高速ラインインクジェット複合機は、印刷性能と低消費電力を高い次元で両立させています。</p>
+              <ul class="sdgs">
+                <li><img src="/assets/img/img_sdgs_03.png" width="40" height="40" alt="3 すべての人に健康と福祉を"></li>
+                <li><img src="/assets/img/img_sdgs_06.png" width="40" height="40" alt="6 安全な水とトイレを世界中に"></li>
+                <li><img src="/assets/img/img_sdgs_07.png" width="40" height="40" alt="7 エネルギーをみんなにそしてクリーンに"></li>
+              </ul>
+            </a>
+          </div>
+
+          <div class="item">
+            <a href="">
+              <p class="title">インクジェットがオフィスのプリンティングを変える</p>
+              <ul class="tag">
+                <li>オフィス</li>
+                <li>インクジェットヘッド</li>
+              </ul>
+              <p class="text">エプソンのPrecisionCore Heat-Free Technologyが可能にした高速ラインインクジェット複合機は、印刷性能と低消費電力を高い次元で両立させています。</p>
+              <ul class="sdgs">
+                <li><img src="/assets/img/img_sdgs_03.png" width="40" height="40" alt="3 すべての人に健康と福祉を"></li>
+                <li><img src="/assets/img/img_sdgs_06.png" width="40" height="40" alt="6 安全な水とトイレを世界中に"></li>
+                <li><img src="/assets/img/img_sdgs_07.png" width="40" height="40" alt="7 エネルギーをみんなにそしてクリーンに"></li>
+              </ul>
+            </a>
+          </div>
+
+          <div class="item">
+            <a href="">
+              <p class="title">紙に新たな価値を与え、循環型社会の実現に貢献</p>
+              <ul class="tag">
+                <li>オフィス</li>
+                <li>製紙機</li>
+              </ul>
+              <p class="text">エプソンのPrecisionCore Heat-Free Technologyが可能にした高速ラインインクジェット複合機は、印刷性能と低消費電力を高い次元で両立させています。</p>
+              <ul class="sdgs">
+                <li><img src="/assets/img/img_sdgs_09.png" width="40" height="40" alt="9 産業と技術革新の基盤をつくろう"></li>
+                <li><img src="/assets/img/img_sdgs_11.png" width="40" height="40" alt="11 住み続けられるまちづくりを"></li>
+                <li><img src="/assets/img/img_sdgs_12.png" width="40" height="40" alt="12 つくる責任 つかう責任"></li>
+              </ul>
+            </a>
+          </div>
+
+          <div class="item">
+            <a href="">
+              <p class="title">インクジェットがオフィスのプリンティングを変える</p>
+              <ul class="tag">
+                <li>オフィス</li>
+                <li>プリンター</li>
+                <li>製紙機</li>
+              </ul>
+              <p class="text">エプソンのPrecisionCore Heat-Free Technologyが可能にした高速ラインインクジェット複合機は、印刷性能と低消費電力を高い次元で両立させています。</p>
+              <ul class="sdgs">
+                <li><img src="/assets/img/img_sdgs_13.png" width="40" height="40" alt="13 気候変動に具体的な対策を"></li>
+                <li><img src="/assets/img/img_sdgs_15.png" width="40" height="40" alt="15 陸の豊かさも守ろう"></li>
+                <li><img src="/assets/img/img_sdgs_17.png" width="40" height="40" alt="17 パートナーシップで目標を達成しよう"></li>
+              </ul>
+            </a>
+          </div>
+
+          <div class="item">
+            <a href="">
+              <p class="title">インタラクティブコミュニケーションで会議の生産性を向上</p>
+              <ul class="tag">
+                <li>プリンター</li>
+              </ul>
+              <p class="text">ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。</p>
+              <ul class="sdgs">
+                <li><img src="/assets/img/img_sdgs_03.png" width="40" height="40" alt="3 すべての人に健康と福祉を"></li>
+                <li><img src="/assets/img/img_sdgs_06.png" width="40" height="40" alt="6 安全な水とトイレを世界中に"></li>
+                <li><img src="/assets/img/img_sdgs_07.png" width="40" height="40" alt="7 エネルギーをみんなにそしてクリーンに"></li>
+              </ul>
+            </a>
+          </div>
+
+          <div class="item">
+            <a href="">
+              <p class="title">デジタル捺染で生産プロセスを革新</p>
+              <ul class="tag">
+                <li>オフィス</li>
+                <li>プリンター</li>
+                <li>製紙機</li>
+              </ul>
+              <p class="text">エプソンのPrecisionCore Heat-Free Technologyが可能にした高速ラインインクジェット複合機は、印刷性能と低消費電力を高い次元で両立させています。</p>
+              <ul class="sdgs">
+                <li><img src="/assets/img/img_sdgs_03.png" width="40" height="40" alt="3 すべての人に健康と福祉を"></li>
+                <li><img src="/assets/img/img_sdgs_06.png" width="40" height="40" alt="6 安全な水とトイレを世界中に"></li>
+                <li><img src="/assets/img/img_sdgs_07.png" width="40" height="40" alt="7 エネルギーをみんなにそしてクリーンに"></li>
+              </ul>
+            </a>
+          </div>
+
+          <div class="item">
+            <a href="">
+              <p class="title">インクジェットでワークフローを一新し鮮やかで精細なガーメント<sup>*1</sup>プリントを実現</p>
+              <ul class="tag">
+                <li>店舗</li>
+                <li>プリンター</li>
+              </ul>
+              <p class="text">ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。</p>
+              <ul class="notes">
+                <li>ここにテキストが入ります。ここにテキストが入ります。</li>
+              </ul>
+              <ul class="sdgs">
+                <li><img src="/assets/img/img_sdgs_03.png" width="40" height="40" alt="3 すべての人に健康と福祉を"></li>
+                <li><img src="/assets/img/img_sdgs_06.png" width="40" height="40" alt="6 安全な水とトイレを世界中に"></li>
+                <li><img src="/assets/img/img_sdgs_07.png" width="40" height="40" alt="7 エネルギーをみんなにそしてクリーンに"></li>
+              </ul>
+            </a>
+          </div>
+
+          <div class="item">
+            <a href="">
+              <p class="title">オンデマンドでカラープリントの価値を提供</p>
+              <ul class="tag">
+                <li>店舗</li>
+                <li>ラベル印刷</li>
+              </ul>
+              <p class="text">ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。</p>
+              <ul class="sdgs">
+                <li><img src="/assets/img/img_sdgs_03.png" width="40" height="40" alt="3 すべての人に健康と福祉を"></li>
+                <li><img src="/assets/img/img_sdgs_06.png" width="40" height="40" alt="6 安全な水とトイレを世界中に"></li>
+                <li><img src="/assets/img/img_sdgs_07.png" width="40" height="40" alt="7 エネルギーをみんなにそしてクリーンに"></li>
+              </ul>
+            </a>
+          </div>
+
+          <div class="item">
+            <a href="">
+              <p class="title">アナログからデジタルへ、ラベル印刷のテクノロジーシフト</p>
+              <ul class="tag">
+                <li>店舗</li>
+                <li>ラベル印刷</li>
+              </ul>
+              <p class="text">ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。</p>
+              <ul class="sdgs">
+                <li><img src="/assets/img/img_sdgs_03.png" width="40" height="40" alt="3 すべての人に健康と福祉を"></li>
+                <li><img src="/assets/img/img_sdgs_06.png" width="40" height="40" alt="6 安全な水とトイレを世界中に"></li>
+                <li><img src="/assets/img/img_sdgs_07.png" width="40" height="40" alt="7 エネルギーをみんなにそしてクリーンに"></li>
+              </ul>
+            </a>
+          </div>
+
+          <div class="item">
+            <a href="">
+              <p class="title">遠隔作業支援による環境負荷低減を実現</p>
+              <ul class="tag">
+                <li>テキスト</li>
+                <li>テキスト</li>
+              </ul>
+              <p class="text">ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。</p>
+              <ul class="sdgs">
+                <li><img src="/assets/img/img_sdgs_03.png" width="40" height="40" alt="3 すべての人に健康と福祉を"></li>
+                <li><img src="/assets/img/img_sdgs_06.png" width="40" height="40" alt="6 安全な水とトイレを世界中に"></li>
+                <li><img src="/assets/img/img_sdgs_07.png" width="40" height="40" alt="7 エネルギーをみんなにそしてクリーンに"></li>
+              </ul>
+            </a>
+          </div>
+
+          <div class="item">
+            <a href="">
+              <p class="title">「小さいものを小さくつくる」　経済性と環境性能を兼ね備えた小型射出成形機</p>
+              <ul class="tag">
+                <li>製造</li>
+                <li>プリンター</li>
+              </ul>
+              <p class="text">ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。</p>
+              <ul class="sdgs">
+                <li><img src="/assets/img/img_sdgs_03.png" width="40" height="40" alt="3 すべての人に健康と福祉を"></li>
+                <li><img src="/assets/img/img_sdgs_06.png" width="40" height="40" alt="6 安全な水とトイレを世界中に"></li>
+                <li><img src="/assets/img/img_sdgs_07.png" width="40" height="40" alt="7 エネルギーをみんなにそしてクリーンに"></li>
+              </ul>
+            </a>
+          </div>
+
+          <div class="item">
+            <a href="">
+              <p class="title">周辺機器を制御できるインテリジェントレシートプリンター</p>
+              <ul class="tag">
+                <li>テキスト</li>
+                <li>テキスト</li>
+                <li>テキスト</li>
+                <li>テキストテキストテキストテキストテキストテキストテキスト</li>
+              </ul>
+              <p class="text">ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。</p>
+              <ul class="sdgs">
+                <li><img src="/assets/img/img_sdgs_03.png" width="40" height="40" alt="3 すべての人に健康と福祉を"></li>
+                <li><img src="/assets/img/img_sdgs_06.png" width="40" height="40" alt="6 安全な水とトイレを世界中に"></li>
+                <li><img src="/assets/img/img_sdgs_07.png" width="40" height="40" alt="7 エネルギーをみんなにそしてクリーンに"></li>
+              </ul>
+            </a>
+          </div>
+
+          <div class="item image-contain">
+            <a href="">
+              <p class="image"><img src="https://placehold.jp/32/E4E4E4/333/750x422.jpg?text=image" width="375" height="211" alt=""></p>
+              <div class="desc">
+                <p class="title">環境配慮型オフィスの構築</p>
+                <ul class="tag">
+                  <li>オフィス</li>
+                  <li>プリンター</li>
+                  <li>製紙機</li>
+                </ul>
+                <p class="text">使用済みのコピー用紙を原料として、新たな紙をその場で再生産できます。「紙から紙」のリサイクルを自らの手で実現し、テキスト05テキスト10</p>
+                <ul class="sdgs">
+                  <li><img src="/assets/img/img_sdgs_03.png" width="40" height="40" alt="3 すべての人に健康と福祉を"></li>
+                  <li><img src="/assets/img/img_sdgs_06.png" width="40" height="40" alt="6 安全な水とトイレを世界中に"></li>
+                  <li><img src="/assets/img/img_sdgs_07.png" width="40" height="40" alt="7 エネルギーをみんなにそしてクリーンに"></li>
+                </ul>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="related-contents">
+        <h2 class="heading">関連するコンテンツ</h2>
+        <div class="cards">
+          <div class="item">
+            <a href="">
+              <p class="image"><img src="/template/ja/sustainability/environment/products/img/index_img_05.jpg" width="480" height="130" alt=""></p>
+              <p class="title">環境配慮型オフィスへ</p>
+              <p class="text">エプソンが提案する新しいカタチのオフィスについて、環境への取り組みと共にご紹介します。</p>
+            </a>
+          </div>
+          <div class="item">
+            <a href="">
+              <p class="image"><img src="/template/ja/sustainability/environment/products/img/index_img_06.jpg" width="480" height="130" alt=""></p>
+              <p class="title">エプソンのスマートチャージ</p>
+              <p class="text">プリンターから始める 脱炭素社会の実現を。エプソンのスマートチャージで実現する環境配慮型オフィス。</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- ========== main contents area - end ========== -->
+<!--#include virtual="/ja/assets/include/sns.txt" -->
+  <div class="breadcrumbs-list"></div>
+</main>
+<!--#include virtual="/ja/assets/include/footer.txt" -->
+</body>
+</html>

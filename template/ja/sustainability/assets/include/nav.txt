@@ -1,0 +1,126 @@
+ <div class="local-nav-area">
+  <div class="inner">
+   <nav class="local-nav" data-area="localnav">
+    <div role="button" class="heading" data-trigger="accordion" aria-controls="localnav-list" aria-expanded="false">Menu</div>
+    <ul id="localnav-list" aria-hidden="true">
+     <li>
+      <a href="" class="-current" data-trigger="localnav-btn" aria-expanded="false">環境</a>
+      <div class="child" aria-hidden="true">
+       
+       <ul>
+        <li><a href="">方針・体制</a></li>
+        <li><a href="">商品・サービス</a></li>
+        <li><a href="">気候変動</a></li>
+        <li><a href="">ダミーテキスト</a></li>
+        <li><a href="">ダミーテキスト</a></li>
+        <li><a href="">ダミーテキスト</a></li>
+        <li><a href="">ダミーテキスト</a></li>
+        <li><a href="">ダミーテキスト</a></li>
+        <li><a href="">ダミーテキスト</a></li>
+        <li><a href="">ダミーテキスト</a></li>
+       </ul>
+      </div>
+     </li>
+     <li>
+      <a href="" data-trigger="localnav-btn" aria-expanded="false">サプライチェーン</a>
+      <div class="child" aria-hidden="true">
+       <ul>
+        <li><a href="">2</a></li>
+        <li><a href="">ダミーテキスト</a></li>
+        <li><a href="">ダミーテキスト</a></li>
+        <li><a href="">ダミーテキスト</a></li>
+        <li><a href="">ダミーテキスト</a></li>
+        <li><a href="">ダミーテキスト</a></li>
+        <li><a href="">ダミーテキスト</a></li>
+       </ul>
+      </div>
+     </li>
+     <li><a href="" data-trigger="localnav-btn" aria-expanded="false">人財</a>
+      <div class="child" aria-hidden="true">
+       <ul>
+        <li><a href="">3</a></li>
+        <li><a href="">ダミーテキスト</a></li>
+        <li><a href="">ダミーテキスト</a></li>
+        <li><a href="">ダミーテキスト</a></li>
+        <li><a href="">ダミーテキスト</a></li>
+        <li><a href="">ダミーテキスト</a></li>
+        <li><a href="">ダミーテキスト</a></li>
+        <li><a href="">ダミーテキスト</a></li>
+        <li><a href="">ダミーテキスト</a></li>
+        <li><a href="">ダミーテキスト</a></li>
+        <li><a href="">ダミーテキスト</a></li>
+        <li><a href="">ダミーテキスト</a></li>
+        <li><a href="">ダミーテキスト</a></li>
+        <li><a href="">ダミーテキスト</a></li>
+       </ul>
+      </div>
+     </li>
+     <li><a href="" data-trigger="localnav-btn" aria-expanded="false">ガバナンス</a>
+      <div class="child" aria-hidden="true">
+       <ul>
+        <li><a href="">4</a></li>
+        <li><a href="">ダミーテキスト</a></li>
+        <li><a href="">ダミーテキスト</a></li>
+        <li><a href="">ダミーテキスト</a></li>
+        <li><a href="">ダミーテキスト</a></li>
+        <li><a href="">ダミーテキスト</a></li>
+        <li><a href="">ダミーテキスト</a></li>
+       </ul>
+      </div>
+     </li>
+     <li><a href="" data-trigger="localnav-btn" aria-expanded="false">お客様満足の追求</a>
+      <div class="child" aria-hidden="true">
+       <ul>
+        <li><a href="">5</a></li>
+        <li><a href="">ダミーテキスト</a></li>
+        <li><a href="">ダミーテキスト</a></li>
+        <li><a href="">ダミーテキスト</a></li>
+        <li><a href="">ダミーテキスト</a></li>
+        <li><a href="">ダミーテキスト</a></li>
+        <li><a href="">ダミーテキスト</a></li>
+       </ul>
+      </div>
+     </li>
+     <li><a href="" data-trigger="localnav-btn" aria-expanded="false">エンゲージメント</a>
+      <div class="child" aria-hidden="true">
+       <ul>
+        <li><a href="">6</a></li>
+        <li><a href="">ダミーテキスト</a></li>
+        <li><a href="">ダミーテキスト</a></li>
+        <li><a href="">ダミーテキスト</a></li>
+        <li><a href="">ダミーテキスト</a></li>
+        <li><a href="">ダミーテキスト</a></li>
+        <li><a href="">ダミーテキスト</a></li>
+       </ul>
+      </div>
+     </li>
+     <li><a href="" data-trigger="localnav-btn" aria-expanded="false">社会貢献</a>
+      <div class="child" aria-hidden="true">
+       <ul>
+        <li><a href="">7</a></li>
+        <li><a href="">ダミーテキスト</a></li>
+        <li><a href="">ダミーテキスト</a></li>
+        <li><a href="">ダミーテキスト</a></li>
+        <li><a href="">ダミーテキスト</a></li>
+        <li><a href="">ダミーテキスト</a></li>
+        <li><a href="">ダミーテキスト</a></li>
+       </ul>
+      </div>
+     </li>
+     <li><a href="" data-trigger="localnav-btn" aria-expanded="false">ファクトデータ</a>
+      <div class="child" aria-hidden="true">
+       <ul>
+        <li><a href="">8</a></li>
+        <li><a href="">ダミーテキスト</a></li>
+        <li><a href="">ダミーテキスト</a></li>
+        <li><a href="">ダミーテキスト</a></li>
+        <li><a href="">ダミーテキスト</a></li>
+        <li><a href="">ダミーテキスト</a></li>
+        <li><a href="">ダミーテキスト</a></li>
+       </ul>
+      </div>
+     </li>
+    </ul>
+   </nav>
+  </div>
+ </div>

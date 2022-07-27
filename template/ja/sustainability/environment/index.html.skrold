@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head prefix="og: https://ogp.me/ns# fb: https://ogp.me/ns/fb# article: https://ogp.me/ns/article#">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="description" content="">
+<meta property="og:url" content="ページのURlを記入してください">
+<meta property="og:title" content="ページのタイトルを記入してください">
+<meta property="og:description" content="ページの説明を記入してください">
+<meta property="og:image" content="https://corporate.epson/assets/img/ogp_logo.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="300">
+<meta property="og:image:height" content="300">
+<title>環境 | サステナビリティ | エプソン</title>
+<!--#include virtual="/assets/include/common-css.txt" -->
+<link rel="stylesheet" href="/template/ja/sustainability/assets/css/main-visual.css">
+<!--#include virtual="/assets/include/common-js.txt" -->
+</head>
+<body>
+
+<!--#include virtual="/assets/include/body-first.txt" -->
+<!--#include virtual="/ja/assets/include/header.txt" -->
+<main id="main">
+  <div class="breadcrumbs-list sitemap-link"></div>
+<!--#include virtual="/template/ja/technology/assets/include/nav.txt" -->
+<!-- ========== main contents area - begin ========== -->
+
+
+  <div class="contents-area">
+    <div class="inner">
+      <div class="heading01 -image -environment">
+        <h1>環境</h1>
+        <p class="lead">テキスト05テキスト10テキスト15テキスト20テキスト■テキスト30テキスト35テキスト40テキスト</p>
+      </div>
+
+      <div class="greeting-box">
+        <div class="text-col">
+          <h2>気候変動・地球温暖化が社会に与える影響は大きく、エプソンにおいても深刻な課題だと捉えています。</h2>
+          <div class="readmore-box">
+            <div class="body" id="readmore1" aria-hidden="true">
+              <p class="text-m">ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。</p>
+            </div>
+            <button class="link" data-trigger="readmore" aria-controls="readmore1" aria-expanded="false">すべて見る</button>
+          </div>
+        </div>
+        <div class="picture-col">
+          <p class="image"><img src="/template/ja/sustainability/environment/img/index_img_boardmember.png" width="315" height="236" alt=""></p>
+          <p class="position">常務執行役員　生産企画本部長</p>
+          <p class="name">島田 英輝</p>
+        </div>
+      </div>
+
+      <div class="heading01">
+        <h2>持続可能な社会実現に向けたエプソンの挑戦</h2>
+      </div>
+      <div class="heading04">
+        <h3>1942年、自然に恵まれた信州諏訪地方にエプソンは創業しました。</h3>
+      </div>
+      <p>「地域との共生」を礎とし、事業がグローバルに成長する中にあっても自然環境を敬う企業風土は変わることはなく、1988年、世界に先駆けたフロンレス宣言に代表される地球規模の環境問題への取り組みへと発展します。エプソンは、過去から現在に至るまで、常に高い目標を掲げ、継続的に環境活動に取り組んできました。現在は、「環境ビジョン2050」で未来を描き、経営理念に謳う「地球を友に」、社会とともに発展するなくてはならない会社を目指しています。</p>
+      <div class="grid-layout -col2 _mt35">
+        <div class="item">
+          <button data-trigger="videoModalOpen" data-id="Fr5TRhh8crY">
+            <span class="video-wrap _mb20">
+              <img src="/template/ja/sustainability/environment/img/index_img_01.jpg" width="570" height="321" alt="">
+              <span class="time">04:05</span>
+            </span>
+            <span class="blank-link">セイコーエプソン会社案内動画 ：エプソンのこれまでとこれからをテキスト</span>
+          </button>
+        </div>
+        <div class="item">
+          <a href="">
+            <p class="_mb20"><img src="/template/ja/sustainability/environment/img/index_img_02.jpg" width="570" height="321" alt=""></p>
+            <p class="blank-link">ここにテキストが入ります</p>
+          </a>
+        </div>
+      </div>
+      <p class="_mt35">「環境ビジョン2050」は、2030年の世界の共通目標であるSDGsと方向性は同じです。<br>
+      SDGsの達成を目指しながら、持続可能な社会の実現に向け、常にお客様や社会の課題に真摯に向き合い、事業活動を通じてエプソンならではの環境価値を創出し続けます。</p>
+
+      <div class="heading01">
+        <h2>エプソンの環境への取り組み</h2>
+      </div>
+      <div class="row df clearfix">
+        <div class="item grid6 _mb50">
+          <p>
+            <a href="" class="image-link">
+              <span class="image"><img src="https://placehold.jp/32/aaa/333/1140x404.jpg?text=%E7%94%BB%E5%83%8F" width="570" height="202" alt=""></span>
+              <span class="text">気候変動／脱炭素社会の実現</span>
+            </a>
+          </p>
+          <ul class="inline-links _mt15">
+            <li><a href="">生産</a></li>
+            <li><a href="">物流・バリューチェーン</a></li>
+          </ul>
+        </div>
+        <div class="item grid6 _mb50">
+          <p>
+            <a href="" class="image-link">
+              <span class="image"><img src="https://placehold.jp/32/aaa/333/1140x404.jpg?text=%E7%94%BB%E5%83%8F" width="570" height="202" alt=""></span>
+              <span class="text">資源／循環型社会の形成</span>
+            </a>
+          </p>
+          <ul class="inline-links _mt15">
+            <li><a href="">排出物削減（ゼロエミッション）</a></li>
+            <li><a href="">水資源の保全</a></li>
+            <li><a href="">回収・リサイクル</a></li>
+          </ul>
+        </div>
+        <div class="item grid6 _mb50">
+          <p>
+            <a href="" class="image-link">
+              <span class="image"><img src="https://placehold.jp/32/aaa/333/1140x404.jpg?text=%E7%94%BB%E5%83%8F" width="570" height="202" alt=""></span>
+              <span class="text">生物多様性の保全</span>
+            </a>
+          </p>
+          <ul class="inline-links _mt15">
+            <li><a href="">排出物削減（ゼロエミッション）</a></li>
+            <li><a href="">水資源の保全</a></li>
+            <li><a href="">回収・リサイクル</a></li>
+          </ul>
+        </div>
+        <div class="item grid6 _mb50">
+          <p>
+            <a href="" class="image-link">
+              <span class="image"><img src="https://placehold.jp/32/aaa/333/1140x404.jpg?text=%E7%94%BB%E5%83%8F" width="570" height="202" alt=""></span>
+              <span class="text">環境コミュニティー</span>
+            </a>
+          </p>
+          <ul class="inline-links _mt15">
+            <li><a href="">環境教育</a></li>
+            <li><a href="">環境コミュニケーション</a></li>
+            <li><a href="">環境技術</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <ul class="row df clearfix _mb50 _mt30">
+        <li class="grid6 _mb20"><a href="" class="button01 -large">環境コミュニケーションメッセージ</a></li>
+        <li class="grid6 _mb20"><a href="" class="button01 -large">環境活動の歩み</a></li>
+        <li class="grid6 _mb20"><a href="" class="button01 -large">環境マネジメント</a></li>
+        <li class="grid6 _mb20"><a href="" class="button01 -large">ライフサイクルシンキング</a></li>
+        <li class="grid6 _mb20"><a href="" class="button01 -large">グリーンボンドの発行</a></li>
+        <li class="grid6 _mb20"><a href="" class="button01 -large">グローバル環境サイト</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="contents-area contents-bgcolor _bgcolor-gray03">
+    <div class="inner">
+      <div class="center-heading">
+        <h2>関連するコンテンツ</h2>
+      </div>
+      <div class="related-contents02 carousel-card-list">
+        <div class="item">
+          <a href="" target="_blank">
+            <div class="image"><img src="/template/ja/sustainability/environment/img/index_img_09.jpg" width="360" height="202" alt=""></div>
+            <p class="blank-title">エプソンのスマートチャージ</p>
+          </a>
+          <p class="text">プリンターから始める脱炭素社会の実現。CO<sub>2</sub>排出量を47％以上（注1）削減。</p>
+          <p class="text _fs12">（注1）＜LX＞シリーズのTEC値とENERGY STAR&reg;画像機器基準Version3.0にて定められた60ppm機のTEC基準値で比較した場合の削減比率。</p>
+        </div>
+        <div class="item">
+          <a href="" target="_blank">
+            <div class="image"><img src="/template/ja/sustainability/environment/img/index_img_10.jpg" width="360" height="202" alt=""></div>
+            <p class="blank-title">TURN DOWN THE HEAT</p>
+          </a>
+          <p class="text">インク吐出に「熱を使わない」プリンターで電力消費を抑制。プリンター選びで私たちができること。</p>
+        </div>
+        <div class="item">
+          <a href="" target="_blank">
+            <div class="image"><img src="/template/ja/sustainability/environment/img/index_img_11.jpg" width="360" height="202" alt=""></div>
+            <p class="blank-title">環境配慮型オフィスへ</p>
+          </a>
+          <p class="text">エプソンからの、SDGsの時代にふさわしい環境配慮型オフィスのご提案。</p>
+        </div>
+        <div class="item">
+          <a href="" target="_blank">
+            <div class="image"><img src="/template/ja/sustainability/environment/img/index_img_09.jpg" width="360" height="202" alt=""></div>
+            <p class="blank-title">エプソンのスマートチャージ</p>
+          </a>
+          <p class="text">プリンターから始める脱炭素社会の実現。CO<sub>2</sub>排出量を47％以上（注1）削減。</p>
+          <p class="text _fs12">（注1）＜LX＞シリーズのTEC値とENERGY STAR&reg;画像機器基準Version3.0にて定められた60ppm機のTEC基準値で比較した場合の削減比率。</p>
+        </div>
+        <div class="item">
+          <a href="" target="_blank">
+            <div class="image"><img src="/template/ja/sustainability/environment/img/index_img_10.jpg" width="360" height="202" alt=""></div>
+            <p class="blank-title">TURN DOWN THE HEAT</p>
+          </a>
+          <p class="text">インク吐出に「熱を使わない」プリンターで電力消費を抑制。プリンター選びで私たちができること。</p>
+        </div>
+        <div class="item">
+          <a href="" target="_blank">
+            <div class="image"><img src="/template/ja/sustainability/environment/img/index_img_11.jpg" width="360" height="202" alt=""></div>
+            <p class="blank-title">環境配慮型オフィスへ</p>
+          </a>
+          <p class="text">エプソンからの、SDGsの時代にふさわしい環境配慮型オフィスのご提案。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- ========== main contents area - end ========== -->
+<!--#include virtual="/ja/assets/include/sns.txt" -->
+  <div class="breadcrumbs-list"></div>
+</main>
+<!--#include virtual="/ja/assets/include/footer.txt" -->
+</body>
+</html>

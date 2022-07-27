@@ -1,0 +1,53 @@
+ <div class="local-nav-area">
+  <div class="inner">
+   <nav class="local-nav" data-area="localnav">
+    <div role="button" class="heading" data-trigger="accordion" aria-controls="localnav-list" aria-expanded="false">Menu</div>
+    <ul id="localnav-list" aria-hidden="true">
+     <li><a href="/ja/technology/search-by-products/" data-trigger="localnav-btn" aria-expanded="false">製品カテゴリ</a>
+      <div class="child" aria-hidden="true"><ul>
+        <li><a href="/ja/technology/search-by-products/printer-inkjet/">プリンター</a></li>
+        <li><a href="/ja/technology/search-by-products/projector/">プロジェクター</a></li>
+        <li><a href="/ja/technology/search-by-products/robot/">ロボット</a></li>
+        <li><a href="/ja/technology/search-by-products/wearable/">ウエアラブル</a></li>
+        <li><a href="/ja/technology/search-by-products/microdevice/">デバイス</a></li>
+        <li><a href="/ja/technology/search-by-products/other/">その他</a></li>
+       </ul></div>
+     </li><li><a href="/ja/technology/search-by-technology/" data-trigger="localnav-btn" aria-expanded="false">技術カテゴリ</a>
+      <div class="child" aria-hidden="true"><ul>
+        <li><a href="/ja/technology/search-by-technology/machine.html">機械関連の技術</a></li>
+        <li><a href="/ja/technology/search-by-technology/information-technology.html">IT関連の技術</a></li>
+        <li><a href="/ja/technology/search-by-technology/electronic.html">電気・電子関連の技術</a></li>
+        <li><a href="/ja/technology/search-by-technology/manufacturing.html">製造技術</a></li>
+       </ul></div>
+     </li><li><a href="/ja/technology/interview/" data-trigger="localnav-btn" aria-expanded="false">技術者インタビュー</a>
+     </li><li><a href="/ja/technology/research-development/" data-trigger="localnav-btn" aria-expanded="false">研究開発方針</a>
+     </li><li><a href="/ja/technology/intellectual-property/" data-trigger="localnav-btn" aria-expanded="false">知的財産</a>
+      <div class="child" aria-hidden="true"><ul>
+        <li><a href="/ja/technology/intellectual-property/xxx1.html">メッセージ</a></li>
+        <li><a href="/ja/technology/intellectual-property/xxx2.html">知財戦略</a></li>
+        <li><a href="/ja/technology/intellectual-property/xxx3.html">知財ポートフォリオ</a></li>
+        <li><a href="/ja/technology/intellectual-property/xxx4.html">ブランドプロモーション</a></li>
+        <li><a href="/ja/technology/intellectual-property/xxx5.html">ブランドプロテクション</a></li>
+        <li><a href="/ja/technology/intellectual-property/xxx6.html">知財リサーチ</a></li>
+        <li><a href="/ja/technology/intellectual-property/xxx7.html">知財組織</a></li>
+        <li><a href="/ja/technology/intellectual-property/xxx8.html">知財部員の声</a></li>
+       </ul></div>
+     </li><li><a href="/ja/technology/artisan/" data-trigger="localnav-btn" aria-expanded="false">匠の技</a>
+      <div class="child" aria-hidden="true"><ul>
+        <li><a href="/ja/technology/artisan/artisan-studio.html">匠の工房</a></li>
+        <li><a href="/ja/technology/artisan/awards.html">受章</a></li>
+        <li><a href="/ja/technology/artisan/keeping-tradition-alive.html">未来の匠へつなぐ</a></li>
+       </ul></div>
+     </li><li><a href="/ja/technology/design/" data-trigger="localnav-btn" aria-expanded="false">デザイン</a>
+      <div class="child" aria-hidden="true"><ul>
+        <li><a href="/ja/technology/design/works/index.html">製品デザイン紹介</a></li>
+        <li><a href="/ja/technology/design/layout/index.html">レイアウト意匠紹介</a></li>
+        <li><a href="/ja/technology/design/awards.html">受賞</a></li>
+        <li><a href="/ja/technology/design/news/index.html">ニュース</a></li>
+        <li><a href="/ja/technology/design/locations.html">拠点紹介</a></li>
+       </ul></div>
+     </li>
+    </ul>
+   </nav>
+  </div>
+ </div>

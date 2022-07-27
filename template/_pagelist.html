@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>ページリスト</title>
+<style type="text/css">
+body{font-size:14px; font-family:sans-serif;}
+#wrapper{width:1100px; margin:0 auto 80px;}
+h1{font-size:24px; background-color:#dddddd; padding:5px 5px 5px 10px;}
+h2{font-size:18px; border-bottom:1px #DDD solid; padding-bottom:5px; padding-left:5px;}
+table{margin-bottom:50px;table-layout:fixed;}
+td {word-wrap:break-word}
+table, td, th {border: 1px #CCC solid;}
+.table01 th{background-color:#069; color:#FFF;}
+.center{text-align:center;}
+.right{text-align:right;}
+.yellow{background-color:#FFFFCC;}
+.blue{background-color:#CFF;}
+.pink{background-color:#F8E0F7;}
+.gray{background-color:#ddd;}
+.disabled{color:inherit;text-decoration:none;pointer-events:none;}
+</style>
+</head>
+<body>
+<div id="wrapper">
+<h1>ページリスト</h1>
+
+<table cellpadding="5px" cellspacing="0" class="table01" width="100%">
+<colgroup>
+  <col style="width: 10%;">
+  <col style="width: 30%;">
+  <col style="width: 15%;">
+  <col style="width: 50%;">
+</colgroup>
+<tr>
+  <th>画面ID</th>
+  <th>ページタイトル</th>
+  <th>テンプレート / 量産</th>
+  <th>ファイル</th>
+</tr>
+<tr>
+  <td class="right">-</td>
+  <td><a href="/template/partslist.html" target="_blank">パーツ集</a></td>
+  <td class="center">コンポーネント</td>
+  <td>/template/partslist.html</td>
+</tr>
+<tr>
+  <td class="right">-</td>
+  <td><a href="/template/partslist-top.html" target="_blank">パーツ集（サイトトップ、インクルード用）</a></td>
+  <td class="center">コンポーネント</td>
+  <td>/template/partslist-top.html</td>
+</tr>
+<tr>
+  <td class="right">-</td>
+  <td><a href="/template/css.html" target="_blank">CSSクラス一覧</a></td>
+  <td class="center">コンポーネント</td>
+  <td>/template/partslist.html</td>
+</tr>
+</table>
+
+<table cellpadding="5px" cellspacing="0" class="table01" width="100%">
+<colgroup>
+  <col style="width: 10%;">
+  <col style="width: 30%;">
+  <col style="width: 15%;">
+  <col style="width: 50%;">
+</colgroup>
+<tr>
+  <th>画面ID</th>
+  <th>ページタイトル</th>
+  <th>テンプレート / 量産</th>
+  <th>ファイル</th>
+
+</tr>
+    <!--
+<tr>
+  <td class="right">1</td>
+  <td><a href="/template/ja/" target="_blank">トップページ</a></td>
+  <td class="center">テンプレート</td>
+  <td>/template/ja/index.html</td>
+</tr>
+-->
+<tr>
+  <td class="right">2</td>
+  <td><a href="/template/ja/sustainability/" target="_blank">第2階層</a></td>
+  <td class="center">テンプレート</td>
+  <td>/template/ja/sustainability/index.html</td>
+</tr>
+<tr>
+  <td class="right">3</td>
+  <td><a href="/template/ja/sustainability/environment/" target="_blank">第3階層</a></td>
+  <td class="center">テンプレート</td>
+  <td>/template/ja/sustainability/environment/index.html</td>
+</tr>
+<tr>
+  <td class="right">4</td>
+  <td><a href="/template/ja/sustainability/environment/products/" target="_blank">第4階層</a></td>
+  <td class="center">テンプレート</td>
+  <td>/template/ja/sustainability/environment/products/index.html</td>
+</tr>
+<tr>
+  <td class="right">5</td>
+  <td><a href="/template/ja/sustainability/environment/products/customers.html" target="_blank">第5階層</a></td>
+  <td class="center">テンプレート</td>
+  <td>/template/ja/sustainability/environment/products/customers.html</td>
+</tr>
+<tr>
+  <td class="right">6</td>
+  <td><a href="/template/ja/sustainability/environment/products/customers_l6.html" target="_blank">第6階層</a></td>
+  <td class="center">テンプレート</td>
+  <td>/template/ja/sustainability/environment/products/customers_l6.html</td>
+</tr>
+</table>
+
+</div>
+<script src="/assets/js/library/jquery-3.6.0.min.js"></script>
+<script>
+  /*
+  $(function () {
+    var _timer;
+    var $qr = $('<img style="position:fixed;background:#fff;border-radius:10px;width:200px;height:200px;overflow:hidden;box-shadow:0 0 20px 10px #666;top:50%;left:50%;margin-top:-100px;margin-left:-100px;" src="">').appendTo($('body')).hide();
+
+    $('.table01 td > a').hover(function () {
+      if (_timer) clearTimeout(_timer);
+      var $a = $(this).css('color', '#f00');
+
+      _timer = setTimeout(function () {
+        $qr.attr('src', 'https://chart.googleapis.com/chart?cht=qr&chs=200&chl=' + $a.attr('href')).show(300);
+      }, 300);
+    }, function () {
+      if (_timer) clearTimeout(_timer);
+      $(this).css('color', '');
+      $qr.hide(300);
+    });
+  });
+  */
+  $(function () {
+    var line = $('.table01 tr');
+    line.each(function() {
+      var status = $(this).children('td').eq(4);
+      if (status.is(':contains("-")')) $(this).addClass('gray');
+      if (status.is(':contains("修正中")')) $(this).addClass('yellow');
+      if (status.is(':contains("作成済")')) $(this).addClass('blue');
+      if (status.is(':contains("完了")')) $(this).addClass('pink');
+    })
+  });
+</script>
+</body>
+</html>

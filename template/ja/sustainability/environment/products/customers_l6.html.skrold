@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head prefix="og: https://ogp.me/ns# fb: https://ogp.me/ns/fb# article: https://ogp.me/ns/article#">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="description" content="">
+<meta property="og:url" content="ページのURlを記入してください">
+<meta property="og:title" content="ページのタイトルを記入してください">
+<meta property="og:description" content="ページの説明を記入してください">
+<meta property="og:image" content="https://corporate.epson/assets/img/ogp_logo.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="300">
+<meta property="og:image:height" content="300">
+<title>インクジェットプリンターと乾式オフィス製紙機が創り出す「環境配慮型オフィス」 | サステナビリティ | エプソン</title>
+<!--#include virtual="/assets/include/common-css.txt" -->
+<!--#include virtual="/assets/include/common-js.txt" -->
+</head>
+<body>
+<!--#include virtual="/assets/include/body-first.txt" -->
+<!--#include virtual="/ja/assets/include/header.txt" -->
+<main id="main">
+  <div class="breadcrumbs-list sitemap-link"></div>
+<!--#include virtual="/template/ja/technology/assets/include/nav.txt" -->
+<!-- ========== main contents area - begin ========== -->
+
+    
+  <div class="contents-area _mt10">
+    <div class="inner">
+      <ul class="row df clearfix">
+        <li class="grid4 _mt20"><a href="" class="button01 -center -current">テキストテキスト</a></li>
+        <li class="grid4 _mt20"><a href="" class="button01 -center">テキストテキスト</a></li>
+        <li class="grid4 _mt20"><a href="" class="button01 -center">テキストテキスト</a></li>
+      </ul>
+    </div>
+  </div>
+    
+    
+
+  <div class="contents-area">
+    <div class="inner">
+      <div class="heading01">
+        <h1>インクジェットプリンターと乾式オフィス製紙機が創り出す「環境配慮型オフィス」</h1>
+      </div>
+      
+      <div class="heading02">
+        <h2>ここにテキストが入ります</h2>
+      </div>
+
+      <p class="text-m">コンテンツリード文：テキスト05テキスト10テキスト15テキスト20テキスト■テキスト30テキスト35テキスト40テキスト45テキスト■テキスト55テキスト60テキスト65テキスト70テキスト■テキスト80テキスト85テキスト90テキスト95テキスト■</p>
+
+      <ul class="row df clearfix">
+          <li class="grid6 _sp-mb20"><figure><img src="https://placehold.jp/32/E4E4E4/333/1140x640.jpg?text=%E6%A6%82%E8%A6%81%E8%AA%AC%E6%98%8E%E5%9B%B3" width="570" height="320" alt="概要説明図"></figure></li>
+          <li class="grid6 _sp-mb20"><figure><img src="https://placehold.jp/32/E4E4E4/333/1140x640.jpg?text=%E6%A6%82%E8%A6%81%E8%AA%AC%E6%98%8E%E5%9B%B3" width="570" height="320" alt="概要説明図"></figure></li>
+      </ul>
+      
+      
+      <div class="heading03">
+        <h3>ポイントまとめ</h3>
+      </div>
+      <ul class="list-disc">
+        <li>コンテンツ文コンテンツ文コンテンツ文コンテンツ文コンテンツ文コンテンツ文コンテンツ文</li>
+        <li>コンテンツ文コンテンツ文コンテンツ文コンテンツ文コンテンツ文コンテンツ文コンテンツ文コンテンツ文コンテンツ文コンテンツ文コンテンツ文コンテンツ文コンテンツ文コンテンツ文</li>
+        <li>コンテンツ文コンテンツ文コンテンツ文コンテンツ文コンテンツ文コンテンツ文コンテンツ文</li>
+      </ul>
+      
+      <div class="heading03">
+        <h3>関連するSDGs</h3>
+      </div>
+
+      <div class="related-sdgs">
+        <ul>
+          <li><img src="/assets/img/img_sdgs_03.png" width="100" height="100" alt="3 すべての人に健康と福祉を"></li>
+          <li><img src="/assets/img/img_sdgs_06.png" width="100" height="100" alt="6 安全な水とトイレを世界中に"></li>
+          <li><img src="/assets/img/img_sdgs_07.png" width="100" height="100" alt="7 エネルギーをみんなにそしてクリーンに"></li>
+        </ul>
+      </div>
+
+      <div class="accordion-box">
+        <p role="button" class="head" data-trigger="accordion" aria-controls="accordion1" aria-expanded="false">エプソンの理念</p>
+        <div class="body" id="accordion1" aria-hidden="true">
+          <p>ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。</p>
+        </div>
+      </div>
+
+      <p>テキスト05テキスト10テキスト15テキスト20テキスト■テキスト30テキスト35テキスト40テキスト45テキスト■テキスト55テキスト60テキスト65テキスト70テキスト■テキスト80テキスト85テキスト90テキスト95テキスト■</p>
+
+      <div class="accordion-box">
+        <p role="button" class="head" data-trigger="accordion" aria-controls="accordion2" aria-expanded="false">エプソンの理念</p>
+        <div class="body" id="accordion2" aria-hidden="true">
+          <p>ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。</p>
+        </div>
+      </div>
+
+      <div class="accordion-box">
+        <p role="button" class="head" data-trigger="accordion" aria-controls="accordion3" aria-expanded="false">エプソンの理念</p>
+        <div class="body" id="accordion3" aria-hidden="true">
+          <p>ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。</p>
+        </div>
+      </div>
+      
+      <div class="heading03">
+        <h3>ポイントまとめ</h3>
+      </div>
+
+      <div class="readmore-box">
+        <div class="body" id="readmore1" aria-hidden="true">
+          <p>ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。</p>
+          <p>ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。</p>
+        </div>
+        <button class="link" data-trigger="readmore" aria-controls="readmore1" aria-expanded="false">すべて見る</button>
+      </div>
+
+      <div class="related-contents">
+        <h2 class="heading">関連するコンテンツ</h2>
+        <div class="cards">
+          <div class="item">
+            <a href="">
+              <p class="image"><img src="https://placehold.jp/32/E4E4E4/333/960x260.jpg?text=image" width="480" height="130" alt=""></p>
+              <p class="title">ここにテキストが入ります</p>
+              <p class="text">ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。</p>
+            </a>
+          </div>
+          <div class="item">
+            <a href="">
+              <p class="image"><img src="https://placehold.jp/32/E4E4E4/333/960x260.jpg?text=image" width="480" height="130" alt=""></p>
+              <p class="title">ここにテキストが入ります</p>
+              <p class="text">ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。</p>
+            </a>
+          </div>
+        </div>
+        <p class="link"><a href="">お客様の元での環境貢献に戻る</a></p>
+      </div>
+    </div>
+  </div>
+
+<!-- ========== main contents area - end ========== -->
+<!--#include virtual="/ja/assets/include/sns.txt" -->
+  <div class="breadcrumbs-list"></div>
+</main>
+<!--#include virtual="/ja/assets/include/footer.txt" -->
+</body>
+</html>

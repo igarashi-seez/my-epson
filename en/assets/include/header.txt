@@ -1,0 +1,417 @@
+<header id="header">
+  <div class="inner">
+    <p class="logo"><a href="/en/"><img src="/assets/img/logo.svg" width="117" height="40" alt="EPSON"></a></p>
+
+    <div class="menu-btns-sp">
+      <button type="button" class="searchBtn" aria-label="検索" data-trigger="drawer" aria-expanded="false" aria-controls="drawer-search"></button>
+      <button type="button" class="menuBtn" aria-label="メニュー" data-trigger="drawer" aria-expanded="false" aria-controls="drawer-menu"><span></span></button>
+    </div>
+
+    <div class="header-menu-pc">
+      <div class="assist-nav">
+        <ul>
+          <li><a href="https://www.epson.jp/">Products</a></li>
+          <li><a href="https://www.epson.jp/contact/">Contact</a></li>
+          <li><a href="/ja/">Japanese</a></li>
+          <li><a href="https://global.epson.com/">Global</a></li>
+        </ul>
+        <button type="button" class="searchBtn" aria-label="検索" aria-expanded="false" aria-controls="search-dialog"></button>
+
+        <div id="search-dialog" aria-hidden="true">
+          <div class="inner">
+            <form action="https://search.epson.jp/result/search.x">
+              <fieldset>
+                <legend>Search</legend>
+                <input type="text" name="q" placeholder="I'm looking for">
+                <button type="submit" aria-label="Search"></button>
+              </fieldset>
+            </form>
+            <button type="button" class="closeBtn" aria-label="Close" aria-controls="search-dialog"></button>
+          </div>
+        </div>
+      </div>
+  
+      <nav class="global-nav">
+        <ul>
+          <li><a href="/en/philosophy/" aria-expanded="false" aria-controls="child1" class="btn">Philosophy</a></li>
+          <li><a href="/en/about/" aria-expanded="false" aria-controls="child2" class="btn">About</a></li>
+          <li><a href="/en/business/" aria-expanded="false" aria-controls="child3" class="btn">Business</a></li>
+          <li><a href="/en/technology/" aria-expanded="false" aria-controls="child4" class="btn">Technology</a></li>
+          <li><a href="/en/sustainability/" aria-expanded="false" aria-controls="child5" class="btn">Sustainability</a></li>
+          <li><a href="/en/investors/" aria-expanded="false" aria-controls="child6" class="btn">Investors</a></li>
+          <li><a href="/en/news/" aria-expanded="false" aria-controls="child7" class="btn">News</a></li>
+          <li><a href="/en/careers/" aria-expanded="false" aria-controls="child8" class="btn">Careers</a></li>
+        </ul>
+        <div class="childwrap">
+          <div class="inner">
+            <button type="button" class="closeBtn" aria-label="閉じる"></button>
+            <div class="child" id="child1" aria-hidden="true">
+              <div class="headCol">
+                <a href="/en/philosophy/" class="link">
+                  <p class="text">企業理念TOP</p>
+                  <p class="image"><img src="/assets/img/header_img_01.jpg" width="306" height="172" alt=""></p>
+                </a>
+              </div>
+              <div class="linkCol">
+                <div class="links">
+                  <ul>
+                    <li><a href="/en/philosophy/">経営者メッセージ</a></li>
+                    <li><a href="/en/philosophy/">エプソンの理念</a></li>
+                    <li><a href="/en/philosophy/">パーパス</a></li>
+                    <li><a href="/en/philosophy/">長期ビジョン</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="bnrCol">
+                <p class="heading">PICK UP</p>
+                <ul>
+                  <li><a href="/en/philosophy/"><img src="/assets/img/header_bnr_01.jpg" width="282" height="75" alt="パーパス"></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="child" id="child2" aria-hidden="true">
+              <div class="headCol">
+                <a href="/en/about/" class="link">
+                  <p class="text">企業情報TOP</p>
+                  <p class="image"><img src="/assets/img/header_img_01.jpg" width="306" height="172" alt=""></p>
+                </a>
+              </div>
+              <div class="linkCol">
+                <div class="links">
+                  <ul>
+                    <li><a href="/en/about/">経営者メッセージ</a></li>
+                    <li><a href="/en/about/">エプソンの理念</a></li>
+                    <li><a href="/en/about/">パーパス</a></li>
+                    <li><a href="/en/about/">長期ビジョン</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="bnrCol">
+                <p class="heading">PICK UP</p>
+                <ul>
+                  <li><a href=""><img src="/assets/img/header_bnr_01.jpg" width="282" height="75" alt="パーパス"></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="child" id="child3" aria-hidden="true">
+              <div class="headCol">
+                <a href="/en/business/" class="link">
+                  <p class="text">事業領域TOP</p>
+                  <p class="image"><img src="/assets/img/header_img_01.jpg" width="306" height="172" alt=""></p>
+                </a>
+              </div>
+              <div class="linkCol">
+                <div class="links">
+                  <ul>
+                    <li><a href="/en/business/">経営者メッセージ</a></li>
+                    <li><a href="/en/business/">エプソンの理念</a></li>
+                    <li><a href="/en/business/">パーパス</a></li>
+                    <li><a href="/en/business/">長期ビジョン</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="bnrCol">
+                <p class="heading">PICK UP</p>
+                <ul>
+                  <li><a href=""><img src="/assets/img/header_bnr_01.jpg" width="282" height="75" alt="パーパス"></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="child" id="child4" aria-hidden="true">
+              <div class="headCol">
+                <a href="/en/technology/" class="link">
+                  <p class="text">技術情報TOP</p>
+                  <p class="image"><img src="/assets/img/header_img_01.jpg" width="306" height="172" alt=""></p>
+                </a>
+              </div>
+              <div class="linkCol">
+                <div class="links">
+                  <ul>
+                    <li><a href="/en/technology/">経営者メッセージ</a></li>
+                    <li><a href="/en/technology/">エプソンの理念</a></li>
+                    <li><a href="/en/technology/">パーパス</a></li>
+                    <li><a href="/en/technology/">長期ビジョン</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="bnrCol">
+                <p class="heading">PICK UP</p>
+                <ul>
+                  <li><a href="/en/technology/"><img src="/assets/img/header_bnr_01.jpg" width="282" height="75" alt="パーパス"></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="child" id="child5" aria-hidden="true">
+              <div class="headCol">
+                <a href="/en/sustainability/" class="link">
+                  <p class="text">サステナビリティTOP</p>
+                  <p class="image"><img src="/assets/img/header_img_01.jpg" width="306" height="172" alt=""></p>
+                </a>
+              </div>
+              <div class="linkCol">
+                <div class="links">
+                  <ul>
+                    <li><a href="/en/sustainability/">経営者メッセージ</a></li>
+                    <li><a href="/en/sustainability/">エプソンの理念</a></li>
+                    <li><a href="/en/sustainability/">パーパス</a></li>
+                    <li><a href="/en/sustainability/">長期ビジョン</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="bnrCol">
+                <p class="heading">PICK UP</p>
+                <ul>
+                  <li><a href="/en/sustainability/"><img src="/assets/img/header_bnr_01.jpg" width="282" height="75" alt="パーパス"></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="child" id="child6" aria-hidden="true">
+              <div class="headCol">
+                <a href="/en/investors/" class="link">
+                  <p class="text">投資家情報TOP</p>
+                  <p class="image"><img src="/assets/img/header_img_01.jpg" width="306" height="172" alt=""></p>
+                </a>
+              </div>
+              <div class="linkCol">
+                <div class="links">
+                  <ul>
+                    <li><a href="/en/investors/">経営者メッセージ</a></li>
+                    <li><a href="/en/investors/">エプソンの理念</a></li>
+                    <li><a href="/en/investors/">パーパス</a></li>
+                    <li><a href="/en/investors/">長期ビジョン</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="bnrCol">
+                <p class="heading">PICK UP</p>
+                <ul>
+                  <li><a href="/en/investors/"><img src="/assets/img/header_bnr_01.jpg" width="282" height="75" alt="パーパス"></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="child" id="child7" aria-hidden="true">
+              <div class="headCol">
+                <a href="/en/news/" class="link">
+                  <p class="text">ニュースTOP</p>
+                  <p class="image"><img src="/assets/img/header_img_01.jpg" width="306" height="172" alt=""></p>
+                </a>
+              </div>
+              <div class="linkCol">
+                <div class="links">
+                  <ul>
+                    <li><a href="/en/news/">経営者メッセージ</a></li>
+                    <li><a href="/en/news/">エプソンの理念</a></li>
+                    <li><a href="/en/news/">パーパス</a></li>
+                    <li><a href="/en/news/">長期ビジョン</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="bnrCol">
+                <p class="heading">PICK UP</p>
+                <ul>
+                  <li><a href="/en/news/"><img src="/assets/img/header_bnr_01.jpg" width="282" height="75" alt="パーパス"></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="child" id="child8" aria-hidden="true">
+              <div class="headCol">
+                <a href="/en/careers/" class="link">
+                  <p class="text">採用情報TOP</p>
+                  <p class="image"><img src="/assets/img/header_img_01.jpg" width="306" height="172" alt=""></p>
+                </a>
+              </div>
+              <div class="linkCol">
+                <div class="links">
+                  <ul>
+                    <li><a href="/en/careers/">経営者メッセージ</a></li>
+                    <li><a href="/en/careers/">エプソンの理念</a></li>
+                    <li><a href="/en/careers/">パーパス</a></li>
+                    <li><a href="/en/careers/">長期ビジョン</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="bnrCol">
+                <p class="heading">PICK UP</p>
+                <ul>
+                  <li><a href="/en/careers/"><img src="/assets/img/header_bnr_01.jpg" width="282" height="75" alt="パーパス"></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<div class="header-menu-sp" data-target="drawer">
+  <span class="overlay" data-trigger="drawerClose"></span>
+  <div id="drawer-search" aria-hidden="true">
+    <form action="https://search.epson.jp/result/search.x">
+      <fieldset>
+        <legend>Search</legend>
+        <input type="text" name="q" placeholder="検索したいワードを入力してください">
+        <button type="submit" aria-label="検索"></button>
+      </fieldset>
+    </form>
+  </div>
+  <div id="drawer-menu" aria-hidden="true">
+    <nav class="global-nav">
+      <ul>
+        <li><button type="button" data-trigger="accordion" aria-controls="hm-accordion1" aria-expanded="false"><span>企業理念</span></button>
+          <div id="hm-accordion1" aria-hidden="true">
+            <ul>
+              <li><a href="/en/philosophy/">パーパス</a></li>
+              <li><a href="/en/philosophy/">経営者メッセージ</a></li>
+              <li><a href="/en/philosophy/">エプソンの理念</a></li>
+              <li><a href="/en/philosophy/">長期ビジョン</a></li>
+            </ul>
+            <div class="bnr">
+              <p class="heading">PICK UP</p>
+              <ul>
+                <li><a href="/en/philosophy/"><img src="/assets/img/header_bnr_01.jpg" width="282" height="75" alt="パーパス"></a></li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li><button type="button" data-trigger="accordion" aria-controls="hm-accordion2" aria-expanded="false"><span>企業情報</span></button>
+          <div id="hm-accordion2" aria-hidden="true">
+            <ul>
+              <li><a href="/en/about/">エプソンの歩み</a></li>
+              <li><a href="/en/about/">社会課題への取り組み</a></li>
+              <li><a href="/en/about/">ものづくり歴史館</a></li>
+              <li><a href="/en/about/">事業所・関係会社</a></li>
+              <li><a href="/en/about/">役員一覧</a></li>
+              <li><a href="/en/about/">会社案内PDF</a></li>
+              <li><a href="/en/about/">パーパス</a></li>
+            </ul>
+            <div class="bnr">
+              <p class="heading">PICK UP</p>
+              <ul>
+                <li><a href=""><img src="/assets/img/header_bnr_01.jpg" width="282" height="75" alt="パーパス"></a></li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li><button type="button" data-trigger="accordion" aria-controls="hm-accordion3" aria-expanded="false"><span>事業領域</span></button>
+          <div id="hm-accordion3" aria-hidden="true">
+            <ul>
+              <li><a href="">エプソンの事業</a></li>
+            </ul>
+            <div class="bnr">
+              <p class="heading">PICK UP</p>
+              <ul>
+                <li><a href="/en/business/"><img src="/assets/img/header_bnr_01.jpg" width="282" height="75" alt="パーパス"></a></li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li><button type="button" data-trigger="accordion" aria-controls="hm-accordion4" aria-expanded="false"><span>技術情報</span></button>
+          <div id="hm-accordion4" aria-hidden="true">
+            <ul>
+              <li><a href="/en/technology/">技術者インタビュー</a></li>
+              <li><a href="/en/technology/">エプソンイノベーションプラットフォーム</a></li>
+              <li><a href="/en/technology/">製品カテゴリから技術を探す</a></li>
+              <li><a href="/en/technology/">技術カテゴリから技術を探す</a></li>
+              <li><a href="/en/technology/">研究開発方針</a></li>
+              <li><a href="/en/technology/">知的財産</a></li>
+              <li><a href="/en/technology/">匠の技</a></li>
+              <li><a href="/en/technology/">エプソンのデザイン</a></li>
+            </ul>
+            <div class="bnr">
+              <p class="heading">PICK UP</p>
+              <ul>
+                <li><a href="/en/technology/"><img src="/assets/img/header_bnr_01.jpg" width="282" height="75" alt="パーパス"></a></li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li><button type="button" data-trigger="accordion" aria-controls="hm-accordion5" aria-expanded="false"><span>サステナビリティ</span></button>
+          <div id="hm-accordion5" aria-hidden="true">
+            <ul>
+              <li><a href="/en/sustainability/">トップコミットメント</a></li>
+              <li><a href="/en/sustainability/">サステナビリティレポート</a></li>
+              <li><a href="/en/sustainability/">エプソンのサステナビリティ</a></li>
+              <li><a href="/en/sustainability/">環境のため</a></li>
+              <li><a href="/en/sustainability/">社会のため</a></li>
+              <li><a href="/en/sustainability/">ガバナンス</a></li>
+              <li><a href="/en/sustainability/">ESGデータ</a></li>
+              <li><a href="/en/sustainability/">GRIスタンダード対照表（GRI内容索引）</a></li>
+              <li><a href="/en/sustainability/">社外からの評価</a></li>
+              <li><a href="/en/sustainability/">新着情報一覧</a></li>
+            </ul>
+            <div class="bnr">
+              <p class="heading">PICK UP</p>
+              <ul>
+                <li><a href="/en/sustainability/"><img src="/assets/img/header_bnr_01.jpg" width="282" height="75" alt="パーパス"></a></li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li><button type="button" data-trigger="accordion" aria-controls="hm-accordion6" aria-expanded="false"><span>投資家情報</span></button>
+          <div id="hm-accordion6" aria-hidden="true">
+            <ul>
+              <li><a href="/en/investors/">経営方針</a></li>
+              <li><a href="/en/investors/">個人投資家の皆様へ</a></li>
+              <li><a href="/en/investors/">IRライブラリ</a></li>
+              <li><a href="/en/investors/">IRカレンダー</a></li>
+              <li><a href="/en/investors/">株主・株式/債券情報</a></li>
+              <li><a href="/en/investors/">財務・業績情報</a></li>
+              <li><a href="/en/investors/">IRニュース 将来情報に関するご注意</a></li>
+              <li><a href="/en/investors/">ディスクロージャーポリシー 株主情報の取り扱いについて</a></li>
+              <li><a href="/en/investors/">株式情報について</a></li>
+              <li><a href="/en/investors/">よくある質問（FAQ）</a></li>
+            </ul>
+            <div class="bnr">
+              <p class="heading">PICK UP</p>
+              <ul>
+                <li><a href=""><img src="/assets/img/header_bnr_01.jpg" width="282" height="75" alt="パーパス"></a></li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li><button type="button" data-trigger="accordion" aria-controls="hm-accordion7" aria-expanded="false"><span>ニュース</span></button>
+          <div id="hm-accordion7" aria-hidden="true">
+            <ul>
+              <li><a href="/en/news/">ニュースリリース</a></li>
+              <li><a href="/en/news/">報道関係者のみなさまへ</a></li>
+              <li><a href="/en/news/">ソーシャルメディアへの参加について</a></li>
+              <li><a href="/en/news/">バックナンバー</a></li>
+            </ul>
+            <div class="bnr">
+              <p class="heading">PICK UP</p>
+              <ul>
+                <li><a href="/en/news/"><img src="/assets/img/header_bnr_01.jpg" width="282" height="75" alt="パーパス"></a></li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li><button type="button" data-trigger="accordion" aria-controls="hm-accordion8" aria-expanded="false"><span>採用情報</span></button>
+          <div id="hm-accordion8" aria-hidden="true">
+            <ul>
+              <li><a href="/en/careers/">エプソンを知る</a></li>
+              <li><a href="/en/careers/">新卒採用</a></li>
+              <li><a href="/en/careers/">キャリア採用</a></li>
+              <li><a href="/en/careers/">障がい者採用</a></li>
+              <li><a href="/en/careers/">特定保健指導</a></li>
+            </ul>
+            <div class="bnr">
+              <p class="heading">PICK UP</p>
+              <ul>
+                <li><a href="/en/careers/"><img src="/assets/img/header_bnr_01.jpg" width="282" height="75" alt="パーパス"></a></li>
+              </ul>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </nav>
+    <div class="assist-nav">
+      <ul>
+        <li><a href="https://www.epson.jp/">製品情報</a></li>
+        <li><a href="https://www.epson.jp/contact/">お問い合わせ</a></li>
+        <li><a href="https://corporate.epson/en/">English</a></li>
+        <li><a href="https://global.epson.com/">Global</a></li>
+      </ul>
+    </div>
+  </div>
+</div>

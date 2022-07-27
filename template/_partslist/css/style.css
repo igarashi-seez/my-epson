@@ -1,0 +1,38 @@
+.parts-caption {
+    margin: 120px 0 30px;
+}
+.parts-caption + * {
+    margin-top: 0;
+}
+.parts-caption .inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    padding: 5px 20px;
+    margin: auto;
+    color: #fff;
+    background-color: #333;
+}
+.parts-caption .name {
+    font-size: 1.6rem;
+}
+.parts-caption .sub {
+    font-size: 1.4rem;
+}
+
+pre.snippet {
+    max-width: 1366px;
+    margin: auto;
+    padding: 0 calc(min(6.07vw, 83px));
+}
+@media screen and (max-width:499px) {
+    pre.snippet {
+        padding: 0 15px;
+    }
+}
+.snippet.-hideCode {
+    margin-top: 60px;
+    margin-bottom: 100px;
+}

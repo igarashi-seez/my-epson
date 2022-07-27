@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="description" content="">
+<title>CSS一覧 | エプソン</title>
+<!--#include virtual="/assets/include/common-css.txt" -->
+<!--#include virtual="/assets/include/common-js.txt" -->
+</head>
+<body>
+
+<!--#include virtual="/assets/include/body-first.txt" -->
+<!--#include virtual="/ja/assets/include/header.txt" -->
+
+<main id="main">
+    
+    
+    
+    <div class="contents-area">
+    <div class="inner" style="font-family: Arial, Helvetica, 'sans-serif';">
+        
+        
+    <!-- タイトル表題 -->
+        <div class="heading01">
+            <h1>CSSクラス一覧</h1>
+        </div>
+    <!-- /タイトル表題 -->
+        
+        <p>※BIZ UDPGothic では _ が見づらいため、このページのみフォント変更</p>
+        
+    <table class="table01">
+      <thead>
+        <tr>
+          <th class="_w15" abbr="分類">分類</th>
+          <th class="_w15" abbr="位置など">&nbsp;</th>
+          <th class="_w15" abbr="表示結果">表示結果</th>
+          <th class="_w25" abbr="Class名">Class名</th>
+          <th class="_w15" abbr="参考タグ">参考タグ</th>
+          <th class="_w15" abbr="表示見本、備考">表示見本、備考</th>
+          </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="" rowspan="4">マージン</td>
+          <td class="">上</td>
+          <td class="">上部にマージン</td>
+          <td class="">_mt0～100<br />（0,5,10,15,20,25,30...100）</td>
+          <td class="" rowspan="4">margin
+            <p class="fsS indent1 _mt30">※幅500px以上のみで有効：<br>_pc-を頭につける（例：_pc-mt0）</p>
+            <p class="fsS indent1">※幅499px以下のみで有効：<br>_sp-を頭につける（例：_sp-mt0）</p>
+            <p class="fsS indent1 _mt30 _color-red">※段落間の隙間は原則 _mt20（_mb20） で指定</p>
+            </td>
+          <td class=""><div class="_mt15 bdG">見本（上にマージン15の例）</div></td>
+        </tr>
+        <tr>
+          <td class="">下</td>
+          <td class="">下部にマージン</td>
+          <td class="">_mb0～100<br />（0,5,10,15,20,25,30...100）</td>
+          <td class=""><div class="_mb15 bdG">見本（下にマージン15の例）</div></td>
+        </tr>
+        <tr>
+          <td class="">左</td>
+          <td class="">左部にマージン</td>
+          <td class="">_ml0～100<br />（0,5,10,15,20,25,30...100）</td>
+          <td class=""><div class="_ml15 bdG">見本（左にマージン15の例）</div></td>
+        </tr>
+        <tr>
+          <td class="">右</td>
+          <td class="">右部にマージン</td>
+          <td class="">_mr0～100<br />（0,5,10,15,20,25,30...100）</td>
+          <td class=""><div class="_mr15 bdG">見本（右にマージン15の例）</div></td>
+        </tr>
+        
+        <tr>
+          <td class="" rowspan="4">パディング</td>
+          <td class="">上</td>
+          <td class="">上部にパディング</td>
+          <td class="">_pt0～100<br />（0,5,10,15,20,25,30...100）</td>
+          <td class="" rowspan="4">padding</td>
+          <td class=""><div class="_pt15 bdG">見本（上にパディング15の例）</div></td>
+        </tr>
+        <tr>
+          <td class="">下</td>
+          <td class="">下部にパディング</td>
+          <td class="">_pb0～100<br />（0,5,10,15,20,25,30...100）</td>
+          <td class=""><div class="_pb15 bdG">見本（下にパディング15の例）</div></td>
+        </tr>
+        <tr>
+          <td class="">左</td>
+          <td class="">左部にパディング</td>
+          <td class="">_pl0～60<br />（0,5,10,15,20,25,30...100）</td>
+          <td class=""><div class="_pl15 bdG">見本（左にパディング15の例）</div></td>
+        </tr>
+        <tr>
+          <td class="">右</td>
+          <td class="">右部にパディング</td>
+          <td class="">_pr0～60<br />（0,5,10,15,20,25,30...100）</td>
+          <td class=""><div class="_pr15 bdG">見本（右にパディング15の例）</div></td>
+        </tr>
+        
+        <tr>
+          <td class="">幅</td>
+          <td class="">&nbsp;</td>
+          <td class="">カラム等の幅指定</td>
+          <td class="">_w0～100</td>
+          <td class="">width
+            <p class="fsS indent1 _mt30">※幅500px以上のみで有効：<br>_pc-を頭につける（例：_pc-w5）</p>
+            <p class="fsS indent1">※幅499px以下のみで有効：<br>_sp-を頭につける（例：_sp-w5）</p>
+            </td>
+          <td class="">1=1%</td>
+        </tr>
+        
+        <tr>
+          <td class="" rowspan="8">フォント</td>
+          <td class="">ノーマル</td>
+          <td class="">通常文字に指定</td>
+          <td class="">_normal</td>
+          <td class="" rowspan="2">font-weight</td>
+          <td class=""><div class="_normal">見本</div></td>
+        </tr>
+        <tr>
+          <td class="">太字</td>
+          <td class="">太文字に指定</td>
+          <td class="">_bold</td>
+          <td class=""><div class="_bold">見本</div></td>
+        </tr>
+        <tr>
+          <td class="">下線</td>
+          <td class="">下線を指定</td>
+          <td class="">_underline</td>
+          <td class="">text-decoration</td>
+          <td class=""><div class="_underline">見本</div></td>
+        </tr>
+        <tr>
+          <td class="">赤</td>
+          <td class="">赤文字に指定</td>
+          <td class="">_color-red</td>
+          <td class="" rowspan="2">color</td>
+          <td class=""><div class="_color-red">見本</div></td>
+        </tr>
+        <tr>
+          <td class="">白</td>
+          <td class="">白文字に指定</td>
+          <td class="">_color-white</td>
+          <td class="_bgcolor-gray01"><div class="_color-white">見本</div></td>
+        </tr>
+        <tr>
+          <td class="">小</td>
+          <td class="">文字サイズ小（_fs13相当）</td>
+          <td class="">fsS</td>
+          <td class="" rowspan="3">font-size</td>
+          <td class=""><div class="fsS">見本</div></td>
+        </tr>
+        <tr>
+          <td class="">中</td>
+          <td class="">文字サイズ中（_fs16相当）</td>
+          <td class="">fsM</td>
+          <td class=""><div class="fsM">見本</div></td>
+        </tr>
+        <tr>
+          <td class="">大</td>
+          <td class="">文字サイズ大（_fs19相当）</td>
+          <td class="">fsL</td>
+          <td class=""><div class="fsL">見本</div></td>
+        </tr>
+        <tr>
+          <td class="" rowspan="3">横揃え</td>
+          <td class="">左</td>
+          <td class="">左に配置</td>
+          <td class="">_left</td>
+          <td class="" rowspan="3">text-align</td>
+          <td class=""><div class="_left">見本</div></td>
+        </tr>
+        <tr>
+          <td class="">右</td>
+          <td class="">右に配置</td>
+          <td class="">_right</td>
+          <td class=""><div class="_right">見本</div></td>
+        </tr>
+        <tr>
+          <td class="">中央</td>
+          <td class="">中央に配置</td>
+          <td class="">_center</td>
+          <td class=""><div class="_center">見本</div></td>
+        </tr>
+
+        <tr>
+          <td class="" rowspan="3">縦揃え</td>
+          <td class="">上</td>
+          <td class="">上に配置<br>&nbsp;</td>
+          <td class="">vaT</td>
+          <td class="" rowspan="3">vertical-align</td>
+          <td class="vaT">見本</td>
+        </tr>
+        <tr>
+          <td class="">下</td>
+          <td class="">下に配置<br>&nbsp;</td>
+          <td class="">vaB</td>
+          <td class="vaB">見本</td>
+        </tr>
+        <tr>
+          <td class="">中央</td>
+          <td class="">中央に配置<br>&nbsp;</td>
+          <td class="">vaM</td>
+          <td class="vaM">見本</td>
+        </tr>
+
+        <tr>
+          <td class="" >回り込み</td>
+          <td class="">なし</td>
+          <td class="">解除</td>
+          <td class="">clearfix</td>
+          <td class="">clear:both</td>
+          <td class="">&nbsp;</td>
+        </tr>
+
+        <tr>
+          <td class="" rowspan="7">ボーダー</td>
+          <td class="">全体</td>
+          <td class="">灰色の枠線</td>
+          <td class="">bdG</td>
+          <td class="" rowspan="7">border</td>
+          <td class=""><div class="bdG">見本</div></td>
+        </tr>
+        <tr>
+          <td class="">上</td>
+          <td class="">上に灰色の枠線</td>
+          <td class="">bdGT</td>
+          <td class=""><div class="bdGT">見本</div></td>
+        </tr>
+        <tr>
+          <td class="">下</td>
+          <td class="">下に灰色の枠線</td>
+          <td class="">bdGB</td>
+          <td class=""><div class="bdGB">見本</div></td>
+        </tr>
+        <tr>
+          <td class="">左</td>
+          <td class="">左に灰色の枠線</td>
+          <td class="">bdGL</td>
+          <td class=""><div class="bdGL">見本</div></td>
+        </tr>
+        <tr>
+          <td class="">右</td>
+          <td class="">右に灰色の枠線</td>
+          <td class="">bdGR</td>
+          <td class=""><div class="bdGR">見本</div></td>
+        </tr>
+        <tr>
+          <td class="">上下</td>
+          <td class="">上下に灰色の枠線</td>
+          <td class="">bdGTB</td>
+          <td class=""><div class="bdGTB">見本</div></td>
+        </tr>
+        <tr>
+          <td class="">左右</td>
+          <td class="">左右に灰色の枠線</td>
+          <td class="">bdGRL</td>
+          <td class=""><div class="bdGRL">見本</div></td>
+        </tr>
+
+        <tr>
+          <td class="" rowspan="7">リスト</td>
+          <td class="">黒丸</td>
+          <td class="">黒丸のリスト</td>
+          <td class="">list-disc</td>
+          <td class="" rowspan="7">li</td>
+          <td class=""><ul class="list-disc"><li>見本</li></ul></td>
+        </tr>
+        <tr>
+          <td class="">白丸</td>
+          <td class="">白丸のリスト</td>
+          <td class="">list-circle</td>
+          <td class=""><ul class="list-circle"><li>見本</li></ul></td>
+        </tr>
+        <tr>
+          <td class="">四角</td>
+          <td class="">四角のリスト</td>
+          <td class="">list-square</td>
+          <td class=""><ul class="list-square"><li>見本</li></ul></td>
+        </tr>
+        <tr>
+          <td class="">数字</td>
+          <td class="">数字のリスト</td>
+          <td class="">list-decimal</td>
+          <td class=""><ol class="list-decimal"><li>見本</li></ol></td>
+        </tr>
+        <tr>
+          <td class="">アルファベット</td>
+          <td class="">アルファベットのリスト</td>
+          <td class="">list-upper-alpha</td>
+          <td class=""><ol class="list-upper-alpha"><li>見本</li></ol></td>
+        </tr>
+        <tr>
+          <td class="">ローマ数字</td>
+          <td class="">ローマ数字のリスト</td>
+          <td class="">list-upper-roman</td>
+          <td class=""><ol class="list-upper-roman"><li>見本</li></ol></td>
+        </tr>
+        <tr>
+          <td class="">マークなし</td>
+          <td class="">マークなしリスト</td>
+          <td class="">list-none</td>
+          <td class=""><ul class="list-none"><li>見本</li></ul></td>
+        </tr>
+
+        <tr>
+          <td class="" rowspan="7">背景</td>
+          <td class="">白</td>
+          <td class="">白背景</td>
+          <td class="">_bgcolor-white</td>
+          <td class="" rowspan="7">background-color</td>
+          <td class=" _bgcolor-white">見本</td>
+        </tr>
+        <tr>
+          <td class="">グレー1</td>
+          <td class="">濃いグレー</td>
+          <td class="">_bgcolor-gray01</td>
+          <td class="_bgcolor-gray01">見本</td>
+        </tr>
+        <tr>
+          <td class="">グレー2</td>
+          <td class="">中間グレー</td>
+          <td class="">_bgcolor-gray02</td>
+          <td class="_bgcolor-gray02">見本</td>
+        </tr>
+        <tr>
+          <td class="">グレー3</td>
+          <td class="">薄いグレー</td>
+          <td class="">_bgcolor-gray03</td>
+          <td class="_bgcolor-gray03">見本</td>
+        </tr>
+        <tr>
+          <td class="">グレー4</td>
+          <td class="">メッセージボックスと同じグレー</td>
+          <td class="">_bgcolor-gray04</td>
+          <td class="_bgcolor-gray04">見本</td>
+        </tr>
+        <tr>
+          <td class="">青</td>
+          <td class="">青背景</td>
+          <td class="">_bgcolor-main</td>
+          <td class=" _bgcolor-main _color-white">見本</td>
+        </tr>
+        <tr>
+          <td class="">薄い青</td>
+          <td class="">薄い青背景</td>
+          <td class="">_bgcolor-light-blue</td>
+          <td class=" _bgcolor-light-blue">見本</td>
+        </tr>
+
+
+
+        <tr>
+            <td class="" rowspan="6">リンクアイコン</td>
+            <td class="" rowspan="2">サイト内</td>
+            <td class="">同一ウィンドウ</td>
+            <td class="">arrow</td>
+            <td class="" rowspan="6">&nbsp;</td>
+            <td class="">
+            <a href="#" class="arrow">見本リンク</a></td>
+        </tr>
+        <tr>
+            <td class="">同一ウィンドウ（白アイコン）</td>
+            <td class="">arrow-white</td>
+            <td class="_bgcolor-main"><a href="#" class="arrow-white _color-white ">見本リンク</a></td>
+        </tr>
+        <tr>
+            <td class="" rowspan="2">外部・ファイル</td>
+            <td class="">別ウィンドウ</td>
+            <td class="">arrow-blank</td>
+            <td class=""><a href="#" target="_blank" class="arrow-blank">見本リンク</a></td>
+        </tr>
+        <tr>
+            <td class="">別ウィンドウ（白アイコン）</td>
+            <td class="">arrow-blank-white</td>
+            <td class="_bgcolor-main"><a href="#" target="_blank" class="_color-white arrow-blank-white">見本リンク</a></td>
+        </tr>
+        <tr>
+            <td class="" rowspan="2">アンカーリンク</td>
+            <td class="">ページ内</td>
+            <td class="">arrow-anchor</td>
+            <td class=""><a href="#" class="arrow-anchor">見本リンク</a></td>
+        </tr>
+        <tr>
+            <td class="">ページ内（白アイコン）</td>
+            <td class="">arrow-anchor-white</td>
+            <td class="_bgcolor-main"><a href="#" class="_color-white arrow-anchor-white">見本リンク</a>
+            </td>
+        </tr>
+          
+        <tr>
+            <td class="">ボックス</td>
+            <td class="">余白ボックス</td>
+            <td class=""></td>
+            <td class="">box-contents</td>
+            <td class="">&nbsp;</td>
+            <td class=""><div class="box-contents bdG">見本</div><div class="box-contents _bgcolor-gray04">見本</div></td>
+        </tr>
+          
+        <tr>
+            <td class="" rowspan="2">表示非表示</td>
+            <td class="">幅広のみ表示</td>
+            <td class="">500px以上</td>
+            <td class="">_pc</td>
+            <td class="" rowspan="2">display</td>
+            <td class=""><div class="_pc">見本</div></td>
+        </tr>
+          
+        <tr>
+            <td class="">幅狭のみ表示</td>
+            <td class="">499px以下</td>
+            <td class="">_sp</td>
+            <td class=""><div class="_sp">見本</div></td>
+        </tr>
+          
+        <tr>
+            <td class="">字下げ</td>
+            <td class="">jaのみ</td>
+            <td class="">行頭字下げ</td>
+            <td class="">tIndent</td>
+            <td class="">&nbsp;</td>
+            <td class=""><p class="tIndent">見本テキスト見本テキスト見本テキスト見本テキスト見本テキスト見本テキスト</p></td>
+        </tr>
+
+        <tr>
+            <td class="" rowspan="2">文字</td>
+            <td class="" rowspan="2"></td>
+            <td class="">改行有り</td>
+            <td class="">_word-wrap</td>
+            <td class="" rowspan="2">word-wrap</td>
+            <td class=""><p class="_word-wrap">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p></td>
+        </tr>
+        <tr>
+            <td class="">改行無し</td>
+            <td class="">_word-nowrap</td>
+            <td class=""><p class="_word-nowrap">aaaaaaaaa bbbbbbbbbbbbbbbbb</p></td>
+        </tr>
+          
+       </tbody>
+       </table>        
+        
+        
+        
+
+    </div>
+  </div>
+
+    
+</main>
+<!--#include virtual="/ja/assets/include/footer.txt" -->
+</body>
+</html>
