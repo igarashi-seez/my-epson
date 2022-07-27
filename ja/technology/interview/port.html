@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head prefix="og: https://ogp.me/ns# fb: https://ogp.me/ns/fb# article: https://ogp.me/ns/article#">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="description" content="クラウドサービスを用いて、お客様の業務の効率化を実現する「Epson Cloud Solution PORT」（エプソン クラウドソリューション ポート）。その誕生の舞台裏と狙いについて、開発を担当した技術者が語ります。">
+<meta property="og:url" content="https://corporate.epson/ja/technology/interview/port.html">
+<meta property="og:title" content="大判プリンターを使用する生産現場の課題を解決し、業務の効率化を実現 | 技術 | エプソン">
+<meta property="og:description" content="クラウドサービスを用いて、お客様の業務の効率化を実現する「Epson Cloud Solution PORT」（エプソン クラウドソリューション ポート）。その誕生の舞台裏と狙いについて、開発を担当した技術者が語ります。">
+<meta property="og:image" content="https://corporate.epson/assets/img/ogp_logo.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="300">
+<meta property="og:image:height" content="300">
+<title>大判プリンターを使用する生産現場の課題を解決し、業務の効率化を実現 | 技術 | エプソン</title>
+<!--#include virtual="/assets/include/common-css.txt" -->
+<!--#include virtual="/assets/include/common-js.txt" -->
+</head>
+<body>
+<!--#include virtual="/assets/include/body-first.txt" -->
+<!--#include virtual="/ja/assets/include/header.txt" -->
+<main id="main">
+  <div class="breadcrumbs-list sitemap-link"></div>
+<!--#include virtual="/ja/technology/assets/include/nav.txt" -->
+<!-- ========== main contents area - begin ========== -->
+<div class="contents-area">
+  <div class="inner">
+
+    <div class="heading01">
+      <h1>技術者インタビュー</h1>
+    </div>
+
+    <div class="heading02">
+      <h2>大判プリンターを使用する生産現場の課題を解決し、<br>業務の効率化を実現</h2>
+    </div>
+
+    <p class="tIndent">大判プリンターを使用する生産現場の課題を解決し、業務の効率化を実現する「Epson Cloud Solution PORT」（エプソン クラウドソリューション ポート）。商業・産業印刷における当社の価値を届ける“港（PORT）”として発展していきたい、との思いが込められています。</p>
+    <p class="tIndent">お客様の業務の効率化を実現する狙いと、「Epson Cloud Solution PORT」誕生の舞台裏について、開発を担ったメンバーを代表して8名が語ります。</p>
+
+    <div class="card-list02 row df clearfix _mt50 _mb50">
+      <div class="item grid3 _mb50">
+        <p class="image _center"><img src="/ja/technology/interview/img/port_01.jpg" width="210" height="210" alt="企画担当 永井"></p>
+        <p class="text _center _mt10">企画担当</p>
+        <p class="text _center _bold">永井</p>
+      </div>
+      <div class="item grid3 _mb50">
+        <p class="image _center"><img src="/ja/technology/interview/img/port_02.jpg" width="210" height="210" alt="カラーマネジメント担当 鎌田"></p>
+        <p class="text _center _mt10">カラーマネジメント担当</p>
+        <p class="text _center _bold">鎌田</p>
+      </div>
+      <div class="item grid3 _mb50">
+        <p class="image _center"><img src="/ja/technology/interview/img/port_03.jpg" width="210" height="210" alt="営業担当 中山"></p>
+        <p class="text _center _mt10">営業担当</p>
+        <p class="text _center _bold">中山</p>
+      </div>
+      <div class="item grid3 _mb50">
+        <p class="image _center"><img src="/ja/technology/interview/img/port_04.jpg" width="210" height="210" alt="DX担当 鬼頭"></p>
+        <p class="text _center _mt10">DX担当</p>
+        <p class="text _center _bold">鬼頭</p>
+      </div>
+      <div class="item grid3 _mb50">
+        <p class="image _center"><img src="/ja/technology/interview/img/port_05.jpg" width="210" height="210" alt="ERMS担当 杉本"></p>
+        <p class="text _center _mt10">ERMS担当</p>
+        <p class="text _center _bold">杉本</p>
+      </div>
+      <div class="item grid3 _mb50">
+        <p class="image _center"><img src="/ja/technology/interview/img/port_06.jpg" width="210" height="210" alt="ファームウェア担当 小澤"></p>
+        <p class="text _center _mt10">ファームウェア担当</p>
+        <p class="text _center _bold">小澤</p>
+      </div>
+      <div class="item grid3 _mb50">
+        <p class="image _center"><img src="/ja/technology/interview/img/port_07.jpg" width="210" height="210" alt="アプリケーション担当 新倉"></p>
+        <p class="text _center _mt10">アプリケーション担当</p>
+        <p class="text _center _bold">新倉</p>
+      </div>
+      <div class="item grid3 _mb50">
+        <p class="image _center"><img src="/ja/technology/interview/img/port_08.jpg" width="210" height="210" alt="営業担当 鈴木"></p>
+        <p class="text _center _mt10">営業担当</p>
+        <p class="text _center _bold">鈴木</p>
+      </div>
+    </div>
+
+    <div class="heading02">
+      <h2>プリンターメーカーがクラウドサービス<br class="_sp">を提供する理由</h2>
+    </div>
+
+    <div class="heading03">
+      <h3>クラウドサービスを用いて、お客様の業務の効率化を実現する。<br>そこにはどのような意図が込められているのでしょうか？</h3>
+    </div>
+
+    <figure class="_mt20 _center">
+      <img src="/ja/technology/interview/img/port_09.jpg" width="720" height="480" alt="インタビューに答える 永井">
+    </figure>
+
+    <p class="_mt20"><span class="_bold _mr20">永井</span>大判プリンターの多くはビジネスでお使いいたただいており、プリンターメーカーとしてはお客様の収益に貢献することが使命です。そのためにはプリンターを用いて利益を上げていただくこと、つまり、プリンターの稼働率を上げ、無駄を削減する必要があります。しかしながら生産現場では稼働率を阻害する要因があり、その一つとして色合わせがあります。</p>
+
+    <div class="heading03">
+      <h3>色合わせとはどういった作業で、課題は何でしょうか？</h3>
+    </div>
+
+    <p class="_mt20"><span class="_bold _mr20">鎌田</span>クライアントが求める色と、プリンターから出力されるプリントの色を合わせる作業のことです。色合わせに用いられるカラーパッチと呼ばれる印刷物の色見本は数百色あります。印刷用のメディアも数多くあり、その中から色とメディアを組み合わせて、求める色を正確に再現する必要があるのです。時にはパソコンのモニター画面と同じ色味で出力を求められることがあり、モニター設定や感覚に依存する部分もあるため、色合わせは困難を極めます。要望に応えるためには何度も試し刷りが必要で、多くの時間と手間を要します。もちろん、その間は生産に取り掛かれません。</p>
+    <p class="tIndent _mt20">色合わせに関連して、機体間・機種間で発色に差があるため、分散印刷が難しいという悩みも抱えています。お客様は用途や生産能力に応じて複数台のプリンターを所有されることもあります。生産性を高めたり、急ぎの注文に応えたりする場合、一つのジョブを複数のプリンターで同時に出力したいところです。けれども発色が合わないため、例えば100枚のジョブがあった場合、3台持っていても1台で100枚を印刷しなければならない。機器全体で見ると稼働率の低下にもつながりかねません。</p>
+
+    <figure class="_mt20 _center">
+      <img src="/ja/technology/interview/img/port_10.jpg" width="720" height="480" alt="インタビューに答える 鎌田">
+    </figure>
+
+    <p class="tIndent _mt20">機体間や機種間に個体差が生じることは別の課題も生み出します。過去にプリントした色で再度作ってほしいと、クライアントからリピートオーダーされることがあります。旧型機の色再現を必要とするために、生産性の高い新機種へと更新できないという課題がありました。</p>
+
+    <div class="heading03">
+      <h3>色合わせ以外ではどのような課題（困り事）があるのでしょうか？</h3>
+    </div>
+
+    <p class="_mt20"><span class="_bold _mr20">永井</span>人作業や人のスキルに頼った印刷機器管理の効率化です。例えば、手書きメモで管理していた個々の稼働状況や印刷設定情報のデジタル管理化、各作業者の能力に合わせた業務配分の自動化、多拠点生産における効率的な稼働管理などです。</p>
+
+    <div class="heading03">
+      <h3>つまり、品質管理、生産管理、保守管理上の課題解決を目指したのが<br>「Epson Cloud Solution PORT」ですね。</h3>
+    </div>
+
+    <p class="_mt20"><span class="_bold _mr20">永井</span>その通りです。第1段階として、お客様の大判プリンターとネットワークでつながった上で、プリンターの稼働状況やエラー情報などプリント状況を可視化し、生産性の向上に貢献します。</p>
+    
+    <figure class="_mt20 _center">
+      <img src="/ja/technology/interview/img/port_11.jpg" width="720" height="480" alt="インタビューに答える 中山">
+    </figure>
+
+    <p class="_mt20"><span class="_bold _mr20">中山</span>これまでトラブルなどでお客様から弊社のコールセンターやサービス担当者にお問い合わせいただいた際、電話では現場の状況やプリンターの状態が見えないため問題の箇所を見つけにくく、把握に時間がかかっていました。</p>
+    <p class="tIndent _mt20">そこでプリンターの稼働状況を当社が遠隔でモニターすることで的確な故障診断やアドバイスが可能となり、お問い合わせや問題解決にかかる時間の短縮に貢献できます。また訪問修理・サービスの際には、あらかじめ問題箇所を把握した上で必要な部品を持参可能で、訪問回数を減らして修理のため生産を止める時間（ダウンタイム）の削減につなげます。</p>
+
+    <figure class="_mt20 _center">
+      <img src="/ja/technology/interview/img/port_12.jpg" alt="インタビューに答える 中山">
+    </figure>
+
+    <div class="heading02">
+      <h2>「Epson Cloud Solution PORT」誕生の舞台裏</h2>
+    </div>
+
+    <div class="heading03">
+      <h3>お客様とつながる仕組みやサービス提供の基盤はどのようにして構築しているのでしょうか。</h3>
+    </div>
+
+    <figure class="_mt20 _center">
+      <img src="/ja/technology/interview/img/port_13.jpg" width="720" height="480" alt="インタビューに答える 鬼頭">
+    </figure>
+
+    <p class="_mt20"><span class="_bold _mr20">鬼頭</span>当社が提供する複数のサービスを利用できる<a class="arrow _pr25" href="/ja/support/misc/160303_oshirase.htm#service">共通ユーザーアカウント</a>やお客様情報を一元的に管理できる仕組み、サブスクリプション方式のビジネスモデルなど、さまざまなIT基盤を当社は保有しています。そういった技術資産を生かしながらお客様の大判プリンターとつながる仕組みを構築しています。また、新たなサービスの基盤としても、順次活用していく予定です。</p>
+    <p class="_mt20"><span class="_bold _mr20">杉本</span>大判プリンターから集める情報を何にするか見定めて、遠隔モニタリングのサービスに仕上げるまでの道のりが長かったですね。</p>
+
+    <div class="heading03">
+      <h3>どのような苦労があったのでしょうか？</h3>
+    </div>
+
+    <figure class="_mt20 _center">
+      <img src="/ja/technology/interview/img/port_14.jpg" width="720" height="480" alt="インタビューに答える 杉本">
+    </figure>
+
+    <p class="_mt20"><span class="_bold _mr20">杉本</span>数年前、大判プリンターのモニタリングを念頭に、企画を進めてきたものの、最初はうまくいきませんでした。その要因は、モニタリングする手法だけを追い求めていて、そもそもの目的が欠けていたからです。そこで一からやり直し、お客様の本質的な困り事は何かを洗い出し、ITの技術で解決できること、その中でもモニタリングで解決できることは何かを追究し、要求仕様へと落とし込んでいきました。</p>
+
+    <figure class="_mt20 _center">
+      <img src="/ja/technology/interview/img/port_15.jpg" width="720" height="480" alt="インタビューに答える 小澤">
+    </figure>
+
+    <p class="_mt20"><span class="_bold _mr20">小澤</span>モニタリングの要求仕様に合わせて、ネットワークに接続された大判プリンターから必要な情報を収集し、当社指定のサーバーに送信するファームウェアを設計しました。先ほど鬼頭さんから話があったように、当社にはビジネス向けのプリンターからデータを収集し、使用量に応じて課金するサブスクリプションのサービス（例：エプソンのスマートチャージ）があり、ここで得た技術を活用したことで、ゼロからの開発ではありませんでした。</p>
+    <p class="tIndent _mt20">とはいえ、ビジネス向けのプリンターと比べて大判プリンターは収集する情報が格段に増えます。そのため限られた開発期間内での設計は大変でしたね。ファームウェアを設計しているほかの部門と連携して効率的に進めました。</p>
+    <p class="_mt20"><span class="_bold _mr20">鬼頭</span>大判プリンターから取得したデータは、漏れなくサーバー上に蓄積し、サービスの形に合わせてデータを加工・分析することが必要です。当社の持つさまざまなIT基盤を活用して実現しています。</p>
+
+    <figure class="_mt20 _center">
+      <img src="/ja/technology/interview/img/port_16.jpg" width="720" height="480" alt="インタビューに答える 新倉">
+    </figure>
+
+    <p class="_mt20"><span class="_bold _mr20">新倉</span>蓄積した情報を活用するために、PCやモバイル端末から閲覧できる結果表示用のアプリケーションを設計しました。今回、開発を担った設計チームは同アプリケーションの設計が初めてだったため、当初は苦労しました。そこで、他の企画・設計部門や販売会社から協力を得ながら試行錯誤して作り上げました。</p>
+
+    <figure class="_mt20 _center">
+      <img src="/ja/technology/interview/img/port_17.jpg" width="720" height="439" alt="">
+      <figcaption>パソコンに加えて、スマートフォンやタブレットなどのモバイル端末にも対応。</figcaption>
+    </figure>
+
+    <div class="heading03">
+      <h3>最後に今後の展望を聞かせてください。</h3>
+    </div>
+
+    <p class="_mt20"><span class="_bold _mr20">永井</span>ソフトウェアを定期的にアップデートし続けることで、お客様の困り事の解決につながるサービス拡大と対応機種の拡充を図り、印刷現場のトータルサポートを目指していきます。</p>
+    <p class="_mt20"><span class="_bold _mr20">鎌田</span>トータルサポートという点においては、冒頭でお話した色の「品質管理」に関する困り事を含めて解決策を提案していきます。当社は商業・産業印刷における色再現性を高めるカラーマネジメント技術「Color Control Technology」を保有しています。現在、単独のサービスとして一部の製品に提供しておりますが、いずれは「Epson Cloud Solution PORT」に組み込む予定です。</p>
+
+    <figure class="_mt20 _center">
+      <img src="/ja/technology/interview/img/port_18.jpg" width="720" height="480" alt="インタビューに答える 鈴木">
+    </figure>
+
+    <p class="_mt20"><span class="_bold _mr20">鈴木</span>「Epson Cloud Solution PORT」はエプソンがお客様にソリューションをお届けするための港（PORT）です。賑わいのある港へと発展を遂げるには、お客様にとって魅力的なサービス作りに加えて、自然と多くの人が集まるような仕組みを整えていくことが大切です。そのために、国内外にある当社の販売会社と連携し、お客様に「Epson Cloud Solution PORT」を知ってもらい、提供価値を体感していただく活動を進めていきます。</p>
+
+
+
+
+
+  </div>
+</div>
+
+<div class="contents-area contents-bgcolor _bgcolor-gray03">
+  <div class="inner">
+
+    <div class="heading03">
+      <h3>このインタビューと関連のある技術情報</h3>
+    </div>
+
+    <div class="card-list02 row df clearfix">
+      <div class="item grid4 _mb50">
+        <a href="/ja/technology/search-by-products/printer-inkjet/color-control.html">
+          <p class="image _center"><img src="/ja/technology/search-by-products/printer-inkjet/img/thumb_color_control.jpg" width="360" height="202" alt="カラーコントロールテクノロジーサムネイル"></p>
+          <p class="title">カラーコントロール<br class="_pc">テクノロジー</p>
+          <p class="text">お客様の思い描く色を短時間かつ的確に再現</p>
+        </a>
+      </div>
+      <div class="item grid4 _mb50">
+        <a href="/ja/technology/search-by-products/other/management-system.html">
+          <p class="image _center"><img src="/ja/technology/search-by-products/other/img/thumb_management.jpg" width="360" height="202" alt="一括管理マネージメントシステムサムネイル"></p>
+          <p class="title">一括管理<br>マネージメントシステム</p>
+          <p class="text">保守管理の負担を軽減し生産効率を確保するマネージメント基盤『Epson Device Admin』</p>
+        </a>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+<!-- ========== main contents area - end ========== -->
+<!--#include virtual="/ja/assets/include/sns.txt" -->
+  <div class="breadcrumbs-list"></div>
+</main>
+<!--#include virtual="/ja/assets/include/footer.txt" -->
+</body>
+</html>
