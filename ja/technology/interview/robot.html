@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head prefix="og: https://ogp.me/ns# fb: https://ogp.me/ns/fb# article: https://ogp.me/ns/article#">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="description" content="ロボットの特長、活用分野などと共に、ジャイロセンサーを用いた制御技術、力覚センサーを開発したきっかけや課題などについて、同製品の開発を担当した技術者にインタビューを行いました。">
+<meta property="og:url" content="https://corporate.epson/ja/technology/interview/robot.html">
+<meta property="og:title" content="ロボティクスとセンシング技術の融合を実現したエプソンのイノベーション | 技術 | エプソン">
+<meta property="og:description" content="ロボットの特長、活用分野などと共に、ジャイロセンサーを用いた制御技術、力覚センサーを開発したきっかけや課題などについて、同製品の開発を担当した技術者にインタビューを行いました。">
+<meta property="og:image" content="https://corporate.epson/assets/img/ogp_logo.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="300">
+<meta property="og:image:height" content="300">
+<title>ロボティクスとセンシング技術の融合を実現したエプソンのイノベーション | 技術 | エプソン</title>
+<!--#include virtual="/assets/include/common-css.txt" -->
+<link rel="stylesheet" href="/ja/technology/assets/css/main-visual.css">
+<!--#include virtual="/assets/include/common-js.txt" -->
+</head>
+<body>
+<!--#include virtual="/assets/include/body-first.txt" -->
+<!--#include virtual="/ja/assets/include/header.txt" -->
+<main id="main">
+  <div class="breadcrumbs-list sitemap-link"></div>
+<!--#include virtual="/ja/technology/assets/include/nav.txt" -->
+<!-- ========== main contents area - begin ========== -->
+<div class="contents-area">
+  <div class="inner">
+  
+    <div class="heading01">
+      <h1>技術者インタビュー</h1>
+    </div>
+      
+    <div class="heading02">
+      <h2>ロボティクスとセンシング技術の<br>融合を実現したエプソンのイノベーション</h2>
+    </div>
+        
+    <p class="tIndent _mt20">自社の時計組み立てを自動化するためにスタートしたエプソンのロボット開発は、現在は携帯電話などの電子機器や小型精密機器の製造分野で活躍しています。こうした小型精密機器の微細な部品を正確に組み上げるロボットの動作は、わずかな振動や位置のズレが製品の品質に直結します。それを解決するためにロボティクスと独自のセンシング技術により生み出されたエプソンのロボットは、高い動作性能と操作性を持ち、従来人間の感覚に頼っていた精密作業や高速な搬送作業の自動化を実現することに貢献しています。</p>
+    <p class="tIndent">ロボットの特長、活用分野などと共に、ジャイロセンサーを用いた制御技術、力覚センサーを開発したきっかけや課題などについて、同製品の開発を担当した技術者が語ります。</p>
+
+    <div class="row df clearfix _mb30">
+      <div class="grid6 _center _mb20">
+        <figure>
+          <img class="-center _w70" src="/ja/technology/interview/img/img_motoyoshi_001.jpg" alt="ＲＳ企画設計部 シニアスタッフ　元吉 正樹">
+          <p class="_center _bold fsM _mt15">ＲＳ企画設計部 シニアスタッフ<span class="fsL"> 元吉</span></p>
+        </figure>
+      </div>
+      <div class="grid6 _center _mb20">
+        <figure>
+          <img class="_center _w70" src="/ja/technology/interview/img/img_kawai_001.jpg" alt="ＲＳ企画設計部 シニアスタッフ　河合 宏紀">
+          <p class="_center _bold fsM _mt15">ＲＳ企画設計部 シニアスタッフ<span class="fsL"> 河合</span></p>
+        </figure>
+      </div>
+    </div>
+        
+
+
+    <div class="heading02">
+      <h2>人の感覚を自動化し、<br class="_sp">高速・高精度を目指したロボット開発</h2>
+    </div>
+ 
+    <div class="heading03">
+      <h3>エプソンのロボットの特長について教えてください</h3>
+    </div>
+
+    <figure class="_center">
+      <img src="/ja/technology/interview/img/img_motoyoshi_002.jpg" width="720" height="480" alt="インタビューに答える 元吉 正樹">
+    </figure>
+
+    <p class="_mt20"><span class="_bold _mr20">元吉</span>エプソンのロボットは、元々時計の組み立ての自動化というところから始まっています。その成り立ちが他社とは違っているのではないでしょうか。多くの産業用ロボットは、人が持てないような物を持ち上げるとか、人ではできない危険な作業をさせることから始まっています。エプソンの場合は、人の感覚に頼っていた精密作業を、人よりも高い精度で高速に行うことから始まったため、高速・高精度というところにこだわって開発してきました。そこに社内の技術資産であった水晶デバイスを用いたセンシング技術であるジャイロセンサーや力覚センサーをロボットに組み合わせたことにより、その性能を飛躍的に上げたことが強みになっています。</p>
+
+    <div class="heading03">
+      <h3>ジャイロセンサーを用いた制御技術、力覚センサーの開発のきっかけや課題は、どのようなものがあったのでしょうか？</h3>
+    </div>
+
+    <figure class="_center">
+      <img src="/ja/technology/interview/img/img_motoyoshi_003.jpg" width="720" height="480" alt="インタビューに答える 元吉 正樹">
+    </figure>
+
+    <p class="_mt20"><span class="_bold _mr20">元吉</span>エプソンの強みである高速・高精度を伸ばすためには、制振性をさらに高める必要がありました。ロボットは一般的に、関節のサーボモーターの角度を検出して制御しています。この方法だと、個々のモーターの角度は正確でも、アーム自体が変形して、アームの先が振動したり、位置がズレたりすることがあります。この問題を解決するため、ジャイロセンサーを使って、アームの振動そのものを直接検出して、それをモーターの制御に反映させます。これにより、アームの剛性を高めなくても、高い制振性能が得られるようになりました。</p>
+    <p class="tIndent _mt20">しかし、当時としては、ロボットのアームに搭載できるほどの小型のジャイロセンサーがありませんでした。そのような状況で、社内で水晶技術を用いた非常に小型なジャイロセンサーが開発されました。これをロボットに搭載するにあたってセンサーの特性に起因する課題などがありましたが、それらを克服することで、ロボットの仕様に合わせたジャイロセンサーによる制御を実現しました。</p>
+
+    <figure class="_center _mt30">
+      <img src="/ja/technology/interview/img/img_kawai_002.jpg" width="720" height="480" alt="インタビューに答える 河合 宏">
+    </figure>
+
+    <p class="_mt20"><span class="_bold _mr20">河合</span>細い隙間に小さな部品をはめ込むといった微細な組み立て作業は、人が感覚を頼りに力を加減して行っていました。これを自動化したいという市場のニーズが多くありました。それを実現するために目を付けたのが力覚センサーです。</p>
+    <p class="tIndent _mt20">当時他社からすでに発売されていた力覚センサーは、剛性が弱く、力を加えたときに大きく変形すると、位置にズレが生じました。また、分解能が低いと精密な動きができません。動くロボットに載せるので、衝撃性が低いと壊れてしまいます。必要な剛性や分解能、耐衝撃性を満たすような力覚センサーが市場に無いのならば、自ら開発しようと取り組み、できあがったのがエプソンの力覚センサーです。</p>
+    <p class="tIndent _mt20">エプソンの力覚センサーは、水晶を用いることで高剛性でありながら高感度という、相反する特長を備えています。これまで難しいとされてきた、人の感覚に頼って行うような部品同士のはめ合い、具体的に言うとFFC（Flexible flat cable）やコンデンサーの挿入といった繊細で高精度な作業部品を組み立てる作業の自動化を実現しました。</p>
+
+    <div class="heading02">
+      <h2>誰でも簡単に使える<br class="_sp">ロボットを目指す</h2>
+      <span class="fsS">-ロボットの活用範囲-</span>
+    </div>
+
+    <div class="heading03">
+      <h3>ロボットはどのようなところで活用されていますか？<br>また、今後活用が期待されている業界はありますか？</h3>
+    </div>
+
+    <figure class="_center">
+      <img src="/ja/technology/interview/img/img_motoyoshi_004.jpg" width="720" height="480" alt="インタビューに答える 河合 宏">
+    </figure>
+
+    <p class="_mt20"><span class="_bold _mr20">元吉</span>現在は、電気電子系の組み立てや搬送といった分野で一番多く使われています。他にも、精密機器や医療機器の製造など、特に高い精度が必要な作業にはエプソンのスカラロボットが多く使われ、高いシェアを得ています。世界的にも、さまざまな分野で人手不足による省人化のニーズが高まっているので、市場規模も急速に拡大しています。こうした社会的背景もあり、これまではロボットの導入は大規模メーカーが多かったのですが、今後は中小企業にも導入が進んでいくことが予想されます。</p>
+
+    <figure class="_center _mt30">
+      <img src="/ja/technology/interview/img/img_kawai_003.jpg" width="720" height="480" alt="センサー">
+    </figure>
+
+    <p class="_mt20"><span class="_bold _mr20">河合</span>人手不足による省人化という点では、ロボットはプログラミングすることで、高品質な作業を繰り返し安定して行えます。それをコピーすれば、同じ作業ができるロボットを増やして自動化を加速できます。</p>
+    <p class="tIndent _mt20">また、センサーは感覚でしかわからないことを数値化できる良さがあります。生産・流通の履歴が残せるので、仮に何かしら問題が起きたときに工程をさかのぼって確認ができます。そして、自動化だけでなく、職人技のような高度な技術を数値化することで、技術継承にも役立てると考えています。</p>
+
+    <div class="heading03">
+      <h3>市場の拡大で、ロボットに求められていることを教えてください。</h3>
+    </div>
+
+    <p class="_mt20"><span class="_bold _mr20">元吉</span>市場が拡大すれば、ロボットの操作に熟知した人だけでなく、ロボットの操作に不慣れな人もロボットを扱うようになります。例えば、ロボットの性能を最大限に生かしながら振動を小さくする速度調整をこれまでは熟練した技術者が設定していましたが、この作業をロボット側が自動で行うことで、作業者は従来よりも簡単に使えるようになりました。これからも自社が保有するセンサーなどの技術基盤をベースにAIなどを活用することで、誰でも簡単に使えるように、さらなる使い勝手の向上が必要だと考えています。</p>
+    <p class="tIndent _mt20">また、多品種小ロットのニーズの高まりや、中小企業など小規模の工場へロボットの導入が進むと、限られたスペースのなかでロボットが作業する必要があります。もともとエプソンが得意としてきた、小型、軽量、スリムで省電力といった特長をさらに進化させ、設置する場所を選ばない柔軟性の高いロボットに進化することが求められていると思います。</p>
+
+    <div class="heading02">
+      <h2>社会課題の解決に向けた、<br>センシング・ロボティクス技術の<br class="_sp">さらなる向上</h2>
+    </div>
+
+    <div class="heading03">
+      <h3>今後、エプソンのロボットが実現する世界を教えてください。</h3>
+    </div>
+
+    <figure class="_center">
+      <img src="/ja/technology/interview/img/img_motoyoshi_005.jpg" width="720" height="480" alt="元吉 正樹">
+    </figure>
+
+    <p class="_mt20"><span class="_bold _mr20">元吉</span>エプソンのロボットは、低振動で、調整の手間が少なく、簡単に設置することが可能です。人手不足による省人化対策だけでなく、技術継承といった社会課題の解決にも貢献します。さまざまな市場ニーズに応えるため、高速・高精度、高品質を極めながら、力覚センサーやジャイロセンサーなどの社内の技術資産を活用し、製造現場の生産性向上を目指しアップデートを続けていきます。</p>
+
+    <figure class="_center  _mt30">
+      <img src="/ja/technology/interview/img/img_kawai_004.jpg" width="720" height="480" alt="河合 宏">
+    </figure>
+
+    <p class="_mt20"><span class="_bold _mr20">河合</span>エプソンは、「省エネルギー、小型化、高精度」を追求する「省・小・精の技術」に加え、画像処理技術やセンシング技術など、多様な事業で培ってきた技術やデバイスがあります。それに加えて、自社の生産現場で培った自動化ノウハウを組み合わせることで、他社には真似できない、高速・高精度、小型・軽量・スリム、省電力、そして使い勝手の良いロボットを提供することができます。これまで、自動化できないと諦めていた繊細で高精度な製造工程も、エプソンのロボットだからこそ実現できるようになります。今後は、こうした技術を磨き上げ、自動化・省人化の価値をさらに進化させて、さまざまな産業の発展に貢献していきたいと思っています。</p>
+
+  </div>
+</div>
+
+<div class="contents-area contents-bgcolor _bgcolor-gray03">
+  <div class="inner">
+
+    <div class="heading03">
+      <h3>このインタビューと関連のある技術情報</h3>
+    </div>
+
+    <div class="card-list02 row df clearfix">
+      <div class="item grid4 _mb50">
+        <a href="/ja/technology/search-by-products/robot/auto-accelerator-auto-adjust.html">
+          <p class="image _center"><img src="/ja/technology/search-by-products/robot/img/thumb_acceleration.jpg" width="360" height="202" alt="自動加速度・速度調整技術サムネイル"></p>
+          <p class="title">自動加速度・速度調整技術</p>
+          <p class="text">どのような動作でも設定したモーターの許容範囲内に振動を抑え、加速度や速度を自動的に調整する技術</p>
+        </a>
+      </div>
+      <div class="item grid4 _mb50">
+        <a href="/ja/technology/technology/search-by-products/robot/gyro-servo.html">
+          <p class="image _center"><img src="/ja/technology/search-by-products/robot/img/thumb_gyro_servo.jpg" width="360" height="202" alt="ジャイロセンサーによるサーボ制御サーボサムネイル"></p>
+          <p class="title">ジャイロセンサーによる<br>サーボ制御</p>
+          <p class="text">高速・高精度なロボット制御を実現するための振動低減技術</p>
+        </a>
+      </div>
+      <div class="item grid4 _mb50">
+        <a href="/ja/technology/search-by-products/robot/vibration_reduction.html">
+          <p class="image _center"><img src="/ja/technology/search-by-products/robot/img/thumb_vrt.jpg" width="360" height="202" alt="VRTサムネイル"></p>
+          <p class="title">Vibration Reduction Technology</p>
+          <p class="text">ロボットの動作に起因する振動を最大限低減し、低コストで自由度の高い装置設計を実現</p>
+        </a>
+      </div>
+      <div class="item grid4 _mb50">
+        <a href="/ja/technology/search-by-products/robot/force-sensor.html">
+          <p class="image _center"><img src="/ja/technology/search-by-products/robot/img/thumb_force_sensor.jpg" width="360" height="202" alt="力覚センサーサムネイル"></p>
+          <p class="title">力覚センサー</p>
+          <p class="text">人が精密な作業を行う際に欠かせない「感覚」をロボットに加える技術</p>
+        </a>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- ========== main contents area - end ========== -->
+<!--#include virtual="/ja/assets/include/sns.txt" -->
+  <div class="breadcrumbs-list"></div>
+</main>
+<!--#include virtual="/ja/assets/include/footer.txt" -->
+</body>
+</html>
