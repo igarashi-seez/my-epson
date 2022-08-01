@@ -5,13 +5,13 @@
   overflow: hidden;
   color: #fff;
   background-color: #000;
-  background-image: url("/ja/technology/artisan/assets/img/index_slide_01.jpg");
+  background-image: url("/ja/technology/artisan/assets/img/mv/index_slide_01.jpg");
   background-position: center top;
   background-repeat: no-repeat;
 }
 
 .artisanVisual02 {
-  background-image: url("/ja/technology/artisan/assets/img/watch_slide_01.jpg");
+  background-image: url("/ja/technology/artisan/assets/img/mv/watch_slide_01.jpg");
 }
 
 @media screen and (max-width: 799px) {
@@ -80,7 +80,6 @@
 .artisanVisual01Btn {
   display: flex;
 }
-
 @media screen and (max-width: 999px) {
   .artisanVisual01Btn {
     justify-content: space-between;
@@ -90,7 +89,6 @@
 .artisanVisual01Btn li {
   width: min(32%, 200px);
 }
-
 @media screen and (max-width: 999px) {
   .artisanVisual01Btn li {
     width: 33%;
@@ -100,7 +98,6 @@
 .artisanVisual01Btn li:not(:first-of-type) {
   margin-left: 20px;
 }
-
 @media screen and (max-width: 999px) {
   .artisanVisual01Btn li:not(:first-of-type) {
     margin-left: 0;
@@ -119,21 +116,18 @@
   color: #fff;
   transition: color .3s, background-color .3s ease;
 }
-
 @media screen and (max-width: 999px) {
   .TransparentBtn {
     font-size: 1em;
     padding: 18px 0;
   }
 }
-
 @media screen and (max-width: 799px) {
   .TransparentBtn {
     font-size: 0.8em;
     padding: 17px 0;
   }
 }
-
 @media screen and (max-width: 499px) {
   .TransparentBtn {
     padding: 12px 0;
@@ -173,7 +167,6 @@
   font-size: 1.07em;
   line-height: 2;
 }
-
 @media screen and (max-width: 799px) {
   .indexSection01Text {
     font-size: 1em;
@@ -203,9 +196,14 @@
 
 .artisanSectionSeparator {
   padding: 70px 0;
-  background: url('/ja/technology/artisan/assets/img/section_border_bg.png') no-repeat center top;
+  background: url('/ja/technology/artisan/assets/img/common/section_border_bg.png') no-repeat center top;
   box-sizing: border-box;
   background-size: cover;
+}
+@media screen and (max-width: 799px) {
+  .artisanSectionSeparator {
+    padding: 40px 0;
+  }
 }
 
 .artisanSectionSeparatorRow {
@@ -218,6 +216,13 @@
   font-weight: 300;
   line-height: 1.71;
 }
+@media screen and (max-width: 799px) {
+  .artisanSectionSeparatorHeading {
+    font-size: 1.8em;
+    font-weight: bold;
+    line-height: 1.5;
+  }
+}
 
 .awardsSection01, .studioSection01, .schoolSection01 {
   background-color: #444;
@@ -228,6 +233,12 @@
   width: min(96%, 960px);
   margin: 0 auto;
   padding: 60px 15px;
+}
+@media screen and (min-width: 500px) {
+  .col1Contents._pc-flex {
+    display: flex;
+    align-items: flex-start;
+  }
 }
 
 .studioSection01Text {
@@ -249,23 +260,15 @@
 
 .artisanSection01 {
   padding: 100px 0;
-  background-image: url('/ja/technology/artisan/assets/img/watch_section01_bg.jpg');
   box-sizing: border-box;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center top;
 }
-
-.artisanSection02 {
-  background-image: url('/ja/technology/artisan/assets/img/watch_section02_bg.jpg');
-}
-
-.artisanSection03 {
-  background-image: url('/ja/technology/artisan/assets/img/watch_section03_bg.jpg');
-}
-
-.artisanSection04 {
-  background-image: url('/ja/technology/artisan/assets/img/watch_section04_bg.jpg');
+@media screen and (max-width: 999px) {
+  .artisanSection01 {
+    padding: 50px 0;
+  }
 }
 
 .artisanSection01Row {
@@ -280,6 +283,11 @@
   color: #fff;
   box-sizing: content-box;
 }
+@media screen and (max-width: 999px) {
+  .artisanSection01Col01 {
+    padding: 40px 15px;
+  }
+}
 
 .artisanSection01Col01._left {
   margin-left: auto;
@@ -290,6 +298,11 @@
   font-weight: normal;
   line-height: 1.71;
   text-align: center;
+}
+@media screen and (max-width: 799px) {
+  .artisanSection01Heading {
+    font-size: 1.7em;
+  }
 }
 
 .artisanSection01Text {
