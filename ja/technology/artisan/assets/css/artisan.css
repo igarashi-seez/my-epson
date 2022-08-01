@@ -14,6 +14,10 @@
   background-image: url("/ja/technology/artisan/assets/img/mv/watch_slide_01.jpg");
 }
 
+.artisanVisual04 {
+  background-image: url("/ja/technology/artisan/assets/img/mv/school_slide_01.jpg");
+}
+
 @media screen and (max-width: 799px) {
   .artisanVisual01 {
     background-size: cover;
