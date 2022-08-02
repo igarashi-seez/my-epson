@@ -14,6 +14,10 @@
   background-image: url("/ja/technology/artisan/assets/img/mv/watch_slide_01.jpg");
 }
 
+.artisanVisual03 {
+  background-image: url("/ja/technology/artisan/assets/img/mv/awards_slide_01.jpg");
+}
+
 .artisanVisual04 {
   background-image: url("/ja/technology/artisan/assets/img/mv/school_slide_01.jpg");
 }
@@ -64,6 +68,20 @@
   .artisanVisual01Title {
     font-size: 2em;
     line-height: 1.5;
+  }
+}
+
+.artisanVisual04SubTitle {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 2px 2px 10px #333;
+  margin-top: 10px;
+}
+@media screen and (max-width: 999px) {
+  .artisanVisual04SubTitle {
+    font-size: 1.5em;
   }
 }
 
@@ -228,6 +246,12 @@
   }
 }
 
+.artisanSectionSeparatorText {
+  line-height: 2;
+  margin-top: 20px;
+  font-size: 1.07em;
+}
+
 .awardsSection01, .studioSection01, .schoolSection01 {
   background-color: #444;
   color: #fcfcfc;
@@ -238,8 +262,14 @@
   margin: 0 auto;
   padding: 60px 15px;
 }
+
+.col1Contents._np {
+  padding-right: 0;
+  padding-left: 0;
+}
+
 @media screen and (min-width: 500px) {
-  .col1Contents._pc-flex {
+  ._pc-flex {
     display: flex;
     align-items: flex-start;
   }
@@ -313,4 +343,56 @@
   margin-top: 22px;
   font-size: 1.07em;
   line-height: 2;
+}
+
+.awardsSection01Heading {
+  font-size: 2.5em;
+  font-weight: 300;
+  line-height: 1.71;
+}
+@media screen and (max-width: 799px) {
+  .awardsSection01Heading {
+    font-size: 2em;
+  }
+}
+
+.awardsSection01Text {
+  font-size: 1.07em;
+  line-height: 2;
+}
+@media screen and (max-width: 799px) {
+  .awardsSection01Text {
+    font-size: 1em;
+  }
+}
+
+.tblMod01 {
+  width: 100%;
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-collapse: collapse;
+}
+
+.tblMod01 td,
+.tblMod01 th {
+  padding: 15px;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+@media screen and (max-width: 499px) {
+  .tblMod01 td,
+  .tblMod01 th {
+    padding: 10px;
+  }
+}
+
+.awardsSection01Note {
+  font-size: 0.8em;
+  padding-left: 2em;
+  text-indent: -2em;
+}
+
+.tblMod01 th {
+  color: #333;
+  background-color: #dcdcdc;
 }
