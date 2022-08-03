@@ -175,9 +175,12 @@
 
 .indexSection01Col {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  display: table;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
   width: min(90%, 960px);
   background-color: rgba(0,0,0,0.6);
   color: #fff;
