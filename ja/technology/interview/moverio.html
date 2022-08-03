@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head prefix="og: https://ogp.me/ns# fb: https://ogp.me/ns/fb# article: https://ogp.me/ns/article#">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="description" content="エプソンのスマートグラス『MOVERIO』は、あえて開発のハードルが高いシースルー型に挑んだのはなぜか、その先にどんなビジョンがあるのかについて開発担当者が語ります。">
+<meta property="og:url" content="https://corporate.epson/ja/technology/interview/moverio.html">
+<meta property="og:title" content="『MOVERIO』が生み出すビジュアルイノベーションの未来 | 技術 | エプソン">
+<meta property="og:description" content="エプソンのスマートグラス『MOVERIO』は、あえて開発のハードルが高いシースルー型に挑んだのはなぜか、その先にどんなビジョンがあるのかについて開発担当者が語ります。">
+<meta property="og:image" content="https://corporate.epson/assets/img/ogp_logo.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="300">
+<meta property="og:image:height" content="300">
+<title>『MOVERIO』が生み出すビジュアルイノベーションの未来 | 技術 | エプソン</title>
+<!--#include virtual="/assets/include/common-css.txt" -->
+<link rel="stylesheet" href="/ja/technology/assets/css/main-visual.css">
+<!--#include virtual="/assets/include/common-js.txt" -->
+
+</head>
+<body>
+<!--#include virtual="/assets/include/body-first.txt" -->
+<!--#include virtual="/ja/assets/include/header.txt" -->
+<main id="main">
+  <div class="breadcrumbs-list sitemap-link"></div>
+<!--#include virtual="/ja/technology/assets/include/nav.txt" -->
+<!-- ========== main contents area - begin ========== -->
+<div class="contents-area">
+  <div class="inner">
+  
+    <div class="heading01">
+      <h1>技術者インタビュー</h1>
+    </div>
+
+    <div class="row df clearfix _mb30">
+      <div class="grid8 _mb20">
+        <p class="tIndent">エプソンのスマートグラス『MOVERIO』は、国内外メーカーのヘッドマウントディスプレイではクローズ型が主流のなか、あえて開発のハードルが高いシースルー型に挑んだのはなぜか、その先にどんなビジョンがあるのか、同製品のシステム設計を担当した技術者が語ります。</p>
+      </div>
+      <div class="grid4 _mb20">
+        <figure>
+          <img class="_mt10" src="/ja/technology/interview/img/img_fujimaki_yuki_001.jpg" width="360" height="360" alt="VSMプロジェクト シニアスタッフ 藤巻 由貴">
+          <p class="_center _bold fsM _mt15">VSMプロジェクト シニアスタッフ<span class="fsL"> 藤巻</span></p>
+        </figure>
+      </div>
+    </div>
+
+    <div class="heading02">
+      <h2><span class="fsS">ポジションセンシング</span><br>自由な映像体験を目指した、<br class="_sp">未知への挑戦</h2>
+    </div>
+
+    <div class="heading03">
+      <h3>MOVERIOの企画がスタートした経緯を教えてください</h3>
+    </div>
+
+    <figure class="_center">
+      <img src="/ja/technology/interview/img/img_fujimaki_yuki_002.jpg" width="720" height="480" alt="インタビューに答える 藤巻 由貴">
+    </figure>
+
+    <p class="_mt20"><span class="_bold _mr20">藤巻</span>私が有機ELディスプレイ開発に携わっていた2009年の秋、当時の社長と開発部門メンバーとの間では、社内コアテクノロジーを使った新しい領域の製品ができないのか？という検討が定期的に行われていました。<br>
+      エプソンは、プロジェクター製品などの開発で長年培った独自のマイクロディスプレイ技術と光学プロジェクション技術を持っており、これを応用して新しい領域の商品を生み出すことができるのではないかと考えていました。さまざまな議論を重ねるなかで、ヘッドマウントディスプレイが有力な候補として挙がりました。</p>
+
+    <p class="tIndent _mt20">更なる検討が深まり、社長からもヘッドマウントディスプレイの商品化に向けてポジティブな反応をもらったことで、一気に拍車がかかりました。<br>
+      「いつでも、どこでも、好きな姿勢で、大画面を楽しむ」を、キーワードとして、ヘッドマウントディスプレイを新たに開発することになり、既存のプロジェクター事業の資産も活用しつつ、さまざまな技術のバックグランドを持つ9人のメンバーで製品開発がスタートしました。事業体に属してはいたものの、社長直轄の新規プロジェクトのような位置づけで、今から思うと、よく少人数で製品化に向けてスタートを切ったものだと懐かしく当時を思い出します。その後はさまざまな部門の協力も得ながら、約2年後、2011年のクリスマス商戦に合わせて、当時としては世界初<sup>※</sup>スタンドアローン型シースルースマートグラス『BT-100』が発売になりました。 そのような条件に対して、レーザー光源プロジェクターを使用する事で、遮光が難しく明るい部屋でも、明るくコントラストが高い鮮明な映像を投写でき、かつ設置角度が自由になったことで、どのようなサイズの部屋でも、容易に天井や壁、床などに投写でき、更に、見ている方の視線に合わせた角度への投写が可能となりました。</p>
+
+    <ul class="note-list _mt20">
+      <li>2011年11月25日国内発売時、他の機器と接続しなくてもコンテンツ視聴可能な民生用両眼スマートグラスにおいて（エプソン調べ）</li>
+    </ul>
+
+    <div class="heading03">
+      <h3>当時は参考になる他社製品がほとんどなかったと思います。新ジャンルの製品を作る上でマーケットをどう捉えていたのでしょうか？</h3>
+    </div>
+
+    <figure class="_center">
+      <img src="/ja/technology/interview/img/img_fujimaki_yuki_003.jpg" width="720" height="480" alt="インタビューに答える 藤巻 由貴">
+    </figure>
+
+    <p class="_mt20"><span class="_bold _mr20">藤巻</span>『BT-100』の製品化の検討が進んでいたころは、ちょうど動画共有サービスが一般に受け入れられ始めた時期であり、また、徐々にスマートフォン普及率も上がってくるなか、いまでは当たり前になった、モバイル機器を使って空き時間に動画を楽しむという文化が芽生え始めた頃でした。国内の4Gサービスもスタートを切り、今後ますますこれらの利用シーンが広がっていくであろうと考えていました。</p> 
+    <p class="tIndent _mt20">そのような時代背景のなか、「いつでも、どこでも、好きな姿勢で、大画面を楽しむ」というキーワードをもとに、私たちは、両眼シースルーで映像と周囲を同時に確認、眼鏡のように着脱しやすいデザイン、バッテリー内蔵のスタンドアローン動作で好きな動画を持ち出せる、というように、製品に必要な機能を定めていきました。</p>
+    <p class="tIndent _mt20">それまでのヘッドマウントディスプレイのような単純なモニター機能だけでない、各種センサーや無線通信のようにさまざまな機能を持つことから、私たちは「MOVERIO」シリーズをスマートグラス・スマートヘッドセットとカテゴライズしています。</p>
+    <p class="tIndent _mt20">「MOVERIO」シリーズでは、SDカードを使ったコンテンツの持ち出しの他、Wi-Fiを使ったミラーリング接続やWi-Fi経由でブルーレイから映像を飛ばすDLNAといった技術に対応することで、映像を屋外に持ち出して楽しむという価値を実現できるようにしてきました。また、一方で、既存のホスト機器とも容易に接続できるように、HDMIやUSB Type-C等の有線接続用インタフェースを採用した製品もラインナップし、パソコンやAV機器への簡易的な接続手段を提供してきました。</p>
+    <p class="tIndent _mt20">『BT-100』の販売をスタートしてわかったことですが、想定していた以上に業務用のニーズが大きいですね。アミューズメントやARを使う観光用途もありますし、海外の工場のような遠隔地に直接行かなくてもヘッドマウントディスプレイで作業支援を行う、電柱や鉄塔のような高所作業では、これまで2人で行く必要があったところを、作業現場の作業員を減らしオフィス等から指示を出すような使われ方により業務の効率化が進んできています。まだまだ不十分なところが多いですが、さまざまな業務のなかで、お客様の立場に立ち利用シーンをより詳細に想定することが重要だと感じています。</p>
+    
+    <div class="heading02">
+      <h2>“これまで”が使えなかった、新開発の現場</h2>
+    </div>
+
+    <div class="heading03">
+      <h3>シースルー型はクローズ型に比べて、技術的に難しいと言われていますが、なぜシースルー型を選ばれたのでしょうか？</h3>
+    </div>
+
+    <figure class="_center">
+      <img src="/ja/technology/interview/img/img_fujimaki_yuki_004.jpg" width="720" height="480" alt="インタビューに答える 藤巻 由貴">
+    </figure>
+
+    <p class="_mt20"><span class="_bold _mr20">藤巻</span>当時は競合他社からも、クローズ型のヘッドマウントディスプレイの新製品の発表があり、シースルー型とクローズ型のどちらか、また、シースルー型でも、小型軽量を目指した単眼型に対して、両眼視できれいな映像を楽しむ両眼型というように、より理想的なヘッドマウントディスプレイとはどのようなものか、さまざまな提案がなされた時期でもありました</p> 
+    <p class="tIndent _mt20">私たちは、最終的には映像を屋外に持ち出し楽しむことができ、装着できるディスプレイに行き着くだろうと考え、そのために、技術的にハードルが高く、少し時間を要しそうだがシースルー型にして両眼できちんと映像が見えるものにアプローチしていこうと判断しました。</p>
+    <p class="tIndent _mt20">現在は、シースルー型とクローズ型ですみ分けが進んでいます。クローズ型はVRゲームのように一般消費者向けの活用も広がりつつある一方で、シースルー型は、より業務用に注力しているところが多いようです。遠隔地への作業支援、ハンズフリー作業等、お客様にとっての価値も明確になってきており、私たちとしてもアプリケーションの提供や遠隔業務での使い勝手を考えたサポートを行っています。</p>
+
+    <div class="heading03">
+      <h3>開発にあたって、どんな困難があったでしょうか？</h3>
+    </div>
+
+    <figure class="_center">
+      <img src="/ja/technology/interview/img/img_fujimaki_yuki_005.jpg" width="720" height="480" alt="インタビューに答える 藤巻 由貴">
+    </figure>
+
+    <p class="_mt20"><span class="_bold _mr20">藤巻</span>「MOVERIO」シリーズでは、両眼シースルー方式を採用したことにより、光学エンジンの開発完了・量産に至るまでは、苦労の連続でした。</p> 
+    <p class="tIndent _mt20">表示部の映像品質はもちろんですが、シースルー性能との両立も問題になりました。映像がしっかり見えることと、外部から入ってくる光を正確にきちんとみせるシースルーを両立させようとすると、高い光学設計・検証能力と精密な生産技術が必要になります。僅かな設計差異や製造上の貼合わせズレなどにより、表示枠外にゴースト像が現れたり、外の風景がゆがんだり、実際に試作してみると、従来の光学シミュレーションでは検証しきれない、数多くの課題が発生しました。</p>
+    <p class="tIndent _mt20">私たちは、独自のマイクロディスプレイを活かした映像美にはこだわりがあり、原因究明から量産対策まで、設計・製造各部門が一体となって、一つ一つの課題を解決し、量産に至っています。</p>
+    <p class="tIndent _mt20">また、ヘッドマウントディスプレイにおける永遠の課題だと思いますが、表示性能向上や多機能化と装着性・デザイン性をいかに両立するか、製品として全体バランスをとることも難しかったですね。より迫力のある映像を実現するために画角を広げると、その分、光学エンジンサイズは大きくなり、ヘッドセットも重くなります。</p>
+    <p class="tIndent _mt20">小型であるにこしたことはないのですが、男性、女性、欧米人、アジア人、さまざまな頭の形状の方がいて、さらに眼鏡をかけている人も、かけていない人も快適に装着できるようにするデザインにも苦労しました。お客様にとっての最適な装着位置はさまざまな要因によって大きくばらつきます。頭の大きさ、耳と鼻の位置関係、瞳孔間距離などの各種のデータを収集し、多くのお客様が快適に装着できるよう、多様なデザインアイデアをモックアップで試作して、実際に装着感を確認しながら設計を進めてきました。</p>
+    <p class="tIndent _mt20">私自身は、システム設計を担当していましたので、多機能・小型化が進むことによる、発熱やノイズ対策にも苦労しました。高解像度化による映像信号のハイスピード化や、カメラやモーションセンサーなど、ヘッドセットのスマート化が進むなかで、いかに発熱やEMCノイズを抑えつつコンパクトに設計するかが課題になりました。専用のハイブリッドハーネス開発によるノイズ対策や、これまでの製品開発ノウハウに基づく、独自の熱シミュレーションによる放熱構造最適化により、ウエアラブル機器に求められる品質・安全性を担保しつつ、小型多機能化を実現しました。</p>
+
+    <div class="heading03">
+      <h3>MOVERIOの開発過程でどのような新技術が生まれたのでしょうか？</h3>
+    </div>
+
+    <figure class="_center">
+      <img src="/ja/technology/interview/img/img_fujimaki_yuki_006.jpg" width="720" height="480" alt="BT-100基盤">
+    </figure>
+
+    <p class="_mt20"><span class="_bold _mr20">藤巻</span>『MOVERIO』シリーズのマイクロディスプレイはプロジェクターで培った技術をもとにしたものですが、プロジェクターとスマートグラスでは構造が異なります。プロジェクターの場合、ディスプレイはRGBの3枚に分かれていて、それぞれの映像を重ね合わせて投映します。私たちが『MOVERIO』に採用したのは、ディスプレイは１つでRGBのカラーフィルターを通してカラー化する単板フルカラー方式です。プロジェクターではより高輝度が求められるのに対して、ヘッドマウントディスプレイではより小型化が求められたためであり、エプソン独自の単板フルカラー方式のマイクロディスプレイ技術こそが「MOVERIO」の映像品質を決めるコアテクノロジーとなっています。</p> 
+    <p class="tIndent _mt20">また、第3世代光学エンジンからは、新規開発のSi-OLED技術を採用することにより、コントラストや色域など一段の表示性能改善がなされており、第4世代光学エンジンのSi-OLEDでは、0.45インチに1920x1080の解像度を実現しています。画素密度換算で、一般のスマートフォンなどが600ppi程度であるのに対して、4800ppiを超えることからも、いかに超高精細技術であるかがわかると思います。</p>
+    <p class="tIndent _mt20">さらに、新規にSi-OLEDを採用する際、従来では汎用パネル流用だったことから実現が難しかった、独自の配光制御技術を採用しています。光学ユニットとの協調設計することで、さらなる小型化を実現しました。</p>
+    <p class="tIndent _mt20">これらの技術を採用することにより、BT-100ではヘッドセット重量240gでFOV23°(5m先に80インチ相当)であったものから、次世代の新製品（BT-40）ではヘッドセット重量95gでFOV34°（5m先に120インチ相当）と、広画角化と軽量化を両立した設計へと進化しています。</p>
+
+    <div class="heading02">
+      <h2>誰もがディスプレイを身に着ける時代をつくる</h2>
+    </div>
+
+    <div class="heading03">
+      <h3>スマートグラスという商品は今後どのように進んでいくのでしょうか</h3>
+    </div>
+
+    <figure class="_center">
+      <img src="/ja/technology/interview/img/img_fujimaki_yuki_007.jpg" width="720" height="480" alt="藤巻 由貴とBT-100">
+    </figure>
+
+    <p class="_mt20"><span class="_bold _mr20">藤巻</span>現時点におけるシースルー型スマートグラス市場は、一般消費者の方が日常の生活のなかで使うというよりも、周囲環境と表示映像がハンズフリーで同時に視認できることを利用した作業支援や、ヘッドセット搭載カメラを使った遠隔地間での視野情報の共有などといった、製品特性を活用した業務用途での採用事例が伸びている状況ですね。</p> 
+    <p class="tIndent _mt20">また、ヘッドセット搭載センサーを応用した360°動画やARコンテンツを使って、アミューズメントパークや美術館・博物館などの観光スポットで、来場者向けのガイドツアーに採用される事例も増えてきています。その他、聴覚障害のある方向けの字幕表示サービス、オペラ観劇等の同時通訳の字幕表示等、海外を中心に実際の導入が始まっている事例もあります。</p>
+    <p class="tIndent _mt20">個人的に最も期待しているのは、現実空間でのスポーツとAR表示などを組み合わせた、リアルスポーツ＋eスポーツのハイブリッド演出です。札幌ドームで行った野球の試合で、海外から来た団体客が野球を見る際に「MOVERIO」を着けていただき、スコアやゲームの解説をARで表示するという実証実験をやりましたが、こちらも好評で手ごたえを感じています。これが発展していけば、リアルタイムに空間認識して、AR演出を重ね合わせするような、新しいスポーツエンターテイメントも可能になるでしょう。</p>
+    <p class="tIndent _mt20">利用シーンを拡大し、コンテンツが充実していくなかで、スマートフォンのように、誰もがスマートグラスを身につけることが普通になる時代をつくることが私たちの目標です。 「MOVERIO」シリーズは、私たちのこだわりでもある、高輝度・高画質・両眼視という基本的な映像表示性能において、他社に負けない技術を持っています。一方で、スマートグラス市場全体を見回しても、まだコンテンツが十分とは言えない状況ですので、そこは自社技術にこだわらず、パートナー様との協業を積極的に行い、オープンイノベーションで市場創出を進めていきたいと考えています。</p>
+    <p class="tIndent _mt20">「MOVERIO」というブランドロゴの、「大画面を持ち出す新しい映像文化を創出する」といった意味も込められています。エプソン強みを生かしつつ、身に着けるディスプレイが普通になる世界を目指したいですね。</p>
+
+  </div>
+</div> 
+<div class="contents-area contents-bgcolor _bgcolor-gray03">
+  <div class="inner">
+
+    <div class="heading03">
+      <h3>このインタビューと関連のある技術情報</h3>
+    </div>
+
+    <div class="card-list02 row df clearfix">
+      <div class="item grid4 _mb50">
+        <a href="/ja/technology/search-by-products/other/smaller-display-modules.html">
+          <p class="image _center"><img src="/ja/technology/search-by-products/other/img/thumb_display_module.jpg" width="360" height="202" alt="ディスプレイモジュールサムネイル"></p>
+          <p class="title">ディスプレイモジュールの小型化</p>
+          <p class="text">ディスプレイモジュールの小型化、軽量化により、ストレスフリーで場所を選ばない大画面の映像視聴が可能</p>
+        </a>
+      </div>
+      <div class="item grid4 _mb50">
+        <a href="/ja/technology/search-by-products/other/optical-technology.html">
+          <p class="image _center"><img src="/ja/technology/search-by-products/other/img/thumb_moverio.jpg" width="360" height="202" alt="クオーツウオッチサムネイル"></p>
+          <p class="title">小型で高画質を実現するスマートグラスの光学技術</p>
+          <p class="text">大画面かつシースルーでクリアな映像を、小型・軽量なデザインで実現</p>
+        </a>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- ========== main contents area - end ========== -->
+<!--#include virtual="/ja/assets/include/sns.txt" -->
+  <div class="breadcrumbs-list"></div>
+</main>
+<!--#include virtual="/ja/assets/include/footer.txt" -->
+</body>
+</html>

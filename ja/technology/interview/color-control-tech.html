@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head prefix="og: https://ogp.me/ns# fb: https://ogp.me/ns/fb# article: https://ogp.me/ns/article#">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="description" content="お客様の思い描く色を色分版・色解析・色変換・色最適化・色予測の5つの技術で再現する画像処理技術である『カラーコントロールテクノロジー』。その高精度なソフトウェア開発を開発した技術者が語ります。">
+<meta property="og:url" content="https://corporate.epson/ja/technology/interview/color-control-tech.html">
+<meta property="og:title" content="『カラーコントロールテクノロジー』で思い描く色の表現を | 技術 | エプソン">
+<meta property="og:description" content="お客様の思い描く色を色分版・色解析・色変換・色最適化・色予測の5つの技術で再現する画像処理技術である『カラーコントロールテクノロジー』。その高精度なソフトウェア開発を開発した技術者が語ります。">
+<meta property="og:image" content="https://corporate.epson/assets/img/ogp_logo.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="300">
+<meta property="og:image:height" content="300">
+<title>『カラーコントロールテクノロジー』で思い描く色の表現を | 技術 | エプソン</title>
+<!--#include virtual="/assets/include/common-css.txt" -->
+<!--#include virtual="/assets/include/common-js.txt" -->
+</head>
+<body>
+<!--#include virtual="/assets/include/body-first.txt" -->
+<!--#include virtual="/ja/assets/include/header.txt" -->
+<main id="main">
+  <div class="breadcrumbs-list sitemap-link"></div>
+<!--#include virtual="/ja/technology/assets/include/nav.txt" -->
+<!-- ========== main contents area - begin ========== -->
+<div class="contents-area">
+  <div class="inner">
+
+    <div class="heading01">
+      <h1>技術者インタビュー</h1>
+    </div>
+
+    <div class="heading02">
+      <h2>『カラーコントロールテクノロジー』で思い描く色の表現を</h2>
+    </div>
+
+    <p class="tIndent _mt20">エプソンのカラーコントロールテクノロジーは、お客様の思い描く色を色分版・色解析・色変換・色最適化・色予測の5つの技術で再現する画像処理技術です。同技術により、フォト・プルーフ、サイネージ（看板、ポスター）、捺染などさまざまな用途のメディアで、短時間・高精度で理想通りの色を安定して再現するエプソンの印刷品質が支えられています。<span class="supword">面積<sup>＊</sup></span>、簡単・安心操作、防塵（ぼうじん）性を高めた大判プリンターの実現へとつながっています。</p>
+    <p class="tIndent _mt20">エプソンは、生活に根差した現場で使われる大判プリンター導入の敷居を下げるとともに、使い勝手を高めて、大判プリントの普遍的な良さを広めていきたい。これがエプソンの思いであり、クラス最小設置<span class="supword">面積<sup>＊</sup></span>ハードウェアが中心であるものづくり企業においてエプソン初となる純正RIP（産業用向け印刷ソフトウェア）が開発された経緯や、その中で得られたブレイクスルー、そして今後の展望について、技術開発本部 ソフトウェア技術開発部の布川と松坂が語ります。</p>
+
+    <div class="row df clearfix _mb30 _mt30">
+      <div class="grid6 _center _mb20">
+        <figure>
+          <img class="-center _w70" src="/ja/technology/interview/img/img_fukawa_001.jpg" width="399" height="399" alt="技術開発本部　ソフトウェア技術開発部 部長 布川 博一">
+          <p class="_center _bold fsM _mt15">技術開発本部 ソフトウェア技術開発部 部長<span class="fsL"> 布川</span></p>
+        </figure>
+      </div>
+      <div class="grid6 _center _mb20">
+        <figure>
+          <img class="_center _w70" src="/ja/technology/interview/img/img_matsusaka_001.jpg" width="399" height="399" alt="技術開発本部　ソフトウェア技術開発部 課長 松坂 健治">
+          <p class="_center _bold fsM _mt15">技術開発本部 ソフトウェア技術開発部 課長<span class="fsL"> 松坂</span></p>
+        </figure>
+      </div>
+    </div>
+
+    <div class="heading02">
+      <h2>お客様の声を聞くことから<br class="_sp">純正RIPの開発ははじまった</h2>
+    </div>
+
+    <div class="heading03">
+      <h3>どのようにしてエプソンのカラーコントロールテクノロジーの開発はスタートしたのでしょうか？</h3>
+    </div>
+
+    <figure class="_mt20 _center">
+      <img src="/ja/technology/interview/img/img_fukawa_002.jpg" width="720" height="480"  alt="インタビューに答える 布川 博一">
+    </figure>
+
+    <p class="_mt20"><span class="_bold _mr20">布川</span>2012年ごろに写真の印刷で培ったエプソンの高精度なプリンティング技術を、もっと広く使っていただければと商業・産業市場に参入しました。熱を使わないエプソンのマイクロピエゾ技術は、ソルベントインクやレジンインクなど、さまざまな種類のインクを使うことができるという特徴を持っています。 正直なところ、すでにフォト・プルーフ市場で多くのお客様に画質の良さを認められていたエプソンは、その品質を受け入れてもらえるのではないかと考えていました。しかし、エプソンを選んでいただいたお客様から、すぐに好評を得ることはできませんでした。</p>
+    <p class="tIndent _mt20">そこから、2年近い歳月をかけて台湾、中国、アメリカなど世界中のお客様のもとへ訪問し、要望やクレーム内容のヒアリングを開始しました。その結果、自社の純正RIP（印刷ソフトウェア）を開発するべきだという結論に達し、そのコアとなる画像処理技術の開発に取り組みました。</p>
+    <p class="tIndent _mt20">プリンターが小さければ、作業机やラックに載せて使用でき、設置場所の移動も簡単。書類や機器が多く、どうしても雑多になりがちな事務所や印刷室において、スペースを取らないのは使い勝手が良いですね。</p>
+
+    <div class="heading03">
+      <h3>当時はまだ3rdRIP<span class="fsM">（ISV（Independent Software Vendorが作った印刷ソフトウェア））</span><br class="_pc">を使用するのが業界の当たり前でした。<br>エプソンはどのような経緯で純正RIPが必要だという結論に達したのでしょうか？</h3>
+    </div>
+
+    <figure class="_mt20 _center">
+      <img src="/ja/technology/interview/img/img_matsusaka_002.jpg" width="720" height="480" alt="インタビューに答える 松坂 健治">
+    </figure>
+
+    <p class="_mt20"><span class="_bold _mr20">松坂</span>台湾における印刷大手のお客様のもとへ訪問した際、画像処理技術開発のターニングポイントに直面しました。現地では、エプソンの高画質が他社との差別化となることは、当然期待されていましたし、そのポテンシャルは認められていました。一方で競争の中心は、そのエプソンのプリンターを使いこなすためのISV-RIPの選定・活用だったんです。</p>
+    <p class="tIndent _mt20">現地ではエプソンのプリンターのスペックを最大限に引き出せる“職人”が必要とされ、その技術によって他社との差が生じる状況にありました。しかし、それは全世界のユーザーにあまねく高画質な印刷体験を提供するというエプソンの目指すところとは異なります。我々は、エプソンの使命を果たすため、純正RIPの開発が不可欠だという結論に達しました。</p>
+
+    <div class="heading02">
+      <h2>色最適化・色予測の開発による<br class="_sp">ブレイクスルー</h2>
+    </div>
+
+    <div class="heading03">
+      <h3>実際の画像処理技術の開発はどのように進められましたか？</h3>
+    </div>
+
+    <figure class="_mt20 _center">
+      <img src="/ja/technology/interview/img/img_fukawa_003.jpg" width="720" height="480" alt="インタビューに答える 布川 博一">
+    </figure>
+
+    <p class="_mt20"><span class="_bold _mr20">布川</span>部内でテーマ起案計画を行い、5名ほどのチームで開発がスタートしました。エプソンのカラーコントロールテクノロジーは色分版・色解析・色変換・色最適化・色予測の5つの技術で構成されています。</p>
+    <p class="tIndent _mt20">最初に着手したのは階調性(グラデーション)再現を重視した「色分版」の開発です。続いて2014年には、プリンターが再現可能な色を正確に割り出す「色解析」と、実際に色解析で作成したICCプロファイルを使って、モニターの色をプリンターの色に高速・高精度で変換する「色変換」を開発しました。これらの技術により、サイネージ市場のお客様が抱えるメディアに合わせた色合わせや印刷環境の構築作業にかかる手間・時間を大きく減らすことに成功し、多くのお客様に好評を持って受け入れていただくことができました。</p>
+    <p class="tIndent _mt20">そこで新たに浮上したのが、昇華転写式印刷市場におけるお客様の課題です。リピートオーダー色再現やクライアントから持ち込まれた現物への色合わせといったサイネージ市場とは大きく異なる同市場の要望に応えるため、エプソンは「色予測」と「色最適化」の開発に着手しました。同技術がリリースされたのが2016年ごろのことです。そして、2018年にはカラーコントロールテクノロジーの対外発表に至りました。</p>
+
+    <div class="heading03">
+      <h3>具体的にどのような技術的ブレイクスルーがありましたか？</h3>
+    </div>
+
+    <figure class="_mt20 _center">
+      <img src="/ja/technology/interview/img/img_matsusaka_003.jpg" width="720" height="480" alt="インタビューに答える 松坂 健治">
+    </figure>
+
+    <p class="_mt20"><span class="_bold _mr20">松坂</span>「色予測」と「色最適化」の開発により、昇華転写式印刷市場のお客様が1週間かけて行っていた色調整の作業を、わずか半日で完了させられるようになりました。</p>
+    <p class="tIndent _mt20">例えばスポーツアパレル市場では、ユニフォームの色の再現において非常に高い精度が求められます。（プロスポーツ選手の着ているユニフォームと同じ色のユニフォームをファンの方は着たいですよね。）ただ、同市場では伝統的にベテランの目で、目的の色を再現できたかどうかを確認する文化が定着しており、印刷業者は何度も色調整を繰り返し、色の再現に多くの手間と時間をかけることを強いられていました また、調整結果はそのプリンター固有の調整値になっているため、一度決めた色を再現するためにその製品が生産停止となった後もASP（アフターサービスパーツ）を大量に確保し、古い機器を使い続けることが常態化していました。</p>
+    <p class="tIndent _mt20">カラーコントロールテクノロジーの進化により、色調整にかかる時間・手間は大幅に削減されました。また、メーカー・機種を問わず、“同じ色”を再現できるため、旧モデルを使い続けなければならないという昇華転写式印刷市場におけるお客様の課題解決も進みました。</p>
+    <p class="_mt20"><span class="_bold _mr20">布川</span>新たにプリンターを購入いただいても、お客様が前に使用されていたプリンターの情報や印刷特性を把握し、その日のうちに色を再現することもエプソンの技術であれば可能です。実際に効果を目の当たりにして、エプソン製品を導入していただく例も増えているようですね。</p>
+
+    <div class="heading02">
+      <h2>進化を続ける<br class="_sp">カラーコントロールテクノロジー</h2>
+    </div>
+
+    <div class="heading03">
+      <h3>エプソンのプリンター技術において<br>カラーコントロールテクノロジーはどのように位置づけられますか？</h3>
+    </div>
+
+    <div class="row df clearfix _mb30">
+      <div class="grid6 _mb20">
+      <p class="_mt20"><span class="_bold _mr20">松坂</span>高精度かつ簡単で安定した印刷を実現するための重要な技術のひとつです。極めて小さいドットで美しい色合いやグラデーションを表現するマイクロピエゾ方式のプリンターだからこそ、カラーコントロールテクノロジーの威力も十分に発揮されます。お客様の印刷に関する希望を叶える要素のひとつとして、カラーコントロールテクノロジーも機能しています。</p>
+        <p class="tIndent">カラーコントロールテクノロジーの開発は、ソフトウェア技術開発部だけでなく、アプリケーションを企画するソフトウェア企画部門や技術の評価をするCS部門を始めとした多くの部門の協力を得て進められました。エプソンの技術力の源泉となっている「省・小・精の技術」に向けた取り組みが、実を結んだ結果です。</p>
+      </div>
+      <div class="grid6 _mb20">
+        <img class="_mt10" src="/ja/technology/interview/img/img_matsusaka_004.jpg" width="570" height="684" alt="松坂 健治">
+      </div>
+    </div>
+
+    <div class="heading03">
+      <h3>カラーコントロールテクノロジーの今後の展望について教えてください。</h3>
+    </div>
+
+    <div class="row df clearfix _mb30">
+      <div class="grid6 _mb20">
+        <img class="_mt10" src="/ja/technology/interview/img/img_fukawa_004.jpg" width="570" height="684" alt="布川 博一">
+      </div>
+      <div class="grid6 _mb20">
+      <p class="_mt20"><span class="_bold _mr20">布川</span>今まで以上に、お客様の要望をかなえられる画像処理を追求したいです。例えば、サイネージにラミネートを施すことで、色の見え方はさらに変わることになります。その変化さえも想定した色の表現をエプソンのカラーコントロールテクノロジーは目指しています。難しい蛍光色の表現にも挑戦していきたいですね。</p>
+        <p class="tIndent">お客様の再現したいメディアの完成イメージに合わせたトータルソリューションを提供するのがエプソンの役割です。そのために、最先端技術も積極的に取り入れつつ、カラーコントロールテクノロジーはさらに進化していきます。</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="contents-area contents-bgcolor _bgcolor-gray03">
+  <div class="inner">
+
+    <div class="heading03">
+      <h3>このインタビューと関連のある技術情報</h3>
+    </div>
+
+    <div class="card-list02 row df clearfix">
+      <div class="item grid4 _mb50">
+        <a href="/ja/technology/search-by-products/printer-inkjet/color-control.html">
+          <p class="image _center"><img src="/ja/technology/search-by-products/printer-inkjet/img/thumb_color_control.jpg" width="360" height="202" alt="カラーコントロールサムネイル"></p>
+          <p class="title">カラーコントロール<br class="_pc">テクノロジー</p>
+          <p class="text">お客様の思い描く色を短時間かつ的確に再現</p>
+        </a>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+<!-- ========== main contents area - end ========== -->
+<!--#include virtual="/ja/assets/include/sns.txt" -->
+  <div class="breadcrumbs-list"></div>
+</main>
+<!--#include virtual="/ja/assets/include/footer.txt" -->
+</body>
+</html>
