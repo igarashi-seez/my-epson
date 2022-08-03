@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head prefix="og: https://ogp.me/ns# fb: https://ogp.me/ns/fb# article: https://ogp.me/ns/article#">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="description" content="ロボットを導入した製造ラインで生産性向上を図るためには、ロボットを高速で正確に動かすことが重要です。自動加速度調整・自動速度調整は、どのような動かし方でも設定したモーターの許容範囲内に振動を抑え、加速度や速度を自動的に大きな値に設定する技術です。">
+<meta property="og:url" content="https://corporate.epson/ja/technology/search-by-products/robot/auto-accelerator-auto-adjust.html">
+<meta property="og:title" content="自動加速度・速度調整技術 | 技術 | エプソン">
+<meta property="og:description" content="ロボットを導入した製造ラインで生産性向上を図るためには、ロボットを高速で正確に動かすことが重要です。自動加速度調整・自動速度調整は、どのような動かし方でも設定したモーターの許容範囲内に振動を抑え、加速度や速度を自動的に大きな値に設定する技術です。">
+<meta property="og:image" content="https://corporate.epson/assets/img/ogp_logo.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="300">
+<meta property="og:image:height" content="300">
+<title>自動加速度・速度調整技術 | 技術 | エプソン</title>
+<!--#include virtual="/assets/include/common-css.txt" -->
+<!--#include virtual="/assets/include/common-js.txt" -->
+</head>
+<body>
+<!--#include virtual="/assets/include/body-first.txt" -->
+<!--#include virtual="/ja/assets/include/header.txt" -->
+<main id="main">
+  <div class="breadcrumbs-list sitemap-link"></div>
+<!--#include virtual="/ja/technology/assets/include/nav.txt" -->
+<!-- ========== main contents area - begin ========== -->
+<div class="contents-area">
+  <div class="inner">
+
+    <div class="heading01">
+      <h1>自動加速度・速度調整技術</h1>
+    </div>
+
+    <div class="df clearfix _mt20">
+      <p class="_mr10">関連カテゴリ</p>
+      <a class="arrow _pr25" href="/ja/technology/search-by-technology/robot/">ロボット</a>
+      <a class="arrow _pr25" href="/ja/technology/search-by-technology/machine.html">機械</a>
+    </div>
+
+    <div class="heading02">
+      <h2>ロボットの性能を最大化する<br class="_sp">自動加速度・速度調整技術</h2>
+    </div>
+
+    <p class="_mt20 tIndent">ロボットを導入した製造ラインで生産性向上を図るためには、ロボットを高速で正確に動かすことが重要です。<br>
+      自動加速度調整・自動速度調整は、どのような動かし方でも設定したモーターの許容範囲内に振動を抑え、加速度や速度を自動的に大きな値に設定する技術です。</p>
+
+    <div class="heading02">
+      <h2>ロボットの最適化に時間がかかる課題</h2>
+    </div>
+
+    <figure class="_center _mt20 _mb30">
+      <img src="/ja/technology/search-by-products/robot/img/img_robot_scara_g6.png" width="680" height="400" alt="スカラロボット G6">
+    </figure>
+
+    <p class="_mt20 tIndent">製造ラインで工程にかかる時間を短縮するためには、ロボットの加速度や速度を大きく設定するのが一般的です。しかし、動作振動の増大や、モーターの許容範囲以上のトルク（ねじりの強さ）を出すことでエラーになるなど、デメリットが生じることがありました。これらの課題を克服して最大の加速度と速度を実現させるためには、ロボットの動作パターンごとにアームを動かし、データを測定し、補正を繰り返す必要がありました。</p>
+    <p class="_mt20 tIndent">ひとつのロボットで複数の動作を設定する場合は、さらに多くの手間が生じます。例えば、アームを伸ばした状態での動作を基準に加速度の上限を決めると、アームを折り畳んだ動作において、さらに発揮できるはずの速度や加速度が制限されてしまいます。これは、アームを伸ばして動かす場合には駆動軸から重心までの距離が長くなるため、イナーシャ<sup>※</sup>（慣性モーメント：質量×半径2）が大きくなり、必要なモータートルクが増大するためです。また、回転半径が大きくなればなるほど振動も増加します。性能を最大化するには動作ごとの設定が必要なため、ロボットの動きを増やすたびに設定時間に要する時間も必要となります。</p>
+    <p class="_mt20 tIndent">作業効率化や生産性向上のためにロボットを導入したにもかかわらず、その能力を十分に生かすためには大変な手間と時間が必要でした。</p>
+
+    <ul class="note-list">
+      <li class="fsS">止まっているものは止まり続け、動いているものは動き続ける物理的な特性</li>
+    </ul>
+
+    <div class="heading02">
+      <h2>自動加速度・速度調整技術とは</h2>
+    </div>
+
+    <p class="_mt20 tIndent">自動加速度・自動速度調整技術は、どのような動かし方でも設定したモーターの許容範囲内に振動を抑え、加速度や速度を自動的に大きな値に設定することができます。ロボットの動き方や動作姿勢が異なる場合でも、ロボットアームが動作することで生じる慣性力の変化も考慮し、最適な値を自動設定します。</p>
+    <p class="_mt20 tIndent">こうして、さまざまなパラメーター<sup>※</sup>からロボット自身が適切な加速度や速度を常に算出し最適な値を設定し続けることで、ロボットの性能を最大限に生かせる自動加速度・速度調整技術が実現しました。</p>
+
+    <ul class="note-list">
+      <li class="fsS">処理結果に影響を与える外部からの変動要素</li>
+    </ul>
+
+    <div class="heading02">
+      <h2>自社工場で磨き上げた技術の強み</h2>
+    </div>
+
+    <div class="photo-massege">
+      <div class="text-wrap">
+        <p class="tIndent">自動加速度・速度調整技術は、自社開発のロボットを自社の工場で用い、困りごとを解決し続けてきたエプソンだからこそ開発できました。モーターの性能を効率的に使い、ロボットの能力を最大限に引き出すことで、ロボット導入の負荷やハードルを下げ、製造業の自動化に貢献していきます。</p>
+      </div>
+      <div class="image"><img src="/ja/technology/search-by-products/robot/img/img_robot_g8.png" width="570" height="440" alt="6軸ロボット"></div>
+    </div>
+
+  </div>
+</div>
+
+<!--#include virtual="/ja/technology/assets/include/product_category_search.txt"-->
+<!--#include virtual="/ja/technology/assets/include/technology_category_search.txt"-->
+
+
+<!-- ========== main contents area - end ========== -->
+<!--#include virtual="/ja/assets/include/sns.txt" -->
+  <div class="breadcrumbs-list"></div>
+</main>
+<!--#include virtual="/ja/assets/include/footer.txt" -->
+</body>
+</html>

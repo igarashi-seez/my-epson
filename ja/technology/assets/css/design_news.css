@@ -1,0 +1,38 @@
+/*-news-----------------------------*/
+li.designNewsSection {
+	margin-bottom: 30px;
+	padding-bottom:30px;
+	border-bottom: 1px solid #dedede;
+}
+li.designNewsSection p.date {
+	margin-bottom: 1em;
+}
+li.designNewsSection p.date span {
+	margin-left: 5px;
+	padding: 2px 5px;
+	background: #666666;
+	border-radius: 3px;
+	color: #ffffff;
+	font-weight: normal;
+	font-size: 80%;
+	letter-spacing: .07em;
+}
+.newsBodySection p.date {
+	color:#666;
+	margin-bottom: 20px;
+}
+.designAward img.worksPhoto {
+	border:1px solid #dedede;
+	padding:1px;
+}
+.designAward ul {
+	margin-top: 15px;
+}
+.designAward li {
+	display: inline;
+	margin-right: 10px;
+}
+.designHead06 {
+	font-size: 125%;
+	margin-top: 6px;
+}
