@@ -171,6 +171,15 @@
   background-position: center top;
   box-sizing: border-box;
   position: relative;
+  background-image: url('/ja/technology/artisan/assets/img/mv/index_section01_bg.jpg');
+}
+
+.indexSection2 {
+  background-image: url('/ja/technology/artisan/assets/img/mv/index_section02_bg.jpg');
+}
+
+.indexSection3 {
+  background-image: url('/ja/technology/artisan/assets/img/mv/index_section03_bg.jpg');
 }
 
 .indexSection01Col {
@@ -301,11 +310,28 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center top;
+  background-image: url('/ja/technology/artisan/assets/img/studio/watch_section01_bg.jpg');
 }
 @media screen and (max-width: 999px) {
   .artisanSection01 {
     padding: 50px 0;
   }
+}
+
+.artisanSection02 {
+  background-image: url('/ja/technology/artisan/assets/img/studio/watch_section02_bg.jpg');
+}
+
+.artisanSection03 {
+  background-image: url('/ja/technology/artisan/assets/img/studio/watch_section03_bg.jpg');
+}
+
+.artisanSection04 {
+  background-image: url('/ja/technology/artisan/assets/img/studio/watch_section04_bg.jpg');
+}
+
+.artisanSection05 {
+  background-image: url('/ja/technology/artisan/assets/img/studio/watch_section05_bg.jpg');
 }
 
 .artisanSection01Row {
