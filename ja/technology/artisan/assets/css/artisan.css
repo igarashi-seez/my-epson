@@ -197,6 +197,11 @@
   text-align: center;
   padding: 40px 30px 50px;
 }
+@-moz-document url-prefix() {
+  .indexSection01Col {
+    top: 25%;
+  }
+}
 
 .indexSection01Text {
   font-size: 1.07em;
@@ -425,4 +430,14 @@
 .tblMod01 th {
   color: #333;
   background-color: #dcdcdc;
+}
+
+@media print {
+  * {
+    position: static;
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+    visibility: visible;
+    -webkit-print-color-adjust: exact;
+  }
 }
