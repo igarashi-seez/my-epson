@@ -1,0 +1,23 @@
+.align-end {
+  align-items: flex-end;
+}
+
+.promotion-container {
+  padding: 40px;
+}
+
+.promotion-example {
+  margin-left: 40px;
+}
+
+@media screen and (max-width: 499.9px) {
+  .promotion-container {
+    padding: 5vw;
+  }
+  .promotion-icon {
+    margin: 0 auto;
+  }
+  .promotion-example {
+    margin-left: 0;
+  }
+}
