@@ -1,3 +1,7 @@
+.no-shrink {
+  flex-shrink: 0;
+}
+
 .align-end {
   align-items: flex-end;
 }
