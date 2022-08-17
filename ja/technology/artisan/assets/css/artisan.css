@@ -173,6 +173,7 @@
   box-sizing: border-box;
   position: relative;
   background-image: url('/ja/technology/artisan/assets/img/mv/index_section01_bg.jpg');
+  background-color: #000;
 }
 
 .indexSection2 {
