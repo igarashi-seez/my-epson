@@ -39,6 +39,10 @@
 
 
 @media screen and (max-width: 499.9px) {
+  .colmun-reverse {
+    flex-direction: column-reverse;
+  }
+
   .promotion-container {
     padding: 5vw;
   }
