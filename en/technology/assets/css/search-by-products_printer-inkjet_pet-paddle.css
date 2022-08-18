@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+/* 旧.number */
+.orderd-list {
+  padding: 40px;
+}
+.orderd-list li{
+  position: relative;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  line-height: 2;
+}
+
+.orderd-list .number {
+  box-sizing: content-box;
+  position: absolute;
+  color: #207ace;
+  border: 2px solid #207ace;
+  border-radius: 50%;
+  width: 1.5em;
+  line-height: 1.5;
+  text-align: center;
+  font-weight: bold;
+  left: -42px;
+  top: 0.1em;
+}
