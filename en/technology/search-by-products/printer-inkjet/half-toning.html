@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head prefix="og: https://ogp.me/ns# fb: https://ogp.me/ns/fb# article: https://ogp.me/ns/article#">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="description" content="Halftoning reproduces gradations - tones that are intermediate between black and white - in order to make inkjet printer print with high quality. Read on to learn more about the remarkable features of Epson's halftoning technology and the technology development process.">
+<meta property="og:url" content="https://corporate.epson/en/technology/search-by-products/printer-inkjet/half-toning.html">
+<meta property="og:title" content="Halftoning | Technology | Epson">
+<meta property="og:description" content="Halftoning reproduces gradations - tones that are intermediate between black and white - in order to make inkjet printer print with high quality. Read on to learn more about the remarkable features of Epson's halftoning technology and the technology development process.">
+<meta property="og:image" content="https://corporate.epson/assets/img/ogp_logo.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="300">
+<meta property="og:image:height" content="300">
+<title>Halftoning | Technology | Epson</title>
+<!--#include virtual="/assets/include/common-css.txt" -->
+<link rel="stylesheet" href="/assets/css/common.css">
+<!--#include virtual="/assets/include/common-js.txt" -->
+</head>
+<body>
+<!--#include virtual="/assets/include/body-first.txt" -->
+<!--#include virtual="/en/assets/include/header.txt" -->
+<main id="main">
+  <div class="breadcrumbs-list sitemap-link"></div>
+<!--#include virtual="/en/technology/assets/include/nav.txt" -->
+<!-- ========== main contents area - begin ========== -->
+<div class="contents-area">
+  <div class="inner">
+
+    <div class="heading01">
+      <h1>Halftoning</h1>
+    </div>
+
+    <div class="df clearfix _mt20">
+      <p class="_mr15 _bold">関連カテゴリ：</p>
+      <a class="arrow _pr25" href="/en/technology/search-by-products/printer-inkjet/">プリンター</a>
+      <a class="arrow _pr25" href="/en/technology/search-by-technology/electronic.html">電気・電子</a>
+    </div>
+
+
+    <div class="heading02">
+      <h2>Epson's Unique Halftoning</h2>
+    </div>
+
+    <p class="_mt20">An inkjet printer cannot sufficiently reproduce continuous gradations such as those in digital camera photographs simply by turning dot ejection on and off. Halftoning, where the size and placement of dots are varied, is thus used to reproduce gradations - halftones, or tones that are intermediate between black and white or light and dark - in such images. In conventional halftoning, the misalignment of dots caused image quality to deteriorate, but Epson has developed halftoning that is both exceptionally fast and forgiving of dot misalignment, allowing consistently high-quality prints even if dot placement errors occur. This technology was selected to receive the 2019 Technology Award from the Imaging Society of Japan, an award that acknowledges image processing and peripheral technologies that demonstrate originality and superior practicality. This was the first time since 2000 that a technology associated with image quality was recognized with the award.<br>
+      Read on to learn more about the remarkable features of Epson's halftoning technology and the technology development process.</p>
+
+      <div class="heading02">
+        <h2>Remarkable features</h2>
+      </div>
+
+    <p class="_mt20">Error diffusion and blue noise masking - or dithering - have been the two most widely used methods for generating halftones with inkjet printers, and these methods have greatly contributed to the realization of photographic image quality by inkjet printers. However, these traditional methods assume that each dot will land accurately at the pixel position, so the aim is to optimize the placement of the dots. As a result, if an inkjet printer deposits the dots in the wrong locations or are misaligned, the image becomes rough and it becomes impossible to consistently obtain high quality prints.<br>
+      We stepped up our research because serial scanning inkjet printers were particularly susceptible to producing rough images due to increased dot misalignment as the print head scanned back and forth. This misalignment is caused by various factors, such as paper that sags during feeding or cockles due to the expansion and contraction of the paper as it absorbs ink.</p>
+    <p class="_mt20">First, we identified the mechanism by which dot misalignment causes image roughness based on dithering that has blue noise characteristics and a low load for things such as calculation time. We then improved the deviation tolerance of the dither mask (the threshold table that determines dot on/off) to enable consist printing output.</p>
+    <p class="_mt20">This technology, which uses only software to address ink dot misregistration and requires no complicated adjustments, has been used in Epson inkjet printers since 2006.
+
+    <div class="heading02">
+      <h2>Development process</h2>
+    </div>
+
+    <figure class="_center _mt20 _mb30">
+      <img class="_w80" src="/en/technology/search-by-products/printer-inkjet/img/img_half_toning001.png" width="960" height="569" alt="Halftoning">
+    </figure>
+
+    <p class="_mt20">The first thing we did in the process of developing this halftoning technology was to use simulations to investigate and uncover the mechanisms that cause image roughness. We initially thought that images became rougher when the dots became misaligned due to interference between the dots formed during forward scanning and those formed during backward scanning. In reality, however, the main cause was found to be that dot misalignment causes the frequency characteristics (blue noise characteristics) of both types of dots to become more apparent.<br>
+      Therefore, we developed a dither mask with high misalignment resistance by considering the dispersibility of the dots so that the frequency characteristics (blue noise characteristics) of dots formed not only by bi-directional scanning but those formed during forward and reverse scanning, respectively, do not become apparent.</p>
+    <p>This dither mask proved to be highly effective at controlling image quality deterioration when dots are misaligned in printer output where there are differences in things such as output resolution, head scanning speed, and dot size.</p>
+
+    <div class="heading02">
+      <h2>Additional advantages</h2>
+    </div>
+
+    <figure class="_center _mt20 _mb30">
+      <img class="_w75" src="/en/technology/search-by-products/printer-inkjet/img/img_half_toning002.png" width="872" height="565" alt="Additional advantages">
+    </figure>
+
+    <p class="_mt20">Epson's halftoning technology has demonstrable benefits in addition to preventing image roughness when there is dot misalignment. One of them is the suppression of coalescence. In the previous half-toning technology, the arrangement of dots in each scan of the printhead was not even, so the amount of ink was sometimes unevenly distributed. As a result, the ink droplets would sometimes merge on the surface of the media before they were absorbed by the media, causing extensive bleeding and coalescence. Conversely, with the new halftoning method, we optimized dot dispersibility to control image roughness, and with an advanced form of this, we can also control coalescence by optimizing the arrangement of dots each time the head is scanned.<br>
+      In the past, the amount of ink had to be limited to prevent coalescence, but limiting the amount of ink makes it necessary to increase the number of head scans by a commensurate amount, resulting in slower printing speeds. However, Epson's halftoning makes it possible to complete prints with fewer scans and without slowing down printing speed.</p>
+
+
+
+  </div>
+</div>
+
+
+
+<!-- ========== main contents area - end ========== -->
+<!--#include virtual="/en/assets/include/sns.txt" -->
+  <div class="breadcrumbs-list"></div>
+</main>
+<!--#include virtual="/en/assets/include/footer.txt" -->
+</body>
+</html>
