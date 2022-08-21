@@ -1,177 +1,267 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head prefix="og: https://ogp.me/ns# fb: https://ogp.me/ns/fb# article: https://ogp.me/ns/article#">
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<meta name="description" content="Epson's Color Control Technology is an image processing technology that faithfully reproduces the colors the customer desires. It has five components: color separation, color profiling, color transformation, coloroptimization, and color prediction. We interviewed two engineers who were involved in the development of Epson's raster image processor software for industrial printing.">
-<meta property="og:url" content="https://corporate.epson/en/technology/interview/color-control-tech.html">
-<meta property="og:title" content="Color Control Technology | Technology | Epson">
-<meta property="og:description" content="Epson's Color Control Technology is an image processing technology that faithfully reproduces the colors the customer desires. It has five components: color separation, color profiling, color transformation, coloroptimization, and color prediction. We interviewed two engineers who were involved in the development of Epson's raster image processor software for industrial printing.">
-<meta property="og:image" content="https://corporate.epson/assets/img/ogp_logo.jpg">
-<meta property="og:image:type" content="image/jpeg">
-<meta property="og:image:width" content="300">
-<meta property="og:image:height" content="300">
-<title>Color Control Technology | Technology | Epson</title>
-<!--#include virtual="/assets/include/common-css.txt" -->
-<link rel="stylesheet" href="/assets/css/common.css">
-<!--#include virtual="/assets/include/common-js.txt" -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description"
+    content="Epson's Color Control Technology is an image processing technology that faithfully reproduces the colors the customer desires. It has five components: color separation, color profiling, color transformation, coloroptimization, and color prediction. We interviewed two engineers who were involved in the development of Epson's raster image processor software for industrial printing.">
+  <meta property="og:url" content="https://corporate.epson/en/technology/interview/color-control-tech.html">
+  <meta property="og:title" content="Color Control Technology | Technology | Epson">
+  <meta property="og:description"
+    content="Epson's Color Control Technology is an image processing technology that faithfully reproduces the colors the customer desires. It has five components: color separation, color profiling, color transformation, coloroptimization, and color prediction. We interviewed two engineers who were involved in the development of Epson's raster image processor software for industrial printing.">
+  <meta property="og:image" content="https://corporate.epson/assets/img/ogp_logo.jpg">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="300">
+  <meta property="og:image:height" content="300">
+  <title>Color Control Technology | Technology | Epson</title>
+  <!--#include virtual="/assets/include/common-css.txt" -->
+  <!--#include virtual="/assets/include/common-js.txt" -->
 </head>
+
 <body>
-<!--#include virtual="/assets/include/body-first.txt" -->
-<!--#include virtual="/en/assets/include/header.txt" -->
-<main id="main">
-  <div class="breadcrumbs-list sitemap-link"></div>
-<!--#include virtual="/en/technology/assets/include/nav.txt" -->
-<!-- ========== main contents area - begin ========== -->
-<div class="contents-area">
-  <div class="inner">
-  
-    <div class="heading01">
-      <h1>Engineer Interviews</h1>
-    </div>
+  <!--#include virtual="/assets/include/body-first.txt" -->
+  <!--#include virtual="/en/assets/include/header.txt" -->
+  <main id="main">
+      <div class="breadcrumbs-list sitemap-link"></div>
+    <!--#include virtual="/en/technology/assets/include/nav.txt" -->
+    <!-- ========== main contents area - begin ========== -->
+    <div class="contents-area">
+      <div class="inner">
 
-    <div class="heading02">
-      <h2>Color Control Technology: Faithfully reproducing colors</h2>
-    </div>
+        <div class="heading01">
+          <h1>Engineer Interviews</h1>
+        </div>
 
-    <p class="_mt20">Epson's Color Control Technology is an image processing technology that faithfully reproduces the colors the customer desires. It has five components: color separation, color profiling, color transformation, color optimization, and color prediction. The technology contributes to the high-quality printing for which Epson is renowned. It enables the printer to produce the desired colors quickly and accurately for a wide range of media, including photo proofing, signage, and textiles.</p>
-    <p class="_mt20">We interviewed Hirokazu Nunokawa and Kenji Matsuzaka, both of whom were involved in the development of Epson's raster image processor (RIP) software for industrial printing. This software was a first for Epson, which primarily produces hardware. We asked Nunokawa and Matsuzaka about what inspired the development of the software, what breakthroughs it yielded, and aboutthe future outlook.</p>
+        <div class="heading02">
+          <h2>Color Control Technology: Faithfully reproducing colors</h2>
+        </div>
 
-    <div class="row df clearfix _mb30 _mt30">
-      <div class="grid6 _center _mb20">
-        <figure>
-          <img class="-center _w70" src="/en/technology/interview/img/img_fukawa_001.jpg" width="399" height="399" alt="Hirokazu Nunokawa">
-          <p class="_center _bold fsM _mt15">Software Technology Development Department<br>General Manager<br><span class="fsL">Nunokawa</span></p>
+        <p class="_mt20">Epson's Color Control Technology is an image processing technology that faithfully reproduces
+          the colors the customer desires. It has five components: color separation, color profiling, color
+          transformation, color optimization, and color prediction. The technology contributes to the high-quality
+          printing for which Epson is renowned. It enables the printer to produce the desired colors quickly and
+          accurately for a wide range of media, including photo proofing, signage, and textiles.</p>
+        <p class="_mt20">We interviewed Hirokazu Nunokawa and Kenji Matsuzaka, both of whom were involved in the
+          development of Epson's raster image processor (RIP) software for industrial printing. This software was a
+          first for Epson, which primarily produces hardware. We asked Nunokawa and Matsuzaka about what inspired the
+          development of the software, what breakthroughs it yielded, and aboutthe future outlook.</p>
+
+        <div class="row df clearfix _mb30 _mt30">
+          <div class="grid6 _center _mb20">
+            <figure>
+              <img class="-center _w70" src="/en/technology/interview/img/img_fukawa_001.jpg" width="399" height="399"
+                alt="Hirokazu Nunokawa">
+              <p class="_center _bold fsM _mt15">Software Technology Development Department<br>General Manager<br><span
+                  class="fsL">Nunokawa</span></p>
+            </figure>
+          </div>
+          <div class="grid6 _center _mb20">
+            <figure>
+              <img class="_center _w70" src="/en/technology/interview/img/img_matsusaka_001.jpg" width="399"
+                height="399" alt="Kenji Matsuzaka">
+              <p class="_center _bold fsM _mt15">Software Technology Development Department<br>Manager<br><span
+                  class="fsL">Matsuzaka</span></p>
+            </figure>
+          </div>
+        </div>
+
+        <div class="heading02">
+          <h2>What inspired us to develop RIP software</h2>
+        </div>
+
+        <div class="heading03">
+          <h3>Why did you start working on Epson's Color Control Technology?</h3>
+        </div>
+
+        <figure class="_mt20 _center">
+          <img src="/en/technology/interview/img/img_fukawa_002.jpg" width="720" height="480" alt="Hirokazu Nunokawa">
         </figure>
-      </div>
-      <div class="grid6 _center _mb20">
-        <figure>
-          <img class="_center _w70" src="/en/technology/interview/img/img_matsusaka_001.jpg" width="399" height="399" alt="Kenji Matsuzaka">
-          <p class="_center _bold fsM _mt15">Software Technology Development Department<br>Manager<br><span class="fsL">Matsuzaka</span></p>
+
+        <p class="_mt20"><span class="_bold _mr20">Nunokawa</span>By 2012, Epson had developed high-precision printing
+          technology in its photographic printing business. Epson wanted to expand the customer base for this
+          technology, so we entered the B2B market, targeting commercial and industrial applications. We believed in the
+          potential of Epson's Micro Piezo technology. As a heat-free technology, it was compatible with many different
+          inks, including solvent and resin inks.</p>
+        <p class="_mt20">But to be honest, we had underestimated the challenge. Epson had earned a strong reputation for
+          image quality in the photo proofing market, so we assumed that commercial and industrial customers would also
+          appreciate our products. However, initial reactions were not what we had hoped for.</p>
+        <p class="_mt20">We had failed to appreciate that the needs of the commercial and industrial markets, where
+          print media is the product, differed from those of the photo proofing market. In the photo proofing business,
+          the standard practice is for the printer manufacturer to supply the specialty media and for in-house
+          technicians to configure the printing conditions. In signage, however, it's the customer that determines the
+          image quality. The customer's specifications will depend on the intended use and type of physical media (such
+          as an outdoor sign, a shop window display, a hanging banner, or wallpaper). Epson's printers offered precision
+          and accuracy, but there was a trade-off: a complicated configuration process. Consequently, customers
+          complained that it took too long to configure the necessary printing conditions for their designs, which in
+          some cases involved reproducing gradations or matching color tones between multiple printers.</p>
+        <p class="_mt20">Accordingly, we spent around two years visiting customers in Asia and the USA, and listening to
+          their requests and complaints. Based on this feedback, we concluded that we should develop our own raster
+          image processor (RIP) software. We then started work on the image processing technology that would underlie
+          this product.</p>
+
+        <div class="heading03">
+          <h3>At the time, printing businesses typically used third-party RIP software (RIP software developed by an
+            independent software vendor).<br>
+            Why did you conclude that you needed your own RIP software?</h3>
+        </div>
+
+        <figure class="_mt20 _center">
+          <img src="/en/technology/interview/img/img_matsusaka_002.jpg" width="720" height="480" alt="Kenji Matsuzaka">
         </figure>
+
+        <p class="_mt20"><span class="_bold _mr20">Matsuzaka</span>We had an eye-opening moment after visiting a major
+          printing client in Taiwan. The experience became a turning point in our strategy to develop image processing
+          technology. The client had no doubt at all that Epson's image quality was superior to that of our competitors
+          and recognized our potential. A much more important factor to the client-the factor that was critical in the
+          competition-was the matter of what third-party RIP software would be selected to run our printers.</p>
+        <p class="_mt20">The client needed specialist technicians who could configure Epson's printers to the optimum
+          specs. It was the skill of these technicians that would differentiate Epson from the competition. We had never
+          considered this a goal. Our goal until then was to provide a high image quality printing experience to every
+          user around the world. However, our experience in Taiwan taught us that we could only achieve this mission if
+          we developed our own RIP software.</p>
+
+        <div class="heading02">
+          <h2>Breakthroughs in color optimization and prediction</h2>
+        </div>
+
+        <div class="heading03">
+          <h3>Tell us about how you developed the image processing technology.</h3>
+        </div>
+
+        <figure class="_mt20 _center">
+          <img src="/en/technology/interview/img/img_fukawa_003.jpg" width="720" height="480" alt="Hirokazu Nunokawa">
+        </figure>
+
+        <p class="_mt20"><span class="_bold _mr20">Nunokawa</span>Our department drafted a theme-oriented roadmap and a
+          team of five started working on it. Epson's Color Control Technology would ultimately consist of five
+          components: color separation, color profiling, color transformation, color optimization, and color prediction.
+        </p>
+        <p class="_mt20">We started on the first component, color separation. Our main focus for this component was how
+          to reproduce color gradation. In 2014, we moved to color profiling, which involved clearly delineating the
+          colors that the printer could reproduce. Next was color transformation, which involved converting monitor
+          colors to print colors quickly and accurately. For this task, we used an ICC profile (color data based on the
+          standards of the International Color Consortium) that we had developed during the profiling step. With these
+          three components completed, we could significantly reduce the time and effort that customers in the signage
+          business had to spend in tailoring the colors to the media and configuring the printing conditions.
+          Consequently, we received many positive customer reviews.</p>
+        <p class="_mt20">Then came the next challenge: meeting the needs of the dye-sublimation transfer printing
+          market. These businesses had needs that differed widely from those in the signage market. For example, they
+          required consistent color reproduction for repeat orders, and the colors needed to match their materials
+          specified by their client. To meet these needs, we worked on the two remaining components, color prediction
+          and color optimization. We released these components in 2016. Finally, in 2018, we publicly released the full
+          set of Color Control Technology.</p>
+
+        <div class="heading03">
+          <h3>What technical breakthroughs did Color Control Technology yield?</h3>
+        </div>
+
+        <figure class="_mt20 _center">
+          <img src="/en/technology/interview/img/img_matsusaka_003.jpg" width="720" height="480" alt="Kenji Matsuzaka">
+        </figure>
+
+        <p class="_mt20"><span class="_bold _mr20">Matsuzaka</span>Previously, customers in the dye-sublimation transfer
+          printing businesses would spend a week configuring the colors. Thanks to the color prediction and color
+          optimization components, they can now accomplish this task in just half a day.</p>
+        <p class="_mt20">With sportswear, for example, you must reproduce colors very accurately and consistently. After
+          all, sport fans want the color of their uniforms to match the uniforms worn by their team. What makes this
+          task challenging is that the dye-sublimation transfer printing makers traditionally rely on seasoned experts
+          to check the color consistency with the naked eye. This practice forces printing businesses to spend a long
+          time readjusting the colors again and again. A further problem is that the final color configuration is
+          usually unique to each printer model. In other words, once the color is settled, you can only reproduce it
+          using the same model. Eventually, the model in question will go out of production. That means you need a large
+          stock of spare parts so that you can continue reproducing the colors on what would now be an obsolete machine.
+        </p>
+        <p class="_mt20">Our color control technology significantly reduces the time and effort associated with the
+          color configuration process. It also allows the user to reproduce the same color regardless of the printer
+          model or target material. The technology is a boon to dye-sublimation transfer businesses, as they no longer
+          need to stick with an old printer model.</p>
+        <p class="_mt20"><span class="_bold _mr20">Nunokawa</span>When a customer buys a new printer model, they can use
+          Epson's color technology to analyze the color data and printing attributes of their previous printer. In this
+          way, they can start reproducing the same colors on the new printer within the same day. We have seen a growing
+          number of cases in which a customer witnesses this amazing technology first-hand and then buys Epson products.
+        </p>
+
+        <div class="heading02">
+          <h2>Evolving technology</h2>
+        </div>
+
+        <div class="heading03">
+          <h3>What role does the Color Control Technology play in printing with Epson?</h3>
+        </div>
+
+        <div class="row df clearfix _mb30">
+          <div class="grid6 _mb20">
+            <p class="_mt20"><span class="_bold _mr20">Matsuzaka</span>Color Control Technology plays a critical role in
+              helping us deliver high-precision, stable printing. It really demonstrates its full potential in Epson's
+              Micro Piezo printers, which produce beautiful colors and gradations using microscopic dots. The technology
+              provides a means to meet customers' printing needs.</p>
+            <p class="_mt20">Many different departments contributed to the development of this technology. In addition
+              to our Software Technology Development Department, support was received from, among others, the software
+              planning department, which works on applications, and the CS department, which evaluates the technology.
+              The finished product embodied Epson's commitment to its efficient, compact, and precision technologies.
+            </p>
+          </div>
+          <div class="grid6 _mb20">
+            <img class="_mt10" src="/en/technology/interview/img/img_matsusaka_004.jpg" width="570" height="684"
+              alt="Kenji Matsuzaka">
+          </div>
+        </div>
+
+        <div class="heading03">
+          <h3>What is the future outlook for Color Control Technology?</h3>
+        </div>
+
+        <div class="row df clearfix _mb30">
+          <div class="grid6 _mb20">
+            <img class="_mt10" src="/en/technology/interview/img/img_fukawa_004.jpg" width="570" height="684"
+              alt="Hirokazu Nunokawa">
+          </div>
+          <div class="grid6 _mb20">
+            <p class="_mt20"><span class="_bold _mr20">Nunokawa</span>We are more committed than ever to meeting
+              customers' needs for image processing. These needs are evolving. For example, signage businesses are
+              increasingly using lamination techniques, which further changes the appearance of colors. Part of the
+              purpose of the Color Control Technology is to anticipate and provide for these shifting color needs.
+              Tricky fluorescent colors are another challenge we want to take on.</p>
+            <p class="_mt20">Epson's role is to provide total, integrated solutions tailored to the customer's desired
+              media. To fulfill this role, we will keep enhancing our Color Control Technology, actively incorporating
+              the latest technological advances.</p>
+          </div>
+        </div>
+
       </div>
     </div>
 
-    <div class="heading02">
-      <h2>What inspired us to develop RIP software</h2>
-    </div>
+    <div class="contents-area contents-bgcolor _bgcolor-gray03">
+      <div class="inner">
 
-    <div class="heading03">
-      <h3>Why did you start working on Epson's Color Control Technology?</h3>
-    </div>
+        <div class="heading03">
+          <h3>Relevant technical information</h3>
+        </div>
 
-    <figure class="_mt20 _center">
-      <img src="/en/technology/interview/img/img_fukawa_002.jpg" width="720" height="480"  alt="Hirokazu Nunokawa">
-    </figure>
+        <div class="card-list02 row df clearfix">
+          <div class="item grid4 _mb50">
+            <a href="/en/technology/search-by-products/printer-inkjet/color-control.html">
+              <p class="image _center"><img
+                  src="/en/technology/search-by-products/printer-inkjet/img/thumb_color_control.jpg" width="360"
+                  height="202" alt="thumb_color_control"></p>
+              <p class="title">Color Control Technology</p>
+              <p class="text">Quickly and accurately reproduce the colors that customers envision.</p>
+            </a>
+          </div>
+        </div>
 
-    <p class="_mt20"><span class="_bold _mr20">Nunokawa</span>By 2012, Epson had developed high-precision printing technology in its photographic printing business. Epson wanted to expand the customer base for this technology, so we entered the B2B market, targeting commercial and industrial applications. We believed in the potential of Epson's Micro Piezo technology. As a heat-free technology, it was compatible with many different inks, including solvent and resin inks.</p>
-    <p class="_mt20">But to be honest, we had underestimated the challenge. Epson had earned a strong reputation for image quality in the photo proofing market, so we assumed that commercial and industrial customers would also appreciate our products. However, initial reactions were not what we had hoped for.</p>
-    <p class="_mt20">We had failed to appreciate that the needs of the commercial and industrial markets, where print media is the product, differed from those of the photo proofing market. In the photo proofing business, the standard practice is for the printer manufacturer to supply the specialty media and for in-house technicians to configure the printing conditions. In signage, however, it's the customer that determines the image quality. The customer's specifications will depend on the intended use and type of physical media (such as an outdoor sign, a shop window display, a hanging banner, or wallpaper). Epson's printers offered precision and accuracy, but there was a trade-off: a complicated configuration process. Consequently, customers complained that it took too long to configure the necessary printing conditions for their designs, which in some cases involved reproducing gradations or matching color tones between multiple printers.</p>
-    <p class="_mt20">Accordingly, we spent around two years visiting customers in Asia and the USA, and listening to their requests and complaints. Based on this feedback, we concluded that we should develop our own raster image processor (RIP) software. We then started work on the image processing technology that would underlie this product.</p>
-
-    <div class="heading03">
-      <h3>At the time, printing businesses typically used third-party RIP software (RIP software developed by an independent software vendor).<br>
-        Why did you conclude that you needed your own RIP software?</h3>
-    </div>
-
-    <figure class="_mt20 _center">
-      <img src="/en/technology/interview/img/img_matsusaka_002.jpg" width="720" height="480" alt="Kenji Matsuzaka">
-    </figure>
-
-    <p class="_mt20"><span class="_bold _mr20">Matsuzaka</span>We had an eye-opening moment after visiting a major printing client in Taiwan. The experience became a turning point in our strategy to develop image processing technology. The client had no doubt at all that Epson's image quality was superior to that of our competitors and recognized our potential. A much more important factor to the client-the factor that was critical in the competition-was the matter of what third-party RIP software would be selected to run our printers.</p>
-    <p class="_mt20">The client needed specialist technicians who could configure Epson's printers to the optimum specs. It was the skill of these technicians that would differentiate Epson from the competition. We had never considered this a goal. Our goal until then was to provide a high image quality printing experience to every user around the world. However, our experience in Taiwan taught us that we could only achieve this mission if we developed our own RIP software.</p>
-
-    <div class="heading02">
-      <h2>Breakthroughs in color optimization and prediction</h2>
-    </div>
-
-    <div class="heading03">
-      <h3>Tell us about how you developed the image processing technology.</h3>
-    </div>
-
-    <figure class="_mt20 _center">
-      <img src="/en/technology/interview/img/img_fukawa_003.jpg" width="720" height="480" alt="Hirokazu Nunokawa">
-    </figure>
-
-    <p class="_mt20"><span class="_bold _mr20">Nunokawa</span>Our department drafted a theme-oriented roadmap and a team of five started working on it. Epson's Color Control Technology would ultimately consist of five components: color separation, color profiling, color transformation, color optimization, and color prediction.</p>
-    <p class="_mt20">We started on the first component, color separation. Our main focus for this component was how to reproduce color gradation. In 2014, we moved to color profiling, which involved clearly delineating the colors that the printer could reproduce. Next was color transformation, which involved converting monitor colors to print colors quickly and accurately. For this task, we used an ICC profile (color data based on the standards of the International Color Consortium) that we had developed during the profiling step. With these three components completed, we could significantly reduce the time and effort that customers in the signage business had to spend in tailoring the colors to the media and configuring the printing conditions. Consequently, we received many positive customer reviews.</p>
-    <p class="_mt20">Then came the next challenge: meeting the needs of the dye-sublimation transfer printing market. These businesses had needs that differed widely from those in the signage market. For example, they required consistent color reproduction for repeat orders, and the colors needed to match their materials specified by their client. To meet these needs, we worked on the two remaining components, color prediction and color optimization. We released these components in 2016. Finally, in 2018, we publicly released the full set of Color Control Technology.</p>
-
-    <div class="heading03">
-      <h3>What technical breakthroughs did Color Control Technology yield?</h3>
-    </div>
-
-    <figure class="_mt20 _center">
-      <img src="/en/technology/interview/img/img_matsusaka_003.jpg" width="720" height="480" alt="Kenji Matsuzaka">
-    </figure>
-
-    <p class="_mt20"><span class="_bold _mr20">Matsuzaka</span>Previously, customers in the dye-sublimation transfer printing businesses would spend a week configuring the colors. Thanks to the color prediction and color optimization components, they can now accomplish this task in just half a day.</p>
-    <p class="_mt20">With sportswear, for example, you must reproduce colors very accurately and consistently. After all, sport fans want the color of their uniforms to match the uniforms worn by their team. What makes this task challenging is that the dye-sublimation transfer printing makers traditionally rely on seasoned experts to check the color consistency with the naked eye. This practice forces printing businesses to spend a long time readjusting the colors again and again. A further problem is that the final color configuration is usually unique to each printer model. In other words, once the color is settled, you can only reproduce it using the same model. Eventually, the model in question will go out of production. That means you need a large stock of spare parts so that you can continue reproducing the colors on what would now be an obsolete machine.</p>
-    <p class="_mt20">Our color control technology significantly reduces the time and effort associated with the color configuration process. It also allows the user to reproduce the same color regardless of the printer model or target material. The technology is a boon to dye-sublimation transfer businesses, as they no longer need to stick with an old printer model.</p>
-    <p class="_mt20"><span class="_bold _mr20">Nunokawa</span>When a customer buys a new printer model, they can use Epson's color technology to analyze the color data and printing attributes of their previous printer. In this way, they can start reproducing the same colors on the new printer within the same day. We have seen a growing number of cases in which a customer witnesses this amazing technology first-hand and then buys Epson products.</p>
-
-    <div class="heading02">
-      <h2>Evolving technology</h2>
-    </div>
-
-    <div class="heading03">
-      <h3>What role does the Color Control Technology play in printing with Epson?</h3>
-    </div>
-
-    <div class="row df clearfix _mb30">
-      <div class="grid6 _mb20">
-      <p class="_mt20"><span class="_bold _mr20">Matsuzaka</span>Color Control Technology plays a critical role in helping us deliver high-precision, stable printing. It really demonstrates its full potential in Epson's Micro Piezo printers, which produce beautiful colors and gradations using microscopic dots. The technology provides a means to meet customers' printing needs.</p>
-        <p class="_mt20">Many different departments contributed to the development of this technology. In addition to our Software Technology Development Department, support was received from, among others, the software planning department, which works on applications, and the CS department, which evaluates the technology. The finished product embodied Epson's commitment to its efficient, compact, and precision technologies.</p>
-      </div>
-      <div class="grid6 _mb20">
-        <img class="_mt10" src="/en/technology/interview/img/img_matsusaka_004.jpg" width="570" height="684" alt="Kenji Matsuzaka">
       </div>
     </div>
 
-    <div class="heading03">
-      <h3>What is the future outlook for Color Control Technology?</h3>
-    </div>
-
-    <div class="row df clearfix _mb30">
-      <div class="grid6 _mb20">
-        <img class="_mt10" src="/en/technology/interview/img/img_fukawa_004.jpg" width="570" height="684" alt="Hirokazu Nunokawa">
-      </div>
-      <div class="grid6 _mb20">
-      <p class="_mt20"><span class="_bold _mr20">Nunokawa</span>We are more committed than ever to meeting customers' needs for image processing. These needs are evolving. For example, signage businesses are increasingly using lamination techniques, which further changes the appearance of colors. Part of the purpose of the Color Control Technology is to anticipate and provide for these shifting color needs. Tricky fluorescent colors are another challenge we want to take on.</p>
-        <p class="_mt20">Epson's role is to provide total, integrated solutions tailored to the customer's desired media. To fulfill this role, we will keep enhancing our Color Control Technology, actively incorporating the latest technological advances.</p>
-      </div>
-    </div>
-
-  </div>
-</div>
-
-<div class="contents-area contents-bgcolor _bgcolor-gray03">
-  <div class="inner">
-
-    <div class="heading03">
-      <h3>Relevant technical information</h3>
-    </div>
-
-    <div class="card-list02 row df clearfix">
-      <div class="item grid4 _mb50">
-        <a href="/en/technology/search-by-products/printer-inkjet/color-control.html">
-          <p class="image _center"><img src="/en/technology/search-by-products/printer-inkjet/img/thumb_color_control.jpg" width="360" height="202" alt="thumb_color_control"></p>
-          <p class="title">Color Control Technology</p>
-          <p class="text">Quickly and accurately reproduce the colors that customers envision.</p>
-        </a>
-      </div>
-    </div>
-
-  </div>
-</div>
 
 
-
-<!-- ========== main contents area - end ========== -->
-<!--#include virtual="/en/assets/include/sns.txt" -->
-  <div class="breadcrumbs-list"></div>
-</main>
-<!--#include virtual="/en/assets/include/footer.txt" -->
+    <!-- ========== main contents area - end ========== -->
+    <!--#include virtual="/en/assets/include/sns.txt" -->
+      <div class="breadcrumbs-list"></div>
+  </main>
+  <!--#include virtual="/en/assets/include/footer.txt" -->
 </body>
+
 </html>
