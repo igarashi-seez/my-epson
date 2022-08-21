@@ -1,0 +1,29 @@
+<div class="contents-area">
+  <div class="inner">
+
+    <div class="box-contents _bgcolor-gray04">
+      <h3 class="fsL _center">Product Categories<span class="icon _ml20 vaM"><img src="/en/technology/assets/img/search_icon_2.png"></span></h3>
+      <div class="row df clearfix _mt10">
+        <div class="grid3 _mt20">
+          <a href="/en/technology/search-by-products/printer-inkjet/" class="button01-blue -center">Printers</a>
+        </div>
+        <div class="grid3 _mt20">
+          <a href="/en/technology/search-by-products/projector/" class="button01-blue -center">Projectors</a>
+        </div>
+        <div class="grid3 _mt20">
+          <a href="/en/technology/search-by-products/robot/" class="button01-blue -center">Robots</a>
+        </div>
+        <div class="grid3 _mt20">
+          <a href="/en/technology/search-by-products/wearable/" class="button01-blue -center">Wearables</a>
+        </div>
+        <div class="grid3 _mt20">
+          <a href="/en/technology/search-by-products/microdevice/" class="button01-blue -center">Devices</a>
+        </div>
+        <div class="grid3 _mt20">
+          <a href="/en/technology/search-by-products/other/" class="button01-blue -center">Other</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
