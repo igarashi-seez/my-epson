@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+.no-shrink {
+  flex-shrink: 0;
+}
+
+.align-end {
+  align-items: flex-end;
+}
+
+.promotion-container {
+  padding: 40px;
+}
+
+.promotion-example {
+  margin-left: 40px;
+}
+
+.float_r {
+  float: right;
+  margin-left: 20px;
+}
+
+.message-mission {
+  margin: 0 auto;
+  border: 1px solid #000;
+  border-collapse: collapse;
+}
+
+.message-mission__dt {
+  padding: 5px;
+  background-color: #10218B;
+  color: #fff;
+}
+.message-mission__dd {
+  padding: 5px;
+  border-top: 1px solid #000;
+}
+
+
+@media screen and (max-width: 499.9px) {
+  .colmun-reverse {
+    flex-direction: column-reverse;
+  }
+
+  .promotion-container {
+    padding: 5vw;
+  }
+  .promotion-icon {
+    margin: 0 auto;
+  }
+  .promotion-example {
+    margin-left: 0;
+  }
+}
