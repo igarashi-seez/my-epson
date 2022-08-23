@@ -60,9 +60,6 @@
 
 
 @media screen and (max-width: 499.9px) {
-  .greeting-box ._sp-center {
-    text-align: center;
-  }
   .colmun-reverse {
     flex-direction: column-reverse;
   }
