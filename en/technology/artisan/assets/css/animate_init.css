@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+.fadeIn,
+.fadeInUp,
+.fadeInRight,
+.pulse2,
+.pulse {
+	opacity: 0;
+}
+.wow.fadeIn[style],
+.wow.fadeInUp[style],
+.wow.fadeInRight[style],
+.wow.pulse2[style],
+.wow.pulse[style] {
+	opacity: 1;
+}
