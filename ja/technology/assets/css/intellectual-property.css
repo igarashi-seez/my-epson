@@ -4,6 +4,10 @@
   flex-shrink: 0;
 }
 
+.nowrap {
+  white-space: nowrap;
+}
+
 .align-end {
   align-items: flex-end;
 }
@@ -36,11 +40,32 @@
   padding: 5px;
   border-top: 1px solid #000;
 }
+.mt40-20 {
+  margin-top: 40px;
+}
+
+.narrow-text {
+  margin-right: -0.8em;
+}
+
+.no-ex-import .arrow-blank{
+  display: inline;
+}
+
+@media screen and (max-width: 999.9px) {
+  .mt40-20 {
+    margin-top: 20px;
+  }
+}
 
 
 @media screen and (max-width: 499.9px) {
   .colmun-reverse {
     flex-direction: column-reverse;
+  }
+
+  .mt40-20 {
+    margin-top: 0;
   }
 
   .promotion-container {

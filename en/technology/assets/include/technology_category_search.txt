@@ -1,0 +1,23 @@
+<div class="contents-area">
+  <div class="inner">
+
+    <div class="box-contents _bgcolor-gray04">
+      <h3 class="fsL _center">Technology Categories<span class="icon _ml20 vaM"><img src="/en/technology/assets/img/search_icon_2.png"></span></h3>
+      <div class="row df clearfix _mt10">
+        <div class="grid3 _mt20">
+          <a href="/en/technology/search-by-technology/machine.html" class="button01-blue -center">Mechanical technology</a>
+        </div>
+        <div class="grid3 _mt20">
+          <a href="/en/technology/search-by-technology/information-technology.html" class="button01-blue -center">Information Technology</a>
+        </div>
+        <div class="grid3 _mt20">
+          <a href="/en/technology/search-by-technology/electronic.html" class="button01-blue -center">Electrical and electronic</a>
+        </div>
+        <div class="grid3 _mt20">
+          <a href="/en/technology/search-by-technology/manufacturing.html" class="button01-blue -center">Manufacturing technology</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
