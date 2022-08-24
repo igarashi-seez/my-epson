@@ -31,7 +31,6 @@ function initSNS(){
     classlist.forEach(function(targetclass){
          let href = hrefObj[targetclass].replace("{{url}}", encodeURI(url));
          href = href.replace("{{title}}", encodeURI(title));
-         console.log(href);
         $('.share_'+targetclass).attr("href",href);
 		if (onclickevent[targetclass].length){
 			$('.share_'+targetclass).attr("onclick",onclickevent[targetclass]);

@@ -29,6 +29,11 @@ $(function(){
     en: 'Home',
     template: 'ホーム'
   };
+  const sitemap_title = {
+    ja: 'サイトマップ',
+    en: ' Sitemap',
+    template: 'サイトマップ'
+  };
   const TITLEDELIMIT = " | ";
 
   /**
@@ -45,7 +50,8 @@ $(function(){
         categoryname = titleparts[titleparts.length - 2];
     }
     $(".breadcrumbs-list").append('<div class="inner"></div>');
-    $(".breadcrumbs-list.sitemap-link div").append('<p class="link"><a href="/' + pathlevel[1] + "/sitemap.html#" + pathlevel[2] + '">' + categoryname + "サイトマップ</a></p>");
+    $(".breadcrumbs-list.sitemap-link div").append('<p class="link"><a href="/' + pathlevel[1] + "/sitemap.html#" + pathlevel[2] + '">' + categoryname + sitemap_title[pathlevel[1]]+"</a></p>");
+    $(".breadcrumbs-list.sub-sitemap-link div").append('<p class="link"><a href="/' + pathlevel.slice(0,6).join('/') + '/sitemap/">' + titleparts[titleparts.length-1] + sitemap_title[pathlevel[1]]+"</a></p>");
     $(".breadcrumbs-list div").append('<ol></ol>');
 
     // パンくずを下から生成

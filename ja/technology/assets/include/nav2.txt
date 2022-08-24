@@ -11,40 +11,40 @@
         <li><a href="/ja/technology/search-by-products/wearable/">ウエアラブル</a></li>
         <li><a href="/ja/technology/search-by-products/microdevice/">デバイス</a></li>
         <li><a href="/ja/technology/search-by-products/other/">その他</a></li>
-       </ul></div></li>
-     <li><a href="/ja/technology/search-by-technology/" data-trigger="localnav-btn" aria-expanded="false">技術カテゴリ</a>
+       </ul></div>
+     </li><li><a href="/ja/technology/search-by-technology/" data-trigger="localnav-btn" aria-expanded="false">技術カテゴリ</a>
       <div class="child" aria-hidden="true"><ul>
         <li><a href="/ja/technology/search-by-technology/machine.html">機械関連の技術</a></li>
         <li><a href="/ja/technology/search-by-technology/information-technology.html">IT関連の技術</a></li>
         <li><a href="/ja/technology/search-by-technology/electronic.html">電気・電子関連の技術</a></li>
         <li><a href="/ja/technology/search-by-technology/manufacturing.html">製造技術</a></li>
-       </ul></div></li>
-     <li><a href="/ja/technology/interview/" data-trigger="localnav-btn" aria-expanded="false">技術者インタビュー</a></li>
-     <li><a href="/ja/technology/research-development/" data-trigger="localnav-btn" aria-expanded="false">研究開発方針</a></li>
-     <li><a href="/ja/technology/intellectual-property/" data-trigger="localnav-btn" aria-expanded="false">知的財産</a>
+       </ul></div>
+     </li><li><a href="/ja/technology/interview/" data-trigger="localnav-btn" aria-expanded="false">技術者インタビュー</a>
+     </li><li><a href="/ja/technology/research-development/" data-trigger="localnav-btn" aria-expanded="false">研究開発方針</a>
+     </li><li><a href="/ja/technology/intellectual-property/" data-trigger="localnav-btn" aria-expanded="false">知的財産</a>
       <div class="child" aria-hidden="true"><ul>
-        <li><a href="/ja/technology/intellectual-property/message.html">トップメッセージ</a></li>
-        <li><a href="/ja/technology/intellectual-property/strategy.html">知的財産戦略</a></li>
-        <li><a href="/ja/technology/intellectual-property/acquisition-and-utilization.html">取得戦略・活用戦略</a></li>
-        <li><a href="/ja/technology/intellectual-property/promotion-and-protection.html">ブランドプロテクション・プロモーション</a></li>
-        <li><a href="/ja/technology/intellectual-property/research.html">リサーチ</a></li>
-        <li><a href="/ja/technology/intellectual-property/organizations-and-achievements.html">組織と活動実績</a></li>
-        <li><a href="/ja/technology/intellectual-property/voice-of-members.html">社員の声</a></li>
-       </ul></div></li>
-     <li><a href="/ja/technology/artisan/" data-trigger="localnav-btn" aria-expanded="false">匠の技</a>
+        <li><a href="/ja/technology/intellectual-property/xxx1.html">トップメッセージ</a></li>
+        <li><a href="/ja/technology/intellectual-property/xxx2.html">知的財産戦略</a></li>
+        <li><a href="/ja/technology/intellectual-property/xxx3.html">知的財産の取得戦略・活用戦略</a></li>
+        <li><a href="/ja/technology/intellectual-property/xxx4.html">ブランドプロテクション・プロモーション</a></li>
+        <li><a href="/ja/technology/intellectual-property/xxx6.html">知的財産リサーチ</a></li>
+        <li><a href="/ja/technology/intellectual-property/xxx7.html">知的財産組織と実績</a></li>
+        <li><a href="/ja/technology/intellectual-property/xxx8.html">知的財産本部員の声</a></li>
+       </ul></div>
+     </li><li><a href="/ja/technology/artisan/" data-trigger="localnav-btn" aria-expanded="false">匠の技</a>
       <div class="child" aria-hidden="true"><ul>
         <li><a href="/ja/technology/artisan/artisan-studio.html">匠の工房</a></li>
         <li><a href="/ja/technology/artisan/awards.html">受章</a></li>
         <li><a href="/ja/technology/artisan/keeping-tradition-alive.html">未来の匠へつなぐ</a></li>
-       </ul></div></li>
-     <li><a href="/ja/technology/design/" data-trigger="localnav-btn" aria-expanded="false">デザイン</a>
+       </ul></div>
+     </li><li><a href="/ja/technology/design/" data-trigger="localnav-btn" aria-expanded="false">デザイン</a>
       <div class="child" aria-hidden="true"><ul>
         <li><a href="/ja/technology/design/works/index.html">製品デザイン紹介</a></li>
         <li><a href="/ja/technology/design/layout/index.html">レイアウト意匠紹介</a></li>
         <li><a href="/ja/technology/design/awards.html">受賞</a></li>
         <li><a href="/ja/technology/design/news/index.html">ニュース</a></li>
         <li><a href="/ja/technology/design/locations.html">拠点紹介</a></li>
-       </ul></div></li>
+       </ul></div>
      </li>
     </ul>
    </nav>
