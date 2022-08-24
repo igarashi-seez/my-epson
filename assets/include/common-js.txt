@@ -3,7 +3,6 @@
 <script src="/assets/js/vendor/slick.min.js"></script>
 
 <script src="/assets/js/breadcrumbs.js"></script>
-<script src="/assets/js/localnav.js"></script>
 <script src="/assets/js/sns.js"></script>
 
 <!-- Google Tag Manager -->

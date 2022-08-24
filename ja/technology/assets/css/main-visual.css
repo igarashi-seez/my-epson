@@ -6,11 +6,7 @@
 -------------------------------------------------------------------- */
 /* 第2階層 */
 .heading01.-keyvisual {
-  background-image: url(https://placehold.jp/32/aaa/333/2732x952.jpg?text=%E7%94%BB%E5%83%8F);
-}
-
-.heading01.-SR {
-  background-image: url(/template/ja/sustainability/img/index_h1_01.jpg);
+  background-image: url(https://placehold.jp/1920x476.jpg);
 }
 
 /* 第3階層 */
@@ -18,7 +14,6 @@
   background-image: url(https://placehold.jp/32/aaa/333/2400x1600.jpg?text=%E7%94%BB%E5%83%8F);
 }
 
-.heading01.-products {
-  /* background-image: url(/template/ja/sustainability/environment/img/index_h1_01.jpg); */
-  background-image: url(https://placehold.jp/32/aaa/333/2400x1600.jpg?text=%E7%94%BB%E5%83%8F);
+.heading01.-intellectual-property {
+  background-image: url(https://placehold.jp/1200x240.jpg);
 }
