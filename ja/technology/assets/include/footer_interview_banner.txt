@@ -1,22 +1,26 @@
 <div class="contents-area contents-bgcolor _bgcolor-light-blue">
   <div class="inner">
 
-    <div class="message-box02">
-      <a href="/ja/technology/interview/">
-        <p class="image _center"><img src="/ja/technology/assets/img/img_bn_interview.jpg" width="477" height="230" alt="インタビューリンクイメージ"></p>
-        <div class="message">
-          <p class="text">エプソンの技術開発に力を尽くす</p>
-          <p class="heading">技術者インタビュー</p>
-          <p class="link"></p>
-        </div>
-      </a>
-    </div>
-
-    <div class="row df clearfix _mt50">
-      <div class="grid6 _mt20 _center">
-        <a href="#" class="button01-blue -center">エプソンのオープンイノベーションの取り組み</a>
+    <div class="carousel-card-list">
+      <div class="item">
+        <a href="/ja/technology/interview/">
+          <div class="image"><img src="/ja/technology/assets/img/img_bn_interview.jpg" width="477" height="230" alt="インタビューリンクイメージ"></div>
+          <p class="blank-title">技術者インタビュー</p>
+        </a>
+        <p class="text">エプソンの技術開発に力を尽くす</p>
+      </div>
+      <div class="item">
+        <a href="#">
+          <div class="image">
+            <img src="/ja/technology/assets/img/openinnovation.jpg" width="477" height="230" alt="こちらからエプソンのオープンイノベーションの取り組みをご覧いただけます">
+          </div>
+          <p class="blank-title">エプソンのオープンイノベーションの取り組み</p>
+        </a>
+        <p class="text">エプソンのオープンイノベーションの取り組み</p>
       </div>
     </div>
-
+    
   </div>
 </div>
+
+    
