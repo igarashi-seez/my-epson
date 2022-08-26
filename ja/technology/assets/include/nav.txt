@@ -19,7 +19,8 @@
         <li><a href="/ja/technology/search-by-technology/electronic.html">電気・電子関連の技術</a></li>
         <li><a href="/ja/technology/search-by-technology/manufacturing.html">製造技術</a></li>
        </ul></div></li>
-     <li><a href="/ja/technology/interview/" data-trigger="localnav-btn" aria-expanded="false">技術者インタビュー</a></li>
+     <li><a href="/ja/technology/interview/" data-trigger="localnav-btn" aria-expanded="false">技術者インタビュー</a>
+      <div class="child" aria-hidden="true"></div></li>
      <li><a href="/ja/technology/research-development/" data-trigger="localnav-btn" aria-expanded="false">研究開発方針</a></li>
      <li><a href="/ja/technology/intellectual-property/" data-trigger="localnav-btn" aria-expanded="false">知的財産</a>
       <div class="child" aria-hidden="true"><ul>
@@ -39,10 +40,10 @@
        </ul></div></li>
      <li><a href="/ja/technology/design/" data-trigger="localnav-btn" aria-expanded="false">デザイン</a>
       <div class="child" aria-hidden="true"><ul>
-        <li><a href="/ja/technology/design/works/index.html">製品デザイン紹介</a></li>
-        <li><a href="/ja/technology/design/layout/index.html">レイアウト意匠紹介</a></li>
+        <li><a href="/ja/technology/design/works/">製品デザイン紹介</a></li>
+        <li><a href="/ja/technology/design/layout/">レイアウト意匠紹介</a></li>
         <li><a href="/ja/technology/design/awards.html">受賞</a></li>
-        <li><a href="/ja/technology/design/news/index.html">ニュース</a></li>
+        <li><a href="/ja/technology/design/news/">ニュース</a></li>
         <li><a href="/ja/technology/design/locations.html">拠点紹介</a></li>
        </ul></div></li>
      </li>

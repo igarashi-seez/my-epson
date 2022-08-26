@@ -4,3 +4,9 @@
   display: flex;
   align-items: center;
 }
+
+#localnav-list div {
+  display: none !important;
+  opacity: 0 !important;
+  visibility: hidden !important;
+}
