@@ -30,7 +30,7 @@
         <li><a href="/en/technology/intellectual-property/protection-and-promotion.html">Brand protection &amp; promotion</a></li>
         <li><a href="/en/technology/intellectual-property/research.html">Research</a></li>
         <li><a href="/en/technology/intellectual-property/organization-and-records.html">Organization &amp; achievement</a></li>
-        <li><a href="/en/technology/intellectual-property/voice-of-members.html">Voice of members</a></li>
+        <li><a href="/en/technology/intellectual-property/voice.html">Voice of members</a></li>
        </ul></div>
      </li><li><a href="/en/technology/artisan/" data-trigger="localnav-btn" aria-expanded="false">Artisan</a>
       <div class="child" aria-hidden="true"><ul>

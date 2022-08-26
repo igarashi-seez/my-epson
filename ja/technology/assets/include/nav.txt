@@ -30,7 +30,7 @@
         <li><a href="/ja/technology/intellectual-property/protection-and-promotion.html">ブランドプロテクション・プロモーション</a></li>
         <li><a href="/ja/technology/intellectual-property/research.html">リサーチ</a></li>
         <li><a href="/ja/technology/intellectual-property/organization-and-records.html">組織と活動実績</a></li>
-        <li><a href="/ja/technology/intellectual-property/voice-of-members.html">社員の声</a></li>
+        <li><a href="/ja/technology/intellectual-property/voice.html">社員の声</a></li>
        </ul></div></li>
      <li><a href="/ja/technology/artisan/" data-trigger="localnav-btn" aria-expanded="false">匠の技</a>
       <div class="child" aria-hidden="true"><ul>
