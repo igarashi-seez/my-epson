@@ -27,9 +27,9 @@
         <li><a href="/ja/technology/intellectual-property/message.html">トップメッセージ</a></li>
         <li><a href="/ja/technology/intellectual-property/strategy.html">知的財産戦略</a></li>
         <li><a href="/ja/technology/intellectual-property/acquisition-and-utilization.html">取得戦略・活用戦略</a></li>
-        <li><a href="/ja/technology/intellectual-property/promotion-and-protection.html">ブランドプロテクション・プロモーション</a></li>
+        <li><a href="/ja/technology/intellectual-property/protection-and-promotion.html">ブランドプロテクション・プロモーション</a></li>
         <li><a href="/ja/technology/intellectual-property/research.html">リサーチ</a></li>
-        <li><a href="/ja/technology/intellectual-property/organizations-and-achievements.html">組織と活動実績</a></li>
+        <li><a href="/ja/technology/intellectual-property/organization-and-records.html">組織と活動実績</a></li>
         <li><a href="/ja/technology/intellectual-property/voice-of-members.html">社員の声</a></li>
        </ul></div></li>
      <li><a href="/ja/technology/artisan/" data-trigger="localnav-btn" aria-expanded="false">匠の技</a>

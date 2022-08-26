@@ -27,9 +27,9 @@
         <li><a href="/en/technology/intellectual-property/message.html">Message</a></li>
         <li><a href="/en/technology/intellectual-property/strategy.html">Strategy</a></li>
         <li><a href="/en/technology/intellectual-property/acquisition-and-utilization.html">Acquisition &amp; Utilization</a></li>
-        <li><a href="/en/technology/intellectual-property/promotion-and-protection.html">Brand protection &amp; promotion</a></li>
+        <li><a href="/en/technology/intellectual-property/protection-and-promotion.html">Brand protection &amp; promotion</a></li>
         <li><a href="/en/technology/intellectual-property/research.html">Research</a></li>
-        <li><a href="/en/technology/intellectual-property/organizations-and-achievements.html">Organization &amp; achievement</a></li>
+        <li><a href="/en/technology/intellectual-property/organization-and-records.html">Organization &amp; achievement</a></li>
         <li><a href="/en/technology/intellectual-property/voice-of-members.html">Voice of members</a></li>
        </ul></div>
      </li><li><a href="/en/technology/artisan/" data-trigger="localnav-btn" aria-expanded="false">Artisan</a>
