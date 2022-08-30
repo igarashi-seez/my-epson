@@ -1,21 +1,22 @@
 <div class="contents-area contents-bgcolor _bgcolor-light-blue">
   <div class="inner">
 
-    <div class="message-box02">
-      <a href="/en/technology/interview/">
-        <p class="image _center"><img src="/en/technology/assets/img/img_bn_interview.jpg" width="477" height="230" alt="interview"></p>
-        <div class="message">
-          <p class="heading">Engineer Interviews</p>
-          <p class="link"></p>
-        </div>
-      </a>
-    </div>
-
-    <div class="row df clearfix _mt50">
-      <div class="grid6 _mt20 _center">
-        <a href="#" class="button01-blue -center">Open innovation</a>
+    <div class="carousel-card-list">
+      <div class="item">
+        <a href="/en/technology/interview/">
+          <div class="image"><img src="/en/technology/assets/img/img_bn_interview.jpg" width="477" height="230" alt="interview"></div>
+          <p class="title">Engineer Interviews</p>
+        </a>
+      </div>
+      <div class="item">
+        <a href="#">
+          <div class="image">
+            <img src="/en/technology/assets/img/openinnovation.jpg" width="477" height="230" alt="open innovation">
+          </div>
+          <p class="blank-title">Open innovation</p>
+        </a>
       </div>
     </div>
-
+    
   </div>
 </div>
