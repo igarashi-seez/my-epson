@@ -5,7 +5,7 @@
       <div class="item">
         <a href="/ja/technology/interview/">
           <div class="image"><img src="/ja/technology/assets/img/img_bn_interview.jpg" width="477" height="230" alt="インタビューリンクイメージ"></div>
-          <p class="blank-title">技術者インタビュー</p>
+          <p class="title">技術者インタビュー</p>
         </a>
         <p class="text">エプソンの技術開発に力を尽くす</p>
       </div>

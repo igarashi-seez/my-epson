@@ -26,3 +26,8 @@
   /* background-image: url(/template/ja/sustainability/environment/img/index_h1_01.jpg); */
   background-image: url(https://placehold.jp/32/aaa/333/2400x1600.jpg?text=%E7%94%BB%E5%83%8F);
 }
+
+.heading01._shadow > h1,
+.heading01._shadow > p {
+  text-shadow: 0px 0px 10px #333;
+}

@@ -17,3 +17,8 @@
 .heading01.-intellectual-property {
   background-image: url(/ja/technology/intellectual-property/img/intellectual-property-mv.jpeg);
 }
+
+.heading01._shadow > h1,
+.heading01._shadow > p {
+  text-shadow: 0px 0px 10px #333;
+}
