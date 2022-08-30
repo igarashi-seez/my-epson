@@ -23,7 +23,7 @@
   pointer-events: none;
 }
 
-.technologyMainVisual {
+/* .technologyMainVisual {
   position: fixed;
   min-width: 1920px;
   height: 337px;
@@ -243,6 +243,10 @@
   .technologyMainHeader h1 .sm {
     margin-bottom: 5px;
   }
+} */
+
+.heading01.-mv {
+  background-image: url('/en/technology/assets/img/technology-mv.jpg');
 }
 
 .introTitle {

@@ -23,7 +23,7 @@
   pointer-events: none;
 }
 
-.technologyMainVisual {
+/* .technologyMainVisual {
   position: fixed;
   min-width: 1920px;
   height: 337px;
@@ -56,9 +56,9 @@
   justify-content: center;
   align-items: center;
   z-index: -1;
-}
+} */
 
-.technologyMainVisual .mainTitle h1 {
+/* .technologyMainVisual .mainTitle h1 {
   font-size: 185%;
   color: #fff;
   text-align: center;
@@ -77,9 +77,9 @@
 
 .technologyMainVisual .inner {
   display: none;
-}
+} */
 
-@media screen and (max-width: 999px) {
+/* @media screen and (max-width: 999px) {
   .technologyMainVisual .inner {
     justify-content: center;
     display: flex;
@@ -243,6 +243,10 @@
   .technologyMainHeader h1 .sm {
     margin-bottom: 5px;
   }
+} */
+
+.heading01.-mv {
+  background-image: url('/ja/technology/assets/img/technology-mv.jpg');
 }
 
 .introTitle {
